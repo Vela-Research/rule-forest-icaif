@@ -1,0 +1,44 @@
+{
+  "run": "rrf_pi_gemini_2_5_flash_seed44",
+  "method": "policy_induction",
+  "provider": "google",
+  "model": "gemini-2.5-flash",
+  "seed": 44,
+  "smoke": 0,
+  "max_policies": 10,
+  "protocol": "fit=01train / threshold=02val / score=03test (single held-out split)",
+  "val_selected_threshold": 0.55,
+  "val_at_best": {
+    "threshold": 0.55,
+    "n": 491,
+    "n_pos": 50,
+    "n_pred_pos": 67,
+    "precision": 0.22388059701492538,
+    "recall": 0.3,
+    "f05": 0.2358490566037736,
+    "f1": 0.2564102564102564
+  },
+  "test_headline_at_val_threshold": {
+    "threshold": 0.55,
+    "n": 8204,
+    "n_pos": 158,
+    "n_pred_pos": 1130,
+    "precision": 0.047787610619469026,
+    "recall": 0.34177215189873417,
+    "f05": 0.05771697306541257,
+    "f1": 0.08385093167701864
+  },
+  "test_oracle_threshold_on_test": {
+    "threshold": 0.63,
+    "n": 8204,
+    "n_pos": 158,
+    "n_pred_pos": 217,
+    "precision": 0.09216589861751152,
+    "recall": 0.12658227848101267,
+    "f05": 0.09746588693957114,
+    "f1": 0.10666666666666667
+  },
+  "rrf_reference_f05": 0.102,
+  "gptree_reference_f05": 0.04,
+  "wall_seconds": 21633.1
+}

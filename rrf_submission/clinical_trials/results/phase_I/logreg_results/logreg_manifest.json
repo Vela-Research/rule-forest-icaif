@@ -1,0 +1,39 @@
+{
+  "timestamp_utc": "2026-07-30T12:56:05.779908+00:00",
+  "analysis_role": "baseline_logreg",
+  "locked": true,
+  "config_path": "clinical_trials/configs/logreg_baseline_locked.json",
+  "config": {
+    "locked": true,
+    "analysis_role": "baseline_logreg",
+    "phase": "I",
+    "model_family": "elasticnet_logistic_regression",
+    "input_dir": "clinical_trials/data",
+    "val_file": "phase_I_filtered_combined_questions_with_success_gpt_4o_mini_val_split.csv",
+    "test_file": "phase_I_filtered_combined_questions_with_success_gpt_4o_mini_test.csv",
+    "output_dir": "clinical_trials/results/phase_I/logreg_results",
+    "n_repeats": 10,
+    "seed_start": 0,
+    "inner_cv_splits": 5,
+    "cs": 10,
+    "l1_ratios": [
+      0.1,
+      0.5,
+      0.9,
+      0.99
+    ],
+    "max_iter": 5000,
+    "class_weight": "balanced",
+    "optimise_for": "f0.5"
+  },
+  "inputs": {
+    "val_csv": "rrf_submission/clinical_trials/data/phase_I_filtered_combined_questions_with_success_gpt_4o_mini_val_split.csv",
+    "test_csv": "rrf_submission/clinical_trials/data/phase_I_filtered_combined_questions_with_success_gpt_4o_mini_test.csv"
+  },
+  "outputs": {
+    "repeat_metrics_csv": "rrf_submission/clinical_trials/results/phase_I/logreg_results/logreg_repeat_metrics.csv",
+    "summary_json": "rrf_submission/clinical_trials/results/phase_I/logreg_results/logreg_summary.json",
+    "manifest_json": "rrf_submission/clinical_trials/results/phase_I/logreg_results/logreg_manifest.json"
+  },
+  "guardrail_note": "LogReg baseline is fixed for comparison. Treat ablations as secondary analysis."
+}

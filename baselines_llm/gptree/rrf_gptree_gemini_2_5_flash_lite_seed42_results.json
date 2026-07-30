@@ -1,0 +1,56 @@
+{
+  "run": "rrf_gptree_gemini_2_5_flash_lite_seed42",
+  "provider": "google",
+  "model": "gemini-2.5-flash-lite",
+  "seed": 42,
+  "protocol": "fit=01train / threshold=02val / score=03test (single held-out split)",
+  "smoke": 0,
+  "n_nodes": 22,
+  "val_selected_threshold": 0.5000000000000001,
+  "val_at_best": {
+    "threshold": 0.5000000000000001,
+    "n": 491,
+    "n_pos": 50,
+    "n_pred_pos": 145,
+    "precision": 0.15862068965517243,
+    "recall": 0.46,
+    "f05": 0.18253968253968253,
+    "f1": 0.2358974358974359
+  },
+  "test_headline_at_val_threshold": {
+    "threshold": 0.5000000000000001,
+    "n": 8204,
+    "n_pos": 158,
+    "n_pred_pos": 2095,
+    "precision": 0.03818615751789976,
+    "recall": 0.5063291139240507,
+    "f05": 0.04684937924572499,
+    "f1": 0.07101642254771416
+  },
+  "test_oracle_threshold_on_test": {
+    "threshold": 0.5000000000000001,
+    "n": 8204,
+    "n_pos": 158,
+    "n_pred_pos": 2095,
+    "precision": 0.03818615751789976,
+    "recall": 0.5063291139240507,
+    "f05": 0.04684937924572499,
+    "f1": 0.07101642254771416
+  },
+  "rrf_leakage_free_reference_f05": 0.105,
+  "gptree_config": {
+    "max_depth": 5,
+    "max_node_width": 3,
+    "min_samples_leaf": 10,
+    "min_q": 3,
+    "max_q": 10,
+    "n_samples_as_context": 15
+  },
+  "fit_token_usage": {
+    "google/gemini-2.5-flash-lite": {
+      "calls": 8941,
+      "tokens": 5713820
+    }
+  },
+  "wall_seconds": 1972.6
+}

@@ -1,0 +1,44 @@
+{
+  "run": "rrf_rrm_gemini_2_5_flash_seed42",
+  "method": "reasoned_rule_mining",
+  "backend": "vertex",
+  "model": "gemini-2.5-flash",
+  "seed": 42,
+  "smoke": 0,
+  "n_rules": 497,
+  "protocol": "fit=01train / threshold=02val / score=03test (single held-out split)",
+  "val_selected_threshold": -3.281012583879112,
+  "val_at_best": {
+    "threshold": -3.281012583879112,
+    "n": 491,
+    "n_pos": 50,
+    "n_pred_pos": 28,
+    "precision": 0.25,
+    "recall": 0.14,
+    "f05": 0.21604938271604937,
+    "f1": 0.1794871794871795
+  },
+  "test_headline_at_val_threshold": {
+    "threshold": -3.281012583879112,
+    "n": 8204,
+    "n_pos": 158,
+    "n_pred_pos": 573,
+    "precision": 0.05235602094240838,
+    "recall": 0.189873417721519,
+    "f05": 0.061224489795918366,
+    "f1": 0.08207934336525308
+  },
+  "test_oracle_threshold_on_test": {
+    "threshold": -2.7125320965754387,
+    "n": 8204,
+    "n_pos": 158,
+    "n_pred_pos": 352,
+    "precision": 0.07102272727272728,
+    "recall": 0.15822784810126583,
+    "f05": 0.07982120051085569,
+    "f1": 0.09803921568627451
+  },
+  "rrf_reference_f05": 0.102,
+  "gptree_reference_f05": 0.04,
+  "wall_seconds": 6010.3
+}
