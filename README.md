@@ -9,7 +9,8 @@ included.
 ```
 LICENSE  requirements.txt
 rrf_submission/
-  src/                       # scoring + question-filtering modules
+  PROMPTS.md                 # exact question-generation prompt templates (verbatim)
+  src/                       # scoring + question-filtering modules + llms/prompts.py
   precomputed/               # anonymized LLM question-response matrices + baseline outputs
   data/                      # anonymized founder dataset (9,192 profiles)
   notebooks/paper_reproduction.ipynb
@@ -71,6 +72,10 @@ cd count_effect && python make_figure4.py && python make_figure5.py   # -> figur
 - **Offline core vs. API pipeline.** All paper numbers reproduce offline from the shipped
   precomputed LLM outputs. Regenerating those outputs from scratch (question generation +
   scoring) requires an LLM API key; the offline reproduction does not.
+- **Prompt templates.** The exact question-generation prompts are in
+  `rrf_submission/PROMPTS.md` (readable) and `rrf_submission/src/llms/prompts.py` (literal
+  source). The anonymised two-stage template produced the shipped `precomputed/` question
+  matrices.
 - **GPTree / RRM.** `baselines_llm/{gptree,rrm}/*_results.json` are the single-held-out-split
   runs; the paper's Table 2 numbers come from the 10x10 re-scoring in `baselines_llm/rescore/`
   (reuses the frozen tree / rule set, no API calls).
