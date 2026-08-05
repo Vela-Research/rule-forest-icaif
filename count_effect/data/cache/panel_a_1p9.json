@@ -1,0 +1,6 @@
+{
+  "_provenance": "Figure 4(a): held-out F0.5 at the real 1.9% operating rate vs number of training successes. Nested CV (n_repeats=5, n_splits=8) on the 22-question deduplicated founder evaluation matrix. Regenerate with regenerate/same_axis_realcount.py (requires the founder test-prediction matrices).",
+  "counts": [15, 30, 60, 100, 140, 158],
+  "vote": [0.048, 0.054, 0.069, 0.089, 0.093, 0.114],
+  "elastic_net": [0.030, 0.048, 0.070, 0.077, 0.082, 0.088]
+}

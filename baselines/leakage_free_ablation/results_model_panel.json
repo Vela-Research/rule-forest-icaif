@@ -15,14 +15,6 @@
     "n_founders": 8171,
     "phantom_free": true
   },
-  "gemini_2_5_pro": {
-    "label": "Gemini 2.5 Pro",
-    "Q": 4,
-    "rrf_f05": 0.0807723756801045,
-    "en_f05": 0.061283114635550584,
-    "n_founders": 8171,
-    "phantom_free": true
-  },
   "gpt_5_2": {
     "label": "GPT-5.2",
     "Q": 2,

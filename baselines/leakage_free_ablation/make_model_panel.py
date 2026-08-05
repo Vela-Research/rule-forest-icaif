@@ -18,7 +18,6 @@ from run_ablation import RRF, build_matrix, run_nested, agg_f05
 MODELS = {
     "gpt_4o_mini": "GPT-4o-mini",
     "claude_sonnet_4_5": "Claude Sonnet 4.5",
-    "gemini_2_5_pro": "Gemini 2.5 Pro",
     "gpt_5_2": "GPT-5.2",
 }
 

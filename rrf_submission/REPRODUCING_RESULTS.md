@@ -1,84 +1,73 @@
 # Reproducing Paper Results
 
-This guide explains how to reproduce the figures and tables from the paper.
+Step-by-step guide to reproduce every table and figure in *"Rule Forest"* **offline**
+(no API key, no network) from the shipped precomputed LLM outputs. All paths are relative
+to the release root. See the top-level `README.md` for a one-line summary of each command.
 
 ## Prerequisites
-
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt   # offline core: numpy pandas scipy scikit-learn matplotlib pyarrow
 ```
 
-## Option A: Run the Notebook (Recommended)
-
-Open and run all cells in `notebooks/paper_reproduction.ipynb`:
-
+## 1. Founder table (Rule Forest, ablations, expert-in-the-loop)
+The canonical numbers come from the **leakage-free harness**, which ranks candidate questions
+within each training fold (leak-correction history 0.118 -> 0.105 -> 0.102):
 ```bash
-jupyter notebook notebooks/paper_reproduction.ipynb
+cd baselines/leakage_free_ablation
+python full_leakfree.py        # -> results_full_leakfree.json
+python make_model_panel.py     # -> results_model_panel.json
+python section3_significance.py
 ```
+- Rule Forest **0.109 / 0.082 / 0.102** — `results_full_leakfree.json` panel a ("LLM-Only").
+- Similarity ablation **0.102 / 0.106 / 0.097** and Hamming-threshold ablation **0.090 / 0.102 / 0.081** — panels b, c.
+- Expert-in-the-loop (precision **0.109 -> 0.164**, F0.5 **0.102 -> 0.125**) — panel a ("LLM+Expert").
+- Per-generator vote / elastic-net panel (GPT-4o-mini 0.102/0.080, Claude 0.083/0.061, GPT-5.2 0.064/0.041) — `results_model_panel.json`.
 
-This is the fastest way to reproduce the paper results. The notebook reads precomputed CSV artifacts plus the leakage-free harness outputs under `baselines/leakage_free_ablation/` (`results_full_leakfree.json`, `results_model_panel.json`), and generates all figures and tables. It does not make any API calls or require external access — it uses only standard Python libraries (pandas, numpy, matplotlib, tabulate).
+## 2. Classical baselines (Engineered ML, Embeddings)
+```
+baselines/traditional_ml_port/results/test_set_protocol_b_summary.csv
+```
+Row `R1-LR-ENet` -> Engineered ML **0.086**; row `R2-XGB` -> Embeddings **0.069**.
 
-## Option B: Offline Primary Model Verification — DEPRECATED (leaky)
-
-> **Deprecated: do not use for paper numbers.** `scripts/reproduce_paper.py`
-> (and `scripts/04_primary_model.py`, which it wraps) reproduce the **superseded,
-> leaky** RRF operating point (per-fold-pooled ranking with a phantom `Source`
-> column), which reports F0.5 ≈ 0.117. That number does **not** match the paper.
-> The leakage-free, phantom-free RRF headline is **F0.5 = 0.102**, produced by the
-> harness in `baselines/leakage_free_ablation/` (`full_leakfree.py` →
-> `results_full_leakfree.json`) and consumed by the notebook in Option A. Leak
-> correction history: **0.118 → 0.105 → 0.102**. The leaky
-> `precomputed/*/ablation_results/nested_cv_*.csv` inputs this option relied on
-> have been removed from this release, so it no longer runs.
-
-## Option C: End-to-End with LLM API Calls
-
-To re-run the full pipeline from scratch (requires an OpenAI API key and incurs API costs):
-
+## 3. GPTree / RRM (Table 2)
+The paper scores GPTree and RRM under the **same 10x10 nested CV** as Rule Forest, reusing each
+method's frozen artifact (tree / mined rules) and re-fitting only the data-dependent part per fold:
 ```bash
-export OPENAI_API_KEY="sk-..."
-
-# Step 1: Generate questions
-python scripts/01_question_generation.py --provider openai --model gpt-4o-mini
-
-# Step 2: Generate predictions
-python scripts/02_test_questions.py --provider openai --model gpt-4o-mini --mode questions
-
-# Step 3: Run primary model evaluation
-python scripts/04_primary_model.py
+cd baselines_llm/rescore && python rescore_gptree_rrm.py   # GPTree ~0.066, RRM ~0.076
 ```
+See `baselines_llm/rescore/README.md`. (The single-split runs in `baselines_llm/{gptree,rrm}/*_results.json`
+report a different, lower headline; the paper uses the 10x10 re-scoring.)
 
-**Note:** LLM outputs are stochastic, so exact numbers will differ slightly from the paper. The precomputed artifacts in Option A ensure exact reproduction. Step 3 (`scripts/04_primary_model.py`) computes the RRF operating point with the **superseded, leaky** protocol (F0.5 ≈ 0.117); the leakage-free headline (F0.5 = 0.102) is produced by `baselines/leakage_free_ablation/` and read by the Option A notebook.
+## 4. Figures 4 & 5
+```bash
+cd count_effect
+python make_figure4.py   # founder count-effect (1.9% / 5% / reliability); rho = -0.48
+python make_figure5.py   # Kiva generalisation (vote vs elastic net as the base rate falls)
+```
+See `count_effect/README.md` for the cache-regeneration (slow) path.
 
-## Why Precomputed Artifacts?
+## Why precomputed artifacts?
+Rule Forest uses an LLM for question generation and scoring, which is non-deterministic and
+API-dependent. The release ships CSV/JSON snapshots of all LLM outputs so the paper numbers
+reproduce exactly without API access. Regenerating those snapshots from scratch needs an LLM API
+key and is out of scope for offline reproduction.
 
-RRF uses LLMs for question generation and scoring. LLM outputs are **non-deterministic** and **API-dependent**: the same prompt can produce different responses across runs, and results depend on model versions that may change over time. The repository ships CSV snapshots of all LLM-generated outputs so that the paper results can be reproduced exactly without requiring API access.
-
-## Artifact Map
-
-The table below maps each section of the paper reproduction notebook to the precomputed artifacts it reads. Section names correspond to markdown headers in the notebook.
-
-Because the per-fold-pooled `precomputed/*/ablation_results/nested_cv_*.csv` files leaked information across folds (and carried a phantom `Source` column), they have been **removed** from this release. Every RRF number the notebook shows is now read from the leakage-free, phantom-free harness in `baselines/leakage_free_ablation/`. Leak correction history for the RRF headline: **0.118 → 0.105 → 0.102**.
-
-| Notebook Section | Artifact Path(s) | Paper Output |
+## Artifact map
+| Paper item | Artifact | Value |
 |---|---|---|
-| **Setup** | `baselines/leakage_free_ablation/results_full_leakfree.json`, `baselines/leakage_free_ablation/results_model_panel.json` (leakage-free sources) | — |
-| **Optimisation Target Comparison** | — (alt-objective F1/F2/Precision sweep has no leakage-free re-run; cell prints a restricted-data note) | Table: optimisation target comparison |
-| **Main Results: RRF vs Baselines** | RRF row: `baselines/leakage_free_ablation/results_full_leakfree.json` (panel a "LLM-Only", leakage-free F0.5 = 0.102; supersedes the leaky nested_cv 0.117). Non-RRF rows (clean, unchanged): `precomputed/gpt_4o_mini/benchmark_results/benchmark_gpt_4o_mini.csv`, `precomputed/gpt_4o_mini/vanilla/vanilla_*.csv` (6 files) | Table: main results |
-| **Question-Generating Model Comparison** | `baselines/leakage_free_ablation/results_model_panel.json` (per-model leakage-free RRF F0.5 and Elastic-Net F0.5; regenerate with `python make_model_panel.py` from `baselines/leakage_free_ablation/`) | Table: cross-model comparison |
-| **Combined Ablation Figure** | `baselines/leakage_free_ablation/results_full_leakfree.json` (panel a question source; panel b similarity metric; panel c Hamming threshold) + `results_model_panel.json` (panel e question-generating model). Panel d chronological split omitted — requires non-public founding dates, no leakage-free re-run shipped | Figure: 5-panel ablation figure |
-| **Optimisation Target Ablation (Detailed)** | — (alt-objective sweep has no leakage-free re-run; cell prints a restricted-data note) | Table: detailed ablation metrics |
-| **Hyperparameter Sensitivity** | — (grid-search + per-fold artifacts are pre-correction/leaky; no leakage-free source shipped, so the cell prints a restricted-data note and the figure is omitted) | Figure: 2-panel hyperparameter sensitivity |
-| **Clinical Trials: TOP Phase I Results** | `clinical_trials/results/phase_I/primary_results/primary_model_repeat_metrics.csv`, `clinical_trials/results/phase_I/logreg_results/logreg_repeat_metrics.csv` | Table: clinical trial results |
-| **Clinical Trials: Operating-Point Diagnostics** | Same as above | Table: operating-point diagnostics (appendix) |
-| **Clinical Trials: Recall–Specificity Pareto** | `clinical_trials/results/phase_I/ablation_results/beta_sweep_summary.csv` | Figure: recall–specificity Pareto (appendix) |
+| Rule Forest (Table 2) | `baselines/leakage_free_ablation/results_full_leakfree.json` (panel a) | 0.109 / 0.082 / 0.102 |
+| Engineered ML / Embeddings (Table 2) | `baselines/traditional_ml_port/results/test_set_protocol_b_summary.csv` | 0.086 / 0.069 |
+| LogReg elastic net (Table 2) | `rrf_submission/precomputed/gpt_4o_mini/benchmark_results/benchmark_gpt_4o_mini.csv` | 0.080 |
+| Prompting o3 / GPT-4o-mini (Table 2) | `rrf_submission/precomputed/gpt_4o_mini/vanilla/` | 0.088 / 0.086 |
+| GPTree / RRM (Table 2) | `baselines_llm/rescore/rescore_gptree_rrm.py` | 0.066 / 0.076 |
+| Similarity / threshold ablations (Table 3) | `results_full_leakfree.json` (panels b, c) | 0.102/0.106/0.097 ; 0.090/0.102/0.081 |
+| Generator ablation (Table 3) | `results_model_panel.json` | GPT-4o-mini 0.102/0.080, Claude 0.083/0.061, GPT-5.2 0.064/0.041 |
+| Figure 4 (founder count-effect) | `count_effect/make_figure4.py` | rho = -0.48 |
+| Figure 5 (Kiva) | `count_effect/make_figure5.py` | vote vs elastic net vs base rate |
 
-## Regression Tests
-
-To verify that precomputed artifacts have not been inadvertently modified:
-
-```bash
-python -m unittest tests.test_precomputed_regression -v
-```
-
-This checks file checksums against a golden manifest (`tests/regression_manifest.json`).
+## Notes
+- The reproduction notebook (`notebooks/paper_reproduction.ipynb`) covers the founder Rule Forest and
+  prompting rows; the full Table 2 (classical + GPTree/RRM) and Figures 4-5 are produced by the scripts
+  above.
+- The chronological-split robustness check needs per-founder founding dates that are not part of this
+  anonymized release.

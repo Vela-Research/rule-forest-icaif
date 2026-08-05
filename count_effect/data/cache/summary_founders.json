@@ -1,0 +1,75 @@
+{
+  "dataset": "founders",
+  "display": "Founders",
+  "base_rate": 0.04960835509138381,
+  "protocol": {
+    "outer_cv": "10x10 repeated nested",
+    "inner_selection_folds": 5,
+    "metric": "F0.5",
+    "draws_per_point": 10,
+    "perm_B": 10000,
+    "gap": "Delta = F0.5(unit-vote) - F0.5(elastic-net)",
+    "npos_nat": "vary positive COUNT at natural prevalence",
+    "perm_test": "one-sided draw-level permutation p for H1 (rho<0), shuffle Delta across draws (analyze_crossdomain.perm_p)"
+  },
+  "natural": {
+    "n": 9192,
+    "n_pos": 456,
+    "prevalence": 0.04960835509138381,
+    "delta_natural": -0.03569711937337838
+  },
+  "npos_nat": {
+    "rho": -0.480400083420157,
+    "perm_p": 0.0006999300069993001,
+    "n_draws_total": 40,
+    "n_points": 4,
+    "outer_cv_repeats": [
+      10
+    ],
+    "outer_cv_splits": [
+      10
+    ],
+    "inner_selection_folds": [
+      5
+    ],
+    "crossover": 65.94819848752033,
+    "points": [
+      {
+        "point_id": "npos15",
+        "x": 15.0,
+        "n_draws": 10,
+        "gap_mean": 0.05607522422483321,
+        "gap_sd": 0.08446637905701411,
+        "ci95": 0.05235280413135276,
+        "prev_mean": 0.04966887417218542
+      },
+      {
+        "point_id": "npos29",
+        "x": 29.0,
+        "n_draws": 10,
+        "gap_mean": 0.06364755327775516,
+        "gap_sd": 0.07800548749491486,
+        "ci95": 0.04834830205323977,
+        "prev_mean": 0.04957264957264957
+      },
+      {
+        "point_id": "npos56",
+        "x": 56.0,
+        "n_draws": 10,
+        "gap_mean": 0.005449879071006981,
+        "gap_sd": 0.051647735327547455,
+        "ci95": 0.03201159800642013,
+        "prev_mean": 0.049601417183348095
+      },
+      {
+        "point_id": "npos109",
+        "x": 109.0,
+        "n_draws": 10,
+        "gap_mean": -0.023584884471931418,
+        "gap_sd": 0.022343487414595076,
+        "ci95": 0.013848636975879758,
+        "prev_mean": 0.04961310878470642
+      }
+    ]
+  }
+}
