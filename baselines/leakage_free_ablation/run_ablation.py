@@ -34,7 +34,7 @@ _BASE_META = ["Index", "Question", "Pass Rate", "Prec", "TP", "FP", "TN", "FN", 
 # = 8173 real + 1 phantom) and shifts the founder-stratified CV partition. Removing it
 # is the canonical correction (founder F0.5 0.105 -> 0.102). Set RRF_LEGACY_PHANTOM=1
 # to KEEP it and reproduce the legacy phantom-included numbers (perfold 0.105 / global
-# 0.118 = the original published anchor). See reproduction/PHANTOM_CORRECTION.md.
+# 0.118 = the original published anchor).
 META = _BASE_META if os.environ.get("RRF_LEGACY_PHANTOM") == "1" else _BASE_META + ["Source"]
 
 

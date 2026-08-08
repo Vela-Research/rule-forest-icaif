@@ -6,10 +6,11 @@ from `rrf_submission/src/llms/prompts.py` (the literal source is shipped alongsi
 this file).
 
 The shipped question/response matrices in `rrf_submission/precomputed/` were produced
-by the **anonymised** pipeline (`scripts/01_question_generation.py` →
-`src/questions/anonymised_generation.py`), which calls the two anonymised templates
-below. `{num_questions}` and `{founder_summaries}` are filled in at call time
-(questions are generated in batches over successive sets of founder summaries).
+by the **anonymised** question-generation pipeline, which calls the two anonymised
+templates below. `{num_questions}` and `{founder_summaries}` are filled in at call time
+(questions are generated in batches over successive sets of founder summaries). That
+generation pipeline needs an LLM API key and is not part of this offline release; the
+literal prompt source is shipped in `rrf_submission/src/llms/prompts.py`.
 
 ---
 

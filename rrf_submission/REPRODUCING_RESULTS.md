@@ -69,5 +69,3 @@ key and is out of scope for offline reproduction.
 - The reproduction notebook (`notebooks/paper_reproduction.ipynb`) covers the founder Rule Forest and
   prompting rows; the full Table 2 (classical + GPTree/RRM) and Figures 4-5 are produced by the scripts
   above.
-- The chronological-split robustness check needs per-founder founding dates that are not part of this
-  anonymized release.

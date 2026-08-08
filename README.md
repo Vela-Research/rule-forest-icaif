@@ -15,7 +15,7 @@ rrf_submission/
   data/                      # anonymized founder dataset (9,192 profiles)
   notebooks/paper_reproduction.ipynb
 baselines/
-  leakage_free_ablation/     # canonical leakage-free RRF harness (reproduces F0.5 = 0.102)
+  leakage_free_ablation/     # canonical leakage-free Rule Forest harness (reproduces F0.5 = 0.102)
   traditional_ml_port/       # Engineered-ML and Embeddings baseline outputs
 baselines_llm/
   gptree/  rrm/              # GPTree / RRM per-seed artifacts (single-split runs)
@@ -79,8 +79,6 @@ cd count_effect && python make_figure4.py && python make_figure5.py   # -> figur
 - **GPTree / RRM.** `baselines_llm/{gptree,rrm}/*_results.json` are the single-held-out-split
   runs; the paper's Table 2 numbers come from the 10x10 re-scoring in `baselines_llm/rescore/`
   (reuses the frozen tree / rule set, no API calls).
-- **Restricted-data items.** The chronological-split robustness check needs per-founder founding
-  dates that are not part of this anonymized release.
 
 ## Data
 - **Founders** (`rrf_submission/data/founders_summary_data_anonymised.csv`): 9,192 U.S. companies

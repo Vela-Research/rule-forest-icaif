@@ -4,8 +4,6 @@
 # FULL prompt templates per use-case
 # ----------------------------
 
-# src/prompts/question_generation.py
-
 def get_standard_question_prompt(num_questions, founder_summaries):
     system_message = (
         "You are a VC analyst specializing in evaluating founders. "

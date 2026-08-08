@@ -28,7 +28,7 @@ python make_figure5.py    # -> figures/kiva_D2_final.pdf  (Kiva: vote vs elastic
 ## Regenerating the caches from scratch (slow path)
 
 The cached JSONL files hold the 10x10 nested-CV sweeps, which take hours. The producing scripts and the
-minimal RRF scoring primitives they need live in `regenerate/` (see `regenerate/README.md`). In brief:
+minimal Rule Forest scoring primitives they need live in `regenerate/` (see `regenerate/README.md`). In brief:
 
 - `data/cache/kiva_D2.jsonl` from `data/kiva_rq_scores_run1.jsonl`:
   `python regenerate/kiva_D2_sweep.py && python regenerate/kiva_D2_k93.py`

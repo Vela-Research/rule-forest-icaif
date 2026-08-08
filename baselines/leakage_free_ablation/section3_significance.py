@@ -30,7 +30,7 @@ def leakfree_rrf_consensus(model="gpt_4o_mini", thr=0.15):
     META = {"Index", "Question", "Pass Rate", "Prec", "TP", "FP", "TN", "FN", "Rec", "F1", "F0.5",
             "Prec_Train", "Prec_Validation", "Prec_Test", "Prec_Mean"}
     if os.environ.get("RRF_LEGACY_PHANTOM") != "1":
-        META = META | {"Source"}  # phantom-free founder hashes (canonical); see PHANTOM_CORRECTION.md
+        META = META | {"Source"}  # phantom-free founder hashes (canonical)
     pred_dir = RRF / "precomputed" / model / "test_predictions"
     args = argparse.Namespace(mode="llm", similarity_metric="hamming", similarity_threshold=thr,
                               optimise_for="f0.5", sort_by="f0.5")
