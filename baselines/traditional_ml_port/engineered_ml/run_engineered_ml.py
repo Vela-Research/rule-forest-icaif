@@ -27,6 +27,7 @@ from build_features import build_features
 
 REL = HERE.parents[2]
 EVAL = REL / "rrf_submission" / "precomputed" / "03_full_cross_validation_test_data_anonymised.csv"
+GEN = REL / "rrf_submission" / "precomputed" / "01_question_training_data_anonymised.csv"
 BETA2 = 0.25
 N_REPEATS, N_SPLITS, INNER = 10, 10, 5
 CS = (1e-3, 1e-2, 1e-1, 1.0, 10.0)
@@ -102,13 +103,18 @@ def main():
     d = pd.read_csv(EVAL)
     Xdf = build_features(d["summary"])
     y = d["startup_success"].astype(int).to_numpy()
-    # drop zero-variance columns (e.g. constant role_founder) before scaling
-    keep = [c for c in Xdf.columns if Xdf[c].nunique() > 1]
-    dropped = [c for c in Xdf.columns if c not in keep]
+    # Feature set is selected on the 497 question-generation founders ONLY (never the eval
+    # labels), mirroring how Rule Forest generates its questions on the generation set. Keep
+    # the features that actually vary on the generation set; evaluate on the 8,204 eval set.
+    gen = pd.read_csv(GEN)
+    Xgen = build_features(gen["summary"])
+    keep = [c for c in Xgen.columns if Xgen[c].nunique() > 1]
+    dropped = [c for c in Xgen.columns if c not in keep]
     Xdf = Xdf[keep]
     X = Xdf.to_numpy(float)
-    print(f"engineered_ml: {X.shape[0]} founders, {X.shape[1]} features "
-          f"(dropped zero-variance: {dropped}), {int(y.sum())} positives", flush=True)
+    print(f"engineered_ml: {X.shape[0]} eval founders, {X.shape[1]} features "
+          f"(selected on the 497 generation founders; dropped {dropped}), "
+          f"{int(y.sum())} positives", flush=True)
 
     # save the anonymised feature matrix for inspection / reuse
     out = pd.concat([d[["founder_uuid"]].reset_index(drop=True), Xdf.reset_index(drop=True),
@@ -127,6 +133,7 @@ def main():
     predmat = np.full((N_REPEATS, X.shape[0]), -1, dtype=int)
     for r in rows:
         predmat[r["repeat"] - 1, np.asarray(r["te"], int)] = np.asarray(r["preds"], int)
+    np.save(HERE / "engineered_ml_predmat.npy", predmat)   # 10 x F, for the per-repeat-pooled bootstrap
     vote_freq = predmat.mean(0)
     consensus = (vote_freq >= 0.5).astype(int)
     cons_df = pd.DataFrame({"founder_uuid": d["founder_uuid"].values,
