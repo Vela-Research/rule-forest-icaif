@@ -25,18 +25,20 @@ python make_figure5.py    # -> figures/kiva_D2_final.pdf  (Kiva: vote vs elastic
 - everything live from `data/cache/kiva_D2.jsonl` (10x10 nested-CV draws; 95% CIs and the base-rate top
   axis are recomputed).
 
-## Regenerating the caches from scratch (slow path)
+## Regenerating the caches from scratch
 
-The cached JSONL files hold the 10x10 nested-CV sweeps, which take hours. The producing scripts and the
-minimal Rule Forest scoring primitives they need live in `regenerate/` (see `regenerate/README.md`). In brief:
+The cached JSONL/JSON files hold the nested-CV sweeps behind Figures 4 and 5. The producing
+scripts and the scoring primitives they need are self-contained under `regenerate/` (see
+`regenerate/README.md`). All are **deterministic** (sha256 subsample seeds — no
+`PYTHONHASHSEED` dependency) and parallel (`--nproc N`):
 
-- `data/cache/kiva_D2.jsonl` from `data/kiva_rq_scores_run1.jsonl`:
-  `python regenerate/kiva_D2_sweep.py && python regenerate/kiva_D2_k93.py`
-- `data/cache/panelb_newpoints.jsonl` and `results_founders.jsonl` from the founder matrix:
-  `PYTHONHASHSEED=0 python regenerate/run_panelb_points.py` (the `results_founders.jsonl` seeding uses
-  Python's builtin `hash()`, so exact-byte reproduction needs `PYTHONHASHSEED=0`; the draw means are
-  unaffected either way).
-- `data/cache/panel_a_1p9.json` from the 22-question founder evaluation matrices:
-  `python regenerate/same_axis_realcount.py`.
+- `data/cache/kiva_D2.jsonl` (Figure 5) from `data/kiva_rq_scores_run1.jsonl`:
+  `python regenerate/kiva_D2_sweep.py`
+- `data/cache/panel_a_1p9.json` (Figure 4a) from the 22-question founder matrix:
+  `python regenerate/same_axis_realcount.py`
+- `data/cache/results_founders.jsonl` + `panelb_newpoints.jsonl` (Figure 4b) from the founder matrix:
+  `python regenerate/run_panelb_points.py`   (heavy; ~1 hour)
+- `data/cache/summary_founders.json` (Figure 4 caption ρ) from `results_founders.jsonl`:
+  `python regenerate/analyze_founders.py`
 
 The outer nested cross-validation is deterministic everywhere (`StratifiedKFold(random_state=42+repeat-1)`).

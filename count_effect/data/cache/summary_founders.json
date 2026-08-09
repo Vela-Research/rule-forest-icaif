@@ -9,8 +9,7 @@
     "draws_per_point": 10,
     "perm_B": 10000,
     "gap": "Delta = F0.5(unit-vote) - F0.5(elastic-net)",
-    "npos_nat": "vary positive COUNT at natural prevalence",
-    "perm_test": "one-sided draw-level permutation p for H1 (rho<0), shuffle Delta across draws (analyze_crossdomain.perm_p)"
+    "npos_nat": "vary positive COUNT at natural prevalence"
   },
   "natural": {
     "n": 9192,
@@ -19,8 +18,8 @@
     "delta_natural": -0.03569711937337838
   },
   "npos_nat": {
-    "rho": -0.480400083420157,
-    "perm_p": 0.0006999300069993001,
+    "rho": -0.5172049285208947,
+    "perm_p": 0.00039996000399960006,
     "n_draws_total": 40,
     "n_points": 4,
     "outer_cv_repeats": [
@@ -32,42 +31,42 @@
     "inner_selection_folds": [
       5
     ],
-    "crossover": 65.94819848752033,
+    "crossover": 67.19388374019807,
     "points": [
       {
         "point_id": "npos15",
         "x": 15.0,
         "n_draws": 10,
-        "gap_mean": 0.05607522422483321,
-        "gap_sd": 0.08446637905701411,
-        "ci95": 0.05235280413135276,
+        "gap_mean": 0.096915865578983,
+        "gap_sd": 0.06589573566524884,
+        "ci95": 0.04084260010773712,
         "prev_mean": 0.04966887417218542
       },
       {
         "point_id": "npos29",
         "x": 29.0,
         "n_draws": 10,
-        "gap_mean": 0.06364755327775516,
-        "gap_sd": 0.07800548749491486,
-        "ci95": 0.04834830205323977,
+        "gap_mean": 0.0019288893628133699,
+        "gap_sd": 0.09767341970351695,
+        "ci95": 0.0605386127316536,
         "prev_mean": 0.04957264957264957
       },
       {
         "point_id": "npos56",
         "x": 56.0,
         "n_draws": 10,
-        "gap_mean": 0.005449879071006981,
-        "gap_sd": 0.051647735327547455,
-        "ci95": 0.03201159800642013,
+        "gap_mean": 0.003704588094199962,
+        "gap_sd": 0.05058999702351472,
+        "ci95": 0.0313560050134273,
         "prev_mean": 0.049601417183348095
       },
       {
         "point_id": "npos109",
         "x": 109.0,
         "n_draws": 10,
-        "gap_mean": -0.023584884471931418,
-        "gap_sd": 0.022343487414595076,
-        "ci95": 0.013848636975879758,
+        "gap_mean": -0.013835630613585514,
+        "gap_sd": 0.04029326340938144,
+        "ci95": 0.024974023400014315,
         "prev_mean": 0.04961310878470642
       }
     ]
