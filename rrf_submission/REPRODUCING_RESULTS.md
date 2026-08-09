@@ -37,7 +37,7 @@ Embeddings **0.047** is shipped as `baselines/traditional_ml_port/embeddings/emb
 The paper scores GPTree and RRM under the **same 10x10 nested CV** as Rule Forest, reusing each
 method's frozen artifact (tree / mined rules) and re-fitting only the data-dependent part per fold:
 ```bash
-cd baselines_llm/rescore && python rescore_gptree_rrm.py   # GPTree ~0.066, RRM ~0.076
+cd baselines_llm/rescore && python rescore_gptree_rrm.py   # GPTree 0.068, RRM 0.080
 ```
 See `baselines_llm/rescore/README.md`. (The single-split runs in `baselines_llm/{gptree,rrm}/*_results.json`
 report a different, lower headline; the paper uses the 10x10 re-scoring.)
@@ -63,7 +63,7 @@ key and is out of scope for offline reproduction.
 | Engineered ML / Embeddings (Table 2) | `baselines/traditional_ml_port/engineered_ml/run_engineered_ml.py` ; `embeddings/embeddings_result.json` | 0.066 / 0.047 |
 | LogReg elastic net (Table 2) | `rrf_submission/precomputed/gpt_4o_mini/benchmark_results/benchmark_gpt_4o_mini.csv` | 0.080 |
 | Prompting o3 / GPT-4o-mini (Table 2) | `rrf_submission/precomputed/gpt_4o_mini/vanilla/` | 0.088 / 0.086 |
-| GPTree / RRM (Table 2) | `baselines_llm/rescore/rescore_gptree_rrm.py` | 0.066 / 0.076 |
+| GPTree / RRM (Table 2) | `baselines_llm/rescore/rescore_gptree_rrm.py` | 0.068 / 0.080 |
 | Similarity / threshold ablations (Table 3) | `results_full_leakfree.json` (panels b, c) | 0.102/0.106/0.097 ; 0.090/0.102/0.081 |
 | Generator ablation (Table 3) | `results_model_panel.json` | GPT-4o-mini 0.102/0.080, Claude 0.083/0.061, GPT-5.2 0.064/0.041 |
 | Figure 4 (founder count-effect) | `count_effect/make_figure4.py` | rho = -0.517 |

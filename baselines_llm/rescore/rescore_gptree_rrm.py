@@ -69,4 +69,4 @@ for s in SEEDS:
         return np.array([lp.get(l, base) for l in leaf[tr]]), np.array([lp.get(l, base) for l in leaf[te]])
     gp.append(cv_perfold(sof, yg))
 report("GPTree", gp)
-print("\nPaper Table 2:  GPTree 0.064 / 0.094 / 0.066    RRM 0.074 / 0.095 / 0.076")
+print("\nTable 2 rows (P / R / F0.5):  GPTree 0.066 / 0.095 / 0.068    RRM 0.079 / 0.102 / 0.080")

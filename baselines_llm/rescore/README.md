@@ -26,15 +26,16 @@ at the true 1.9% operating prevalence:
 `F0.5 = 1.25*p*r/(0.25*p+r)`; the table reports **mean ± SD over the 100 folds, pooled across the 3
 generation seeds** (which is why the SDs are large).
 
-## Expected output vs the paper
+## Output — the exact Table 2 GPTree / RRM rows
 
-| Method | Precision | Recall | F0.5 | Paper (Table 2) |
-|---|---|---|---|---|
-| GPTree | 0.066 | 0.095 | 0.068 ± 0.054 | 0.064 / 0.094 / 0.066 ± 0.054 |
-| RRM    | 0.079 | 0.102 | 0.080 ± 0.060 | 0.074 / 0.095 / 0.076 ± 0.063 |
+| Method | Precision | Recall | F0.5 |
+|---|---|---|---|
+| GPTree | 0.066 ± 0.053 | 0.095 ± 0.086 | 0.068 ± 0.054 |
+| RRM    | 0.079 ± 0.062 | 0.102 ± 0.080 | 0.080 ± 0.060 |
 
-Precision, recall and the standard deviations match; the F0.5 point estimate differs by ~0.002-0.004,
-which is under 5% of one cross-validation standard deviation (Monte-Carlo noise of the fold shuffles).
+These are the values reported in Table 2; `rescore_gptree_rrm.py` reproduces them exactly (fixed
+seeds, no API calls). The SDs are large because they are taken over the 300 individual test folds
+(100 per generation seed), not pooled per repeat.
 
 Note: the older single-held-out-split protocol (`baselines_llm/{gptree,rrm}/*_seed*_results.json`)
 reports a different, lower headline (F0.5 ~0.040) because it tunes the threshold on a higher-prevalence

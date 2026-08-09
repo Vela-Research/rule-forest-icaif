@@ -48,7 +48,7 @@ Embeddings (F0.5=0.047) is shipped as `baselines/traditional_ml_port/embeddings/
 
 **GPTree / RRM baselines (Table 2), by re-scoring the frozen trees/rules under 10x10 CV:**
 ```bash
-cd baselines_llm/rescore && python rescore_gptree_rrm.py   # GPTree ~0.066, RRM ~0.076 (see rescore/README.md)
+cd baselines_llm/rescore && python rescore_gptree_rrm.py   # GPTree 0.068, RRM 0.080 (see rescore/README.md)
 ```
 **Figures 4 & 5:**
 ```bash
@@ -62,7 +62,7 @@ cd count_effect && python make_figure4.py && python make_figure5.py   # -> figur
 | Table 2 — Engineered ML / Embeddings | 0.066 / 0.047 | `baselines/traditional_ml_port/engineered_ml/run_engineered_ml.py` ; `.../embeddings/embeddings_result.json` |
 | Table 2 — LogReg (elastic net) | 0.080 | `rrf_submission/precomputed/gpt_4o_mini/benchmark_results/benchmark_gpt_4o_mini.csv` |
 | Table 2 — prompting (o3 few-shot / GPT-4o-mini zero-shot) | 0.088 / 0.086 | `rrf_submission/precomputed/gpt_4o_mini/vanilla/` |
-| Table 2 — GPTree / RRM | 0.066 / 0.076 | `baselines_llm/rescore/` (run `rescore_gptree_rrm.py`) |
+| Table 2 — GPTree / RRM | 0.068 / 0.080 | `baselines_llm/rescore/` (run `rescore_gptree_rrm.py`) |
 | Table 3 — similarity / threshold ablations | 0.102 / 0.106 / 0.097 ; 0.090 / 0.102 / 0.081 | `results_full_leakfree.json` (panels b, c) |
 | Table 3 — generator (vote): GPT-4o-mini / Claude / GPT-5.2 | 0.102 / 0.083 / 0.064 | `results_model_panel.json` |
 | Table 3 — generator (elastic net): GPT-4o-mini / Claude / GPT-5.2 | 0.080 / 0.061 / 0.041 | `results_model_panel.json` |
