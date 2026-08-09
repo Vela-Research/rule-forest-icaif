@@ -38,8 +38,13 @@ cd baselines/leakage_free_ablation
 python full_leakfree.py        # -> results_full_leakfree.json  (Rule Forest F0.5=0.102; ablations; expert 0.125)
 python make_model_panel.py     # -> results_model_panel.json    (per-generator vote/elastic-net panel)
 python section3_significance.py
+python generator_significance.py  # -> results/generator_significance.json (generator-comparison bootstrap)
 ```
-**Engineered ML / Embeddings baselines:** `baselines/traditional_ml_port/results/test_set_protocol_b_summary.csv`.
+**Engineered ML / Embeddings baselines:**
+```bash
+cd baselines/traditional_ml_port/engineered_ml && python run_engineered_ml.py   # Engineered ML F0.5=0.066
+```
+Embeddings (F0.5=0.047) is shipped as `baselines/traditional_ml_port/embeddings/embeddings_result.json`; re-encoding the prose needs `baselines/traditional_ml_port/training/requirements-training.txt` (torch / xgboost / sentence-transformers).
 
 **GPTree / RRM baselines (Table 2), by re-scoring the frozen trees/rules under 10x10 CV:**
 ```bash
@@ -54,7 +59,7 @@ cd count_effect && python make_figure4.py && python make_figure5.py   # -> figur
 | Paper item | Value | Where |
 |---|---|---|
 | Table 2 — Rule Forest (LLM + vote) | 0.109 / 0.082 / **0.102** | `baselines/leakage_free_ablation/results_full_leakfree.json` (panel a, LLM-Only) |
-| Table 2 — Engineered ML / Embeddings | 0.086 / 0.069 | `baselines/traditional_ml_port/results/test_set_protocol_b_summary.csv` |
+| Table 2 — Engineered ML / Embeddings | 0.066 / 0.047 | `baselines/traditional_ml_port/engineered_ml/run_engineered_ml.py` ; `.../embeddings/embeddings_result.json` |
 | Table 2 — LogReg (elastic net) | 0.080 | `rrf_submission/precomputed/gpt_4o_mini/benchmark_results/benchmark_gpt_4o_mini.csv` |
 | Table 2 — prompting (o3 few-shot / GPT-4o-mini zero-shot) | 0.088 / 0.086 | `rrf_submission/precomputed/gpt_4o_mini/vanilla/` |
 | Table 2 — GPTree / RRM | 0.066 / 0.076 | `baselines_llm/rescore/` (run `rescore_gptree_rrm.py`) |
@@ -62,7 +67,7 @@ cd count_effect && python make_figure4.py && python make_figure5.py   # -> figur
 | Table 3 — generator (vote): GPT-4o-mini / Claude / GPT-5.2 | 0.102 / 0.083 / 0.064 | `results_model_panel.json` |
 | Table 3 — generator (elastic net): GPT-4o-mini / Claude / GPT-5.2 | 0.080 / 0.061 / 0.041 | `results_model_panel.json` |
 | Expert-in-the-loop | precision 0.109->0.164 ; F0.5 0.102->0.125 | `results_full_leakfree.json` (panel a) |
-| Figure 4 — founder count-effect (rho=-0.48) | founders 1.9% / 5% + reliability | `count_effect/make_figure4.py` |
+| Figure 4 — founder count-effect (rho=-0.517) | founders 1.9% / 5% + reliability | `count_effect/make_figure4.py` |
 | Figure 5 — Kiva generalisation | vote vs elastic net vs base rate | `count_effect/make_figure5.py` |
 
 ## Notes on reproducibility

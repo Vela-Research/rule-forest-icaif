@@ -19,7 +19,7 @@ python make_figure5.py    # -> figures/kiva_D2_final.pdf  (Kiva: vote vs elastic
   `data/cache/panelb_newpoints.jsonl` (points 120, 240, 360).
 - panel (c) reliability scatters: computed live from `data/founders_answers.parquet` +
   `data/founders_data.parquet` (fixed seeds; the panel titles' rank correlations recompute each run).
-- Spearman `rho = -0.48` (text): `data/cache/summary_founders.json`.
+- Spearman `rho = -0.517` (text): `data/cache/summary_founders.json`.
 
 **Figure 5** (`make_figure5.py`)
 - everything live from `data/cache/kiva_D2.jsonl` (10x10 nested-CV draws; 95% CIs and the base-rate top

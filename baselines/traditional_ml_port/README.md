@@ -25,18 +25,19 @@ label-based pruning), so the value may be mildly optimistic as a baseline — in
 direction for Rule Forest, which leads it comfortably. The cross-validation itself is leakage-free
 (features are deterministic per-founder functions; scaler/model/threshold fit on train folds only).
 
-## Embeddings
+## Embeddings — reproducible from the anonymised prose (`embeddings/`)
 
-`results/` reports the Embeddings baseline (XGBoost on `all-MiniLM-L6-v2` prose embeddings) at
-**F0.5 0.069**. This is also reproducible in principle from the shipped anonymised prose (encode
-summaries with MiniLM → XGBoost) but is shipped here as a frozen result; a self-contained
-producer is not yet included (it needs `sentence-transformers`/`torch`/`xgboost`; see
+`embeddings/` reports the Embeddings baseline (XGBoost on `all-MiniLM-L6-v2` prose embeddings) at
+**F0.5 0.047** (Precision 0.121, Recall 0.014; `embeddings/embeddings_result.json`). It is
+reproducible from the shipped anonymised prose — encode summaries with MiniLM (`build_embeddings.py`)
+→ XGBoost (`run_embeddings.py`) — which needs `sentence-transformers`/`torch`/`xgboost` (see
 `training/requirements-training.txt`, kept out of the main requirements to keep the install lean).
+The shipped `embeddings_result.json` lets a reader read the number without that heavier stack.
 
-## Shipped result artifacts + offline verification
+## Shipped result artifacts
 
-- `results/test_set_protocol_b.jsonl`, `..._summary.csv` — the original per-fold results for both
-  rows (the old Engineered-ML producer was not retained; `engineered_ml/` supersedes it).
+The paper's Engineered-ML (**0.066**) and Embeddings (**0.047**) numbers come from the producers
+above (`engineered_ml/run_engineered_ml.py` and `embeddings/`), not from any frozen table.
+
 - `results/consensus_allrepeats.parquet` — per-founder consensus predictions per model; the paired
-  bootstrap in `../leakage_free_ablation/section3_significance.py` operates on these.
-- `evaluate_from_artifacts.py` — recomputes the frozen headline F0.5 from the shipped per-fold data.
+  bootstrap in `../leakage_free_ablation/section3_significance.py` reads the o3 few-shot column from here.

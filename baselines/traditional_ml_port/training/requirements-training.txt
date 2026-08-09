@@ -1,9 +1,9 @@
-# Extra dependencies for RETRAINING the traditional-ML baselines from the raw (non-public)
-# VCBench founder data. NOT needed for any reproduction the anonymized release supports:
-# every Rule Forest table/figure and the offline verification in
-# ../evaluate_from_artifacts.py run with the top-level requirements.txt (numpy/pandas/
-# scipy/scikit-learn/matplotlib) alone. Kept out of the main requirements so a clean
-# install of the release stays lean and torch-free.
+# Extra dependencies for re-running the Embeddings baseline
+# (baselines/traditional_ml_port/embeddings/) from the shipped anonymised prose, producing the
+# paper's Embeddings F0.5=0.047 (embeddings/embeddings_result.json). NOT needed for the rest of the
+# release: every Rule Forest table/figure and the Engineered-ML baseline (0.066) run with the
+# top-level requirements.txt (numpy/pandas/scipy/scikit-learn/matplotlib) alone. Kept out of the
+# main requirements so a clean install of the release stays lean and torch-free.
 #
 # Needed only for the Embeddings baseline (baselines/traditional_ml_port/embeddings/):
 # frozen all-MiniLM-L6-v2 sentence embeddings of the anonymised prose -> XGBoost. The
