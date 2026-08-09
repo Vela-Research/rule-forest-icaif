@@ -1,0 +1,16 @@
+# Extra dependencies for RETRAINING the traditional-ML baselines from the raw (non-public)
+# VCBench founder data. NOT needed for any reproduction the anonymized release supports:
+# every Rule Forest table/figure and the offline verification in
+# ../evaluate_from_artifacts.py run with the top-level requirements.txt (numpy/pandas/
+# scipy/scikit-learn/matplotlib) alone. Kept out of the main requirements so a clean
+# install of the release stays lean and torch-free.
+#
+# These are provided only so a holder of the raw VCBench structured records / original prose
+# can reproduce the Engineered-ML (LR-ElasticNet on 114 features) and Embeddings
+# (XGBoost on all-MiniLM-L6-v2) baselines independently.
+sentence-transformers>=2.2
+torch>=2.0
+xgboost>=2.0
+scikit-learn>=1.7
+numpy>=2.0
+pandas>=2.0
