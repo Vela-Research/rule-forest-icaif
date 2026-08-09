@@ -17,7 +17,7 @@ import pandas as pd
 
 HERE = Path(__file__).resolve().parent
 DATA = HERE.parent / "data"
-RELEASE = HERE.parents[2]
+RELEASE = HERE.parents[1]          # count_effect/regenerate -> release root
 SCORE_THRESHOLD = 0.5
 
 
