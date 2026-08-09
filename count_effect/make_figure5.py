@@ -2,7 +2,7 @@
 Held-out F0.5 of the equal-weight vote vs a learned-weight elastic net as the Kiva positive class
 is thinned with all negatives kept, so the base rate falls to the founder 1.9%. Values are read
 from the cached 10x10 nested-CV draws (data/cache/kiva_D2.jsonl); regenerate that cache with
-regenerate/kiva_D2_sweep.py (+ kiva_D2_k93.py) from data/kiva_rq_scores_run1.jsonl.
+regenerate/kiva_D2_sweep.py from data/kiva_rq_scores_run1.jsonl.
 Self-contained: reads only files under ./data.
   python make_figure5.py   ->   figures/kiva_D2_final.pdf (+ .png)
 """
