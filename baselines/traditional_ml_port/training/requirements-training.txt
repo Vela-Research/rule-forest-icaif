@@ -5,9 +5,11 @@
 # scipy/scikit-learn/matplotlib) alone. Kept out of the main requirements so a clean
 # install of the release stays lean and torch-free.
 #
-# These are provided only so a holder of the raw VCBench structured records / original prose
-# can reproduce the Engineered-ML (LR-ElasticNet on 114 features) and Embeddings
-# (XGBoost on all-MiniLM-L6-v2) baselines independently.
+# Needed only for the Embeddings baseline (baselines/traditional_ml_port/embeddings/):
+# frozen all-MiniLM-L6-v2 sentence embeddings of the anonymised prose -> XGBoost. The
+# Engineered-ML baseline (../engineered_ml/) needs NONE of these -- it runs on the top-level
+# requirements.txt alone. xgboost also needs the OpenMP runtime: on macOS `brew install libomp`
+# (or point DYLD_LIBRARY_PATH at a bundled copy, e.g. torch/lib).
 sentence-transformers>=2.2
 torch>=2.0
 xgboost>=2.0
