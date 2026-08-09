@@ -91,6 +91,20 @@ experiment repo; not shipped here):
   scored response (−4), giving `8,204 − 27 − 4 = 8,173`. All 158 positives survive; base rate and F0.5
   (0.102) are unchanged. So a reviewer reproducing from this release will see 8,173 evaluation founders.
 
+## Question generation chain (240 -> 62 -> 48 -> 22)
+
+The paper's question counts map to the release as follows:
+
+| Stage | Count | Where it lives in the release |
+|---|---|---|
+| Generated candidates (25 prompts x ~10 YES/NO) | 240 | prompt template in `PROMPTS.md` / `src/llms/prompts.py` |
+| After semantic de-duplication (MiniLM cosine > 0.9) | 62 | the 62-question founder matrix `count_effect/data/founders_answers.parquet` (9,192 x 62) |
+| After the validation-set precision screen (14 pruned to save API cost) | 48 | screen on the 491 validation founders (`src/questions/question_filtering.py`) |
+| Final voting pool (Hamming-0.15 dedup + F0.5 rank) | 22 | the 22-question matrix `baselines/leakage_free_ablation/full_leakfree.py` builds and votes over (`Q=22`) |
+
+Across the 100 outer folds the vote selects a median of 8 questions with threshold 6
+(`run_ablation.py`, `leakfree_nq_median`).
+
 ## Notes
 - The reproduction notebook (`notebooks/paper_reproduction.ipynb`) covers the founder Rule Forest and
   prompting rows; the full Table 2 (classical + GPTree/RRM) and Figures 4-5 are produced by the scripts
