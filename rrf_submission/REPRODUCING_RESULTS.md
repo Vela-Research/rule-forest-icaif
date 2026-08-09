@@ -65,6 +65,28 @@ key and is out of scope for offline reproduction.
 | Figure 4 (founder count-effect) | `count_effect/make_figure4.py` | rho = -0.48 |
 | Figure 5 (Kiva) | `count_effect/make_figure5.py` | vote vs elastic net vs base rate |
 
+## Founder dataset split & counts
+
+The 9,192-profile founder dataset is split three ways (defined by `founder_source_mapping.csv` in the
+experiment repo; not shipped here):
+
+| Split | Count | Role |
+|---|---|---|
+| Question generation | 497 | founders shown to the LLM to generate candidate questions (~20 per prompt) |
+| Validation | 491 | held-out set for the question precision filter (drop questions with validation-set precision < 0.02) |
+| Evaluation | 8,204 | the reported test set (158 positives, 1.9% base rate) |
+
+`497 + 491 + 8,204 = 9,192`. Two things to know for exact reproduction:
+
+- **Unique founders = 9,183.** Nine `founder_uuid`s are assigned to two splits each; five of those straddle
+  validation∩evaluation, so the validation-based question filter incidentally saw 5 of the 8,204 evaluation
+  founders (0.06%). Because validation is used only to discard near-zero-precision questions, this has no
+  material effect on any reported number.
+- **The scored evaluation matrix here has 8,173 founder columns, not 8,204.** Anonymisation truncates each
+  `founder_uuid` to a 5-char hash; 54 evaluation founders share 27 such prefixes (−27), and 4 more have no
+  scored response (−4), giving `8,204 − 27 − 4 = 8,173`. All 158 positives survive; base rate and F0.5
+  (0.102) are unchanged. So a reviewer reproducing from this release will see 8,173 evaluation founders.
+
 ## Notes
 - The reproduction notebook (`notebooks/paper_reproduction.ipynb`) covers the founder Rule Forest and
   prompting rows; the full Table 2 (classical + GPTree/RRM) and Figures 4-5 are produced by the scripts
