@@ -40,6 +40,7 @@ python make_model_panel.py     # -> results_model_panel.json    (per-generator v
 python section3_significance.py
 python generator_significance.py  # -> results/generator_significance.json (generator-comparison bootstrap)
 python expert_significance.py      # -> results/expert_significance.json (expert-in-the-loop bootstrap)
+python expert_vs_o3_significance.py # -> results/expert_vs_o3_significance.json (Rule Forest + Expert vs o3 few-shot)
 ```
 **Engineered ML / Embeddings baselines:**
 ```bash
