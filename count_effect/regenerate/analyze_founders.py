@@ -5,6 +5,11 @@ Computes the founder natural-prevalence count-effect statistics the paper cites:
   npos_nat : vary positive COUNT at natural prevalence -> Spearman rho(n_pos, Delta),
              draw-level permutation p for H1 (rho<0, B=10000), and sign-change crossover.
 
+CAVEAT: rho is reported as a DESCRIPTIVE trend. The unit here is the individual draw (n=40 = 4
+sizes x 10 draws), and those draws are nested subsamples of the same 158 successes, so they are
+NOT independent. The draw-level perm_p below therefore treats correlated draws as exchangeable and
+is anticonservative; it is not a valid significance test, and the paper reports rho without a p.
+
 Statistics ported verbatim from the experiment-side analyze_crossdomain (draw-level Spearman;
 permutation RNG seed 20260730). REPORT-ONLY; reads only results_founders.jsonl.
   python analyze_founders.py
