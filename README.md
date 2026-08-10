@@ -39,6 +39,7 @@ python full_leakfree.py        # -> results_full_leakfree.json  (Rule Forest F0.
 python make_model_panel.py     # -> results_model_panel.json    (per-generator vote/elastic-net panel)
 python section3_significance.py
 python generator_significance.py  # -> results/generator_significance.json (generator-comparison bootstrap)
+python expert_significance.py      # -> results/expert_significance.json (expert-in-the-loop bootstrap)
 ```
 **Engineered ML / Embeddings baselines:**
 ```bash

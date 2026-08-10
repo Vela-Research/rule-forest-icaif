@@ -18,12 +18,14 @@ python full_leakfree.py        # -> results_full_leakfree.json
 python make_model_panel.py     # -> results_model_panel.json
 python section3_significance.py
 python generator_significance.py   # -> results/generator_significance.json (paper 5.3 generator-comparison bootstrap)
+python expert_significance.py       # -> results/expert_significance.json (paper 5.2 expert-in-the-loop bootstrap)
 ```
 - Rule Forest **0.109 / 0.082 / 0.102** — `results_full_leakfree.json` panel a ("LLM-Only").
 - Similarity ablation **0.102 / 0.106 / 0.097** and Hamming-threshold ablation **0.090 / 0.102 / 0.081** — panels b, c.
 - Expert-in-the-loop (precision **0.109 -> 0.164**, F0.5 **0.102 -> 0.125**) — panel a ("LLM+Expert").
 - Per-generator vote / elastic-net panel (GPT-4o-mini 0.102/0.080, Claude 0.083/0.061, GPT-5.2 0.064/0.041) — `results_model_panel.json`.
 - Generator-comparison significance (paper 5.3): GPT-4o-mini vs GPT-5.2 Delta=**+0.038**, 95% CI [-0.01, +0.09], two-sided p **0.14** (one-sided 0.07); vs Claude Delta=+0.020, p=0.47 — `generator_significance.py` / `results/generator_significance.json`.
+- Expert-in-the-loop significance (paper 5.2): (LLM+Expert) - (LLM-Only) precision Delta=**+0.055**, 95% CI [-0.013, +0.129], two-sided p **0.11**; F0.5 Delta=+0.023, 95% CI [-0.031, +0.077], p 0.41 — `expert_significance.py` / `results/expert_significance.json`.
 
 ## 2. Classical baselines (Engineered ML, Embeddings)
 ```bash
