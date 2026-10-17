@@ -21,8 +21,8 @@ def prf(tp, fp, fn):
 
 
 def best_cut(y, scores):
-    """Score value that maximises F0.5 on (y, scores) when used as a cut (score >= cut); the
-    first such value on ties."""
+    """Score value that maximises F0.5 on (y, scores) when used as a cut (score >= cut). On a tie
+    the lowest such value wins, the cut that flags the most examples."""
     best_t, best = float(scores.min()) - 1.0, -1.0
     for t in np.unique(scores):
         yp = scores >= t

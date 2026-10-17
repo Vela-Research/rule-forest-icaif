@@ -6,7 +6,8 @@ Three steps, all computed on the training founders only, so no test label is eve
 2. Expert cap (expert arm only). Keep the first (n_llm - n_expert) LLM questions in scoring order,
    so that before step 3 the pool has as many questions as it would without the expert ones.
 3. Redundancy removal. For every pair of near-duplicate questions, drop the one with the lower
-   precision (on a tie, the later one). Near-duplicate means:
+   precision (on a tie, the one later in the current order, which for the expert arm is the
+   training-F0.5 order of step 2). Near-duplicate means:
      hamming  the share of founders on whom the two answers differ is below `threshold`
      jaccard  |both YES| / |either YES| is above `threshold`
      cosine   the two fall in the same average-linkage cluster of cosine distances, cut at

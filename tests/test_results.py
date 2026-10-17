@@ -65,8 +65,8 @@ def test_figures():
     assert f4["elastic_net_overfits_more_at_points"] == 18 and f4["points"] == 20
     f5 = {r["successes"]: r for r in load("figure5")["table"]}
     assert set(f5) == {15, 30, 60, 93, 130, 180, 202}
-    close(f5[202]["gap"], -0.020)
-    close(f5[93]["gap"], 0.017)
+    close(f5[202]["gap"], -0.016)
+    close(f5[93]["gap"], 0.015)
 
 
 def test_predictions_load_without_pickle():

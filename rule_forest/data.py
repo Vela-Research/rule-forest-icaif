@@ -134,9 +134,11 @@ def realign_short_replies(scores, facts):
     When the LLM returned 13 scores for the 14 questions, the script appended their mean, so the
     answers after the skipped question sit one slot early. Such rows are recognised by a last score
     equal to the mean of the first 13, strictly between 0 and 1. The skipped position is taken to be
-    the one whose re-aligned answers agree best with the loan's facts (the earliest on a tie), and
-    the skipped question is left blank (NO). Returns the re-aligned scores (NaN = blank) and the
-    indices of the re-aligned rows. Uses no labels."""
+    one whose re-aligned answers agree best with the loan's facts. Several positions often agree
+    equally well (inside a run of NO answers they give the same row); a score is kept only where
+    every best position puts the same score on that question, and is left blank (NO) otherwise, as
+    is the skipped question itself. Returns the re-aligned scores (NaN = blank) and the indices of
+    the re-aligned rows. Uses no labels."""
     out = scores.astype(float).copy()
     fixed = []
     for i, v in enumerate(scores):
@@ -144,9 +146,10 @@ def realign_short_replies(scores, facts):
         if not (v[13] == v[:13].sum() / 13 and 0 < m < 1):
             continue
         yes = (v[:13] >= KIVA_YES).astype(int)
-        agree = [(np.delete(facts[:, i], j) == yes).sum() for j in range(14)]
-        j = int(np.argmax(agree))
-        out[i] = np.insert(v[:13], j, np.nan)
+        agree = np.array([(np.delete(facts[:, i], j) == yes).sum() for j in range(14)])
+        cands = np.array([np.insert(v[:13], j, np.nan) for j in np.flatnonzero(agree == agree.max())])
+        same = (cands == cands[0]).all(0)                      # False wherever a candidate has NaN
+        out[i] = np.where(same, cands[0], np.nan)
         fixed.append(i)
     return out, np.array(fixed, dtype=int)
 

@@ -60,9 +60,10 @@ def test_kiva_realignment():
     raw = data.load_kiva(drop_generation_loans=False, realign=False)
     fixed = data.load_kiva(drop_generation_loans=False)
     facts = data.kiva_facts(raw.ids)
-    moved = (raw.X != fixed.X).any(0) | fixed.blank.any(0)
-    assert int(fixed.blank.sum()) == 1433 and (fixed.blank.sum(0) <= 1).all()
+    moved = fixed.blank.any(0)
+    assert int(moved.sum()) == 1433 and fixed.blank[:, moved].sum(0).min() >= 1
     assert (fixed.X[:, ~moved] == raw.X[:, ~moved]).all()
+    assert not fixed.X[fixed.blank].any()
     agree_before = (raw.X[:, moved] == facts[:, moved]).mean()
     agree_after = (fixed.X[:, moved] == facts[:, moved])[~fixed.blank[:, moved]].mean()
     assert agree_before < 0.9 < 0.99 < agree_after

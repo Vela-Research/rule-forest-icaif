@@ -45,9 +45,9 @@ the file it comes from. `git status results figures` then shows whether anything
   cross-validation (seed 42 + repeat - 1), with the same folds for every model on the same data.
 - **No test label is used for training.** In each outer training fold, Rule Forest builds its
   candidate pool (precision floor and removal of near-duplicate questions) and ranks the questions
-  by training F0.5. It then picks N and T with 10 inner folds of the training founders, which score
-  every (N, T) on that fixed ranking; the pool and the ranking are not refitted inside the inner
-  folds. The elastic net tunes its penalty by inner cross-validation and its threshold on the
+  by training F0.5. It then picks N and T with inner folds of the training founders (10 for the
+  tables, 5 in the Figure 4 and 5 sweeps), which score every (N, T) on that fixed ranking; the pool
+  and the ranking are not refitted inside the inner folds. The elastic net tunes its penalty by inner cross-validation and its threshold on the
   training fold.
 - **Pooled scoring.** Within each repeat the hits of the 10 test folds are pooled, and precision,
   recall and F0.5 are computed once. Tables report the mean and SD over the 10 repeats (over 30 for
@@ -101,6 +101,10 @@ version differs in five ways, each of which changes some reported numbers.
 4. Figure 4 uses evaluation founders only.
 5. Figure 5 leaves out the 40 loans the LLM saw when writing the Kiva questions, and puts back in
    place the answers of 1,433 Kiva replies that skipped a question (see `data/README.md`).
+
+Two smaller changes move a few numbers by at most 0.001. Ties in the question ranking are now
+broken in row order, the same on every machine. Equal-length shortlists now hold exactly K
+founders; before, rounding each fold's share gave 400 instead of 402.
 
 ## License
 

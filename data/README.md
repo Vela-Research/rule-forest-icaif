@@ -86,12 +86,21 @@ a public Kiva snapshot. A loan counts as positive when it expired without being 
   to the records in their original order with this split, the sampler gives the 40 loans listed
   here, and every one of the 11 countries named in question 6 appears among their 20 funded loans
   (a test checks this). Every experiment removes them, leaving 4,960 loans and 202 positives (4.1%).
-- **Short replies.** For 1,433 loans the LLM returned 13 scores, and the scoring script padded
-  the reply with its own mean, so every answer after the skipped question sits one question early.
-  These rows are recognisable because their last score equals the mean of the first 13.
-  `rule_forest.data.load_kiva` inserts a blank (NO) at the skipped position, choosing the position
-  whose answers best match the loan's facts. The answers of other loans match the facts in 98.7% of
-  cells. The padded rows match in 89.5% of cells as returned and in 99.2% after re-alignment.
-  `experiments/figure5.py --as-scored` reruns Figure 5 without the repair.
+- **Short replies.** For at least 1,433 loans the LLM returned 13 scores, and the scoring script
+  padded the reply with its own mean, so every answer after the skipped question sits one question
+  early. These rows are recognisable because their last score equals the mean of the first 13
+  (strictly between 0 and 1). `rule_forest.data.load_kiva` re-aligns them using the loan's facts,
+  not its label. It finds the skipped positions whose re-aligned answers best match the facts and
+  keeps an answer only where all of them put the same answer on that question; every other cell,
+  including the skipped question, is left blank (NO). This turns 83 of the 2,885 YES answers in
+  these rows into NO.
+- **How well it works.** The answers of other loans match the facts in 98.7% of cells. The padded
+  rows match in 89.5% as returned. Choosing the position from half the questions and checking the
+  other half, they match in 96.7% to 98.1% after re-alignment.
+- **Why it matters.** Padded replies are not random. 2.7% of padded loans expired, against 5.1% of
+  the others, so the shifted answers carried a label-linked artefact into the as-returned data.
+  About 150 complete 14-score replies also look shifted, by the LLM itself; they cannot be detected
+  from the reply and are left as returned. `python experiments/figure5.py run --as-scored` and then
+  `plot --as-scored` recompute Figure 5's numbers without the repair (`results/figure5_as_scored.json`).
 
 The prompts that produced every file are in `prompts/`.
