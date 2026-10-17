@@ -1,0 +1,126 @@
+{
+ "generation": {
+  "founders": 497,
+  "successes": 248,
+  "prompts": 25,
+  "founders_per_prompt": [
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   20,
+   17
+  ],
+  "successes_per_prompt": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   8
+  ],
+  "distinct_successes_shown": 248,
+  "most_times_one_success_is_shown": 1
+ },
+ "question_chain": {
+  "generated": 240,
+  "exact_unique": 132,
+  "after_semantic_dedup": 62,
+  "scored_on_evaluation_founders": 50,
+  "validation_founders_in_file": 479,
+  "validation_successes": 49,
+  "pass_screen_in_this_file": 51,
+  "scored_but_failing_screen_in_this_file": [
+   {
+    "question": "Has the founder received any awards or honors during their education?",
+    "precision": 0.08823529411764706,
+    "recall": 0.12244897959183673
+   }
+  ],
+  "passing_screen_in_this_file_but_not_scored": [
+   {
+    "question": "Is the founder recognized for their public speaking or thought leadership?",
+    "precision": 0.13333333333333333,
+    "recall": 0.12244897959183673
+   },
+   {
+    "question": "Has the founder completed an MBA or similar advanced business degree?",
+    "precision": 0.12244897959183673,
+    "recall": 0.24489795918367346
+   }
+  ],
+  "note": "The screen keeps questions with validation precision >= 0.10 and recall >= 0.10. Recomputed on the shipped validation answers it does not match the 50 scored questions exactly (the lists above), so the release documents the 50 that were scored."
+ },
+ "blank_answers": {
+  "gpt_4o_mini": {
+   "cells": 408650,
+   "blank": 417,
+   "blank_share": 0.001020433133488315,
+   "reasked": 289,
+   "reasked_yes": 102
+  },
+  "claude_sonnet_4_5": {
+   "cells": 179762,
+   "blank": 1988,
+   "blank_share": 0.011059066988573781
+  },
+  "gpt_5_2": {
+   "cells": 171591,
+   "blank": 1622,
+   "blank_share": 0.009452710223729682
+  }
+ },
+ "founders": {
+  "evaluation_profiles": 8204,
+  "evaluation_successes": 158,
+  "distinct_5_character_ids": 8177,
+  "ids_shared_by_two_founders": 27,
+  "founders_in_gpt_4o_mini_matrix": 8173,
+  "successes_in_matrix": 158,
+  "profile_rows_not_in_matrix": [
+   8200,
+   8201,
+   8202,
+   8203
+  ],
+  "note": "Founder ids are the first 5 characters of an anonymised id, so 27 pairs of founders share an id and appear once. The answering run sent founders in batches of 20 and the last 4 founders were never sent, so the matrix has 8,177 - 4 = 8,173 founders."
+ }
+}

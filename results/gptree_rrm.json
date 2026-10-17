@@ -1,0 +1,38 @@
+{
+ "GPTree": {
+  "pooled": {
+   "precision": 0.06756939883193408,
+   "precision_sd": 0.018507371922800445,
+   "recall": 0.09472573839662449,
+   "recall_sd": 0.03609043233270424,
+   "f05": 0.07078901865106466,
+   "f05_sd": 0.020504854639599557,
+   "repeats": 30
+  },
+  "per_fold_mean": {
+   "precision": 0.06564278216740849,
+   "recall": 0.09479166666666665,
+   "f05": 0.06814501673848992
+  },
+  "note": "pooled: mean and SD over 30 repeats (3 runs x 10). per_fold_mean: the mean over 300 folds that the submitted paper reported."
+ },
+ "RRM": {
+  "pooled": {
+   "precision": 0.0799932946015028,
+   "precision_sd": 0.014272592581131133,
+   "recall": 0.1018987341772152,
+   "recall_sd": 0.025335544963725892,
+   "f05": 0.0822851312747425,
+   "f05_sd": 0.011892997953638164,
+   "repeats": 30
+  },
+  "per_fold_mean": {
+   "precision": 0.0786079074589721,
+   "recall": 0.10205555555555551,
+   "f05": 0.08006944679298265
+  },
+  "note": "pooled: mean and SD over 30 repeats (3 runs x 10). per_fold_mean: the mean over 300 folds that the submitted paper reported."
+ },
+ "founders": 8204,
+ "successes": 158
+}

@@ -1,0 +1,98 @@
+[
+ {
+  "question": "Is the loan amount greater than $1000?",
+  "field": "loan_amount",
+  "op": ">",
+  "value": 1000
+ },
+ {
+  "question": "Is the loan for a business in the Agriculture sector?",
+  "field": "sector",
+  "op": "==",
+  "value": "Agriculture"
+ },
+ {
+  "question": "Is the loan from Kenya?",
+  "field": "country",
+  "op": "==",
+  "value": "Kenya"
+ },
+ {
+  "question": "Is the loan for a business in the Clothing sector?",
+  "field": "sector",
+  "op": "==",
+  "value": "Clothing"
+ },
+ {
+  "question": "Is the loan amount greater than $1500?",
+  "field": "loan_amount",
+  "op": ">",
+  "value": 1500
+ },
+ {
+  "question": "Is the loan from a country other than the Philippines, Togo, Guatemala, Pakistan, Georgia, Tajikistan, Jordan, Nigeria, Senegal, Mexico, or Cambodia?",
+  "field": "country",
+  "op": "not in",
+  "value": [
+   "Philippines",
+   "Togo",
+   "Guatemala",
+   "Pakistan",
+   "Georgia",
+   "Tajikistan",
+   "Jordan",
+   "Nigeria",
+   "Senegal",
+   "Mexico",
+   "Cambodia"
+  ]
+ },
+ {
+  "question": "Is the loan for a business in the Health sector?",
+  "field": "sector",
+  "op": "==",
+  "value": "Health"
+ },
+ {
+  "question": "Is the loan for a business in the Services sector?",
+  "field": "sector",
+  "op": "==",
+  "value": "Services"
+ },
+ {
+  "question": "Is the loan from Armenia?",
+  "field": "country",
+  "op": "==",
+  "value": "Armenia"
+ },
+ {
+  "question": "Is the loan for a business in the Transportation sector?",
+  "field": "sector",
+  "op": "==",
+  "value": "Transportation"
+ },
+ {
+  "question": "Is the loan amount less than $300?",
+  "field": "loan_amount",
+  "op": "<",
+  "value": 300
+ },
+ {
+  "question": "Is the loan from Honduras?",
+  "field": "country",
+  "op": "==",
+  "value": "Honduras"
+ },
+ {
+  "question": "Is the loan for a business in the Housing sector?",
+  "field": "sector",
+  "op": "==",
+  "value": "Housing"
+ },
+ {
+  "question": "Is the loan from the United States?",
+  "field": "country",
+  "op": "==",
+  "value": "United States"
+ }
+]

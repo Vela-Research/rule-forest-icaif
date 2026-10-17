@@ -1,0 +1,170 @@
+{
+ "expert_arm": {
+  "precision": 0.16404187654862373,
+  "precision_sd": 0.020345387285850426,
+  "recall": 0.06392405063291139,
+  "recall_sd": 0.008672913413963907,
+  "f05": 0.12463589537518371,
+  "f05_sd": 0.01485177943586218,
+  "repeats": 10,
+  "N_median": 15.0,
+  "pool_size_range": [
+   47,
+   49
+  ]
+ },
+ "rule_forest": {
+  "precision": 0.10286348994253025,
+  "precision_sd": 0.015093104152298146,
+  "recall": 0.08037974683544304,
+  "recall_sd": 0.012675796528101099,
+  "f05": 0.09733225456451534,
+  "f05_sd": 0.014296472342721307,
+  "repeats": 10
+ },
+ "elastic_net_58_questions": {
+  "precision": 0.10266340377448184,
+  "precision_sd": 0.01197960411274788,
+  "recall": 0.09873417721518987,
+  "recall_sd": 0.013073361506185377,
+  "f05": 0.101753359437925,
+  "f05_sd": 0.011833428934710613,
+  "repeats": 10,
+  "nonzero_weights_median": 48.0
+ },
+ "intervals": {
+  "expert_minus_rule_forest": {
+   "f05": {
+    "metric": "f05",
+    "a": 0.12463589537518371,
+    "b": 0.09733225456451534,
+    "delta": 0.02730364081066837,
+    "ci95": [
+     -0.02626632831311807,
+     0.08160947217327165
+    ],
+    "p": 0.323,
+    "n": 8173,
+    "resamples": 10000,
+    "seed": 42
+   },
+   "precision": {
+    "metric": "precision",
+    "a": 0.16404187654862373,
+    "b": 0.10286348994253025,
+    "delta": 0.06117838660609348,
+    "ci95": [
+     -0.007045898508015417,
+     0.13487824087322017
+    ],
+    "p": 0.0792,
+    "n": 8173,
+    "resamples": 10000,
+    "seed": 42
+   },
+   "recall": {
+    "metric": "recall",
+    "a": 0.06392405063291139,
+    "b": 0.08037974683544304,
+    "delta": -0.01645569620253165,
+    "ci95": [
+     -0.050857903634826694,
+     0.0169814403748921
+    ],
+    "p": 0.3482,
+    "n": 8173,
+    "resamples": 10000,
+    "seed": 42
+   }
+  },
+  "expert_minus_elastic_net_58": {
+   "f05": {
+    "metric": "f05",
+    "a": 0.12463589537518371,
+    "b": 0.101753359437925,
+    "delta": 0.02288253593725871,
+    "ci95": [
+     -0.03295112045906929,
+     0.07946738451952699
+    ],
+    "p": 0.4238,
+    "n": 8173,
+    "resamples": 10000,
+    "seed": 42
+   },
+   "precision": {
+    "metric": "precision",
+    "a": 0.16404187654862373,
+    "b": 0.10266340377448184,
+    "delta": 0.06137847277414189,
+    "ci95": [
+     -0.009118579199751802,
+     0.13930058001430667
+    ],
+    "p": 0.0882,
+    "n": 8173,
+    "resamples": 10000,
+    "seed": 42
+   },
+   "recall": {
+    "metric": "recall",
+    "a": 0.06392405063291139,
+    "b": 0.09873417721518987,
+    "delta": -0.034810126582278486,
+    "ci95": [
+     -0.07382627100057025,
+     0.0026180803813237443
+    ],
+    "p": 0.069,
+    "n": 8173,
+    "resamples": 10000,
+    "seed": 42
+   }
+  },
+  "elastic_net_58_minus_elastic_net_50": {
+   "f05": {
+    "metric": "f05",
+    "a": 0.101753359437925,
+    "b": 0.09798898043442952,
+    "delta": 0.00376437900349548,
+    "ci95": [
+     -0.015755862394592077,
+     0.024395121843946085
+    ],
+    "p": 0.7014,
+    "n": 8173,
+    "resamples": 10000,
+    "seed": 42
+   },
+   "precision": {
+    "metric": "precision",
+    "a": 0.10266340377448184,
+    "b": 0.11189288839908454,
+    "delta": -0.009229484624602699,
+    "ci95": [
+     -0.03351869763804842,
+     0.013942458228081944
+    ],
+    "p": 0.4438,
+    "n": 8173,
+    "resamples": 10000,
+    "seed": 42
+   },
+   "recall": {
+    "metric": "recall",
+    "a": 0.09873417721518987,
+    "b": 0.06645569620253164,
+    "delta": 0.03227848101265823,
+    "ci95": [
+     0.014906832298136642,
+     0.0517743438422115
+    ],
+    "p": 0.0002,
+    "n": 8173,
+    "resamples": 10000,
+    "seed": 42
+   }
+  }
+ },
+ "note": "The expert arm adds the 8 expert questions to the 50 GPT-4o-mini questions, drops the last 8 LLM questions that pass the floor (so the count before redundancy removal is unchanged), and uses Hamming 0.01, because at 0.15 the rarely-YES expert questions count as near-duplicates of the strongest LLM questions. It therefore differs from Rule Forest in both the questions and the redundancy threshold, and its pool is about twice as large."
+}

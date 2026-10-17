@@ -1,0 +1,6 @@
+# Extra package for baselines/embeddings/run.py (on top of requirements.txt).
+# xgboost needs the OpenMP runtime; on macOS: brew install libomp
+xgboost==3.4.1
+
+# Only to re-encode the profiles with build_embeddings.py (the embeddings are shipped):
+# sentence-transformers and torch

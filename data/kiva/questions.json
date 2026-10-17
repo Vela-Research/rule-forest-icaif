@@ -1,0 +1,16 @@
+[
+  "Is the loan amount greater than $1000?",
+  "Is the loan for a business in the Agriculture sector?",
+  "Is the loan from Kenya?",
+  "Is the loan for a business in the Clothing sector?",
+  "Is the loan amount greater than $1500?",
+  "Is the loan from a country other than the Philippines, Togo, Guatemala, Pakistan, Georgia, Tajikistan, Jordan, Nigeria, Senegal, Mexico, or Cambodia?",
+  "Is the loan for a business in the Health sector?",
+  "Is the loan for a business in the Services sector?",
+  "Is the loan from Armenia?",
+  "Is the loan for a business in the Transportation sector?",
+  "Is the loan amount less than $300?",
+  "Is the loan from Honduras?",
+  "Is the loan for a business in the Housing sector?",
+  "Is the loan from the United States?"
+]

@@ -1,0 +1,90 @@
+{
+ "table": [
+  {
+   "successes": 15,
+   "draws": 10,
+   "base_rate": 0.0031426775612822125,
+   "vote_leads_in_draws": 7,
+   "vote_f05": 0.027533304606773494,
+   "vote_f05_ci95_halfwidth": 0.02129495186725644,
+   "en_f05": 0.004836241734570664,
+   "en_f05_ci95_halfwidth": 0.002009906676058279,
+   "gap": 0.022697062872202828,
+   "gap_ci95_halfwidth": 0.020621533027792262
+  },
+  {
+   "successes": 30,
+   "draws": 10,
+   "base_rate": 0.006265664160401002,
+   "vote_leads_in_draws": 6,
+   "vote_f05": 0.026734699139576136,
+   "vote_f05_ci95_halfwidth": 0.013809694119542646,
+   "en_f05": 0.020780501963367067,
+   "en_f05_ci95_halfwidth": 0.0060502272973882755,
+   "gap": 0.005954197176209068,
+   "gap_ci95_halfwidth": 0.013394467336938307
+  },
+  {
+   "successes": 60,
+   "draws": 10,
+   "base_rate": 0.012453300124532999,
+   "vote_leads_in_draws": 9,
+   "vote_f05": 0.07333736311947413,
+   "vote_f05_ci95_halfwidth": 0.02327447175089956,
+   "en_f05": 0.04322823980549786,
+   "en_f05_ci95_halfwidth": 0.0069595614289993035,
+   "gap": 0.030109123313976267,
+   "gap_ci95_halfwidth": 0.018141351857179806
+  },
+  {
+   "successes": 93,
+   "draws": 10,
+   "base_rate": 0.0191713048855906,
+   "vote_leads_in_draws": 6,
+   "vote_f05": 0.0849948556119309,
+   "vote_f05_ci95_halfwidth": 0.022021326406591307,
+   "en_f05": 0.07842107983147341,
+   "en_f05_ci95_halfwidth": 0.021675084952501117,
+   "gap": 0.006573775780457483,
+   "gap_ci95_halfwidth": 0.019676051563858796
+  },
+  {
+   "successes": 130,
+   "draws": 10,
+   "base_rate": 0.026595744680851064,
+   "vote_leads_in_draws": 6,
+   "vote_f05": 0.10687149417420685,
+   "vote_f05_ci95_halfwidth": 0.017225635103021705,
+   "en_f05": 0.1016129956674412,
+   "en_f05_ci95_halfwidth": 0.01197295759686221,
+   "gap": 0.0052584985067656385,
+   "gap_ci95_halfwidth": 0.014606673405696722
+  },
+  {
+   "successes": 180,
+   "draws": 10,
+   "base_rate": 0.03645200486026732,
+   "vote_leads_in_draws": 4,
+   "vote_f05": 0.13988477631113275,
+   "vote_f05_ci95_halfwidth": 0.010186874867608803,
+   "en_f05": 0.14181406932648527,
+   "en_f05_ci95_halfwidth": 0.009059310317317337,
+   "gap": -0.001929293015352497,
+   "gap_ci95_halfwidth": 0.008021233124973765
+  },
+  {
+   "successes": 202,
+   "draws": 1,
+   "base_rate": 0.0407258064516129,
+   "vote_leads_in_draws": 0,
+   "vote_f05": 0.148497276852227,
+   "vote_f05_ci95_halfwidth": 0.0,
+   "en_f05": 0.16708097868360508,
+   "en_f05_ci95_halfwidth": 0.0,
+   "gap": -0.018583701831378086,
+   "gap_ci95_halfwidth": 0.0
+  }
+ ],
+ "loans": 4960,
+ "note": "95% t-intervals over draws"
+}

@@ -1,0 +1,369 @@
+{
+ "slices": {
+  "S1": {
+   "table": [
+    {
+     "successes": 15,
+     "n": 300,
+     "base_rate": 0.05,
+     "draws": 10,
+     "vote_leads_in_draws": 10,
+     "vote_f05": 0.16253210734088006,
+     "en_f05": 0.08735558879452807,
+     "gap": 0.07517651854635198,
+     "vote_optimism": 0.23399042353274963,
+     "en_optimism": 0.30697266894408337,
+     "vote_selection_jaccard": 0.47136095889834373,
+     "en_support_jaccard": 0.3166650591578506
+    },
+    {
+     "successes": 30,
+     "n": 600,
+     "base_rate": 0.05,
+     "draws": 10,
+     "vote_leads_in_draws": 6,
+     "vote_f05": 0.1436774035933236,
+     "en_f05": 0.12723671910412,
+     "gap": 0.016440684489203605,
+     "vote_optimism": 0.18090249189403315,
+     "en_optimism": 0.2122649082431506,
+     "vote_selection_jaccard": 0.5200442791635447,
+     "en_support_jaccard": 0.4098800194889546
+    },
+    {
+     "successes": 60,
+     "n": 1200,
+     "base_rate": 0.05,
+     "draws": 10,
+     "vote_leads_in_draws": 8,
+     "vote_f05": 0.1577415217396495,
+     "en_f05": 0.15087935812320527,
+     "gap": 0.006862163616444247,
+     "vote_optimism": 0.11339296223874133,
+     "en_optimism": 0.1693260724451818,
+     "vote_selection_jaccard": 0.52748007730487,
+     "en_support_jaccard": 0.5863114864111147
+    },
+    {
+     "successes": 100,
+     "n": 2000,
+     "base_rate": 0.05,
+     "draws": 10,
+     "vote_leads_in_draws": 5,
+     "vote_f05": 0.1731654427531439,
+     "en_f05": 0.17150600571159574,
+     "gap": 0.0016594370415481895,
+     "vote_optimism": 0.08154398947568658,
+     "en_optimism": 0.11492204186101074,
+     "vote_selection_jaccard": 0.5656505782710675,
+     "en_support_jaccard": 0.6365958023041152
+    },
+    {
+     "successes": 158,
+     "n": 3160,
+     "base_rate": 0.05,
+     "draws": 10,
+     "vote_leads_in_draws": 2,
+     "vote_f05": 0.17158124492177765,
+     "en_f05": 0.18290510269441895,
+     "gap": -0.011323857772641319,
+     "vote_optimism": 0.05934517614843068,
+     "en_optimism": 0.08113547828051204,
+     "vote_selection_jaccard": 0.6304710354005258,
+     "en_support_jaccard": 0.7203788145549975
+    }
+   ],
+   "spearman_gap": -0.5772152379939298
+  },
+  "S2": {
+   "table": [
+    {
+     "successes": 15,
+     "n": 3160,
+     "base_rate": 0.004746835443037975,
+     "draws": 10,
+     "vote_leads_in_draws": 8,
+     "vote_f05": 0.028379946064561918,
+     "en_f05": 0.00614304333514226,
+     "gap": 0.022236902729419666,
+     "vote_optimism": 0.1208241680970364,
+     "en_optimism": 0.055654329594596375,
+     "vote_selection_jaccard": 0.5068757998792293,
+     "en_support_jaccard": 0.12599047001009717
+    },
+    {
+     "successes": 30,
+     "n": 3160,
+     "base_rate": 0.00949367088607595,
+     "draws": 10,
+     "vote_leads_in_draws": 6,
+     "vote_f05": 0.04353899336910867,
+     "en_f05": 0.038698560749528044,
+     "gap": 0.004840432619580631,
+     "vote_optimism": 0.11427673599983953,
+     "en_optimism": 0.10538481773569157,
+     "vote_selection_jaccard": 0.5147087322395655,
+     "en_support_jaccard": 0.4399246795618595
+    },
+    {
+     "successes": 60,
+     "n": 3160,
+     "base_rate": 0.0189873417721519,
+     "draws": 10,
+     "vote_leads_in_draws": 4,
+     "vote_f05": 0.08065784474672227,
+     "en_f05": 0.0846517141744891,
+     "gap": -0.003993869427766831,
+     "vote_optimism": 0.0773266082022971,
+     "en_optimism": 0.10063301429912715,
+     "vote_selection_jaccard": 0.524142573934712,
+     "en_support_jaccard": 0.5507829972889091
+    },
+    {
+     "successes": 100,
+     "n": 3160,
+     "base_rate": 0.03164556962025317,
+     "draws": 10,
+     "vote_leads_in_draws": 7,
+     "vote_f05": 0.13204039438923892,
+     "en_f05": 0.11334700287412078,
+     "gap": 0.01869339151511815,
+     "vote_optimism": 0.05880556332409988,
+     "en_optimism": 0.09933242272503436,
+     "vote_selection_jaccard": 0.5877115820475673,
+     "en_support_jaccard": 0.6714443761720045
+    },
+    {
+     "successes": 158,
+     "n": 3160,
+     "base_rate": 0.05,
+     "draws": 10,
+     "vote_leads_in_draws": 2,
+     "vote_f05": 0.17158124492177765,
+     "en_f05": 0.18290510269441895,
+     "gap": -0.011323857772641319,
+     "vote_optimism": 0.05934517614843068,
+     "en_optimism": 0.08113547828051204,
+     "vote_selection_jaccard": 0.6304710354005258,
+     "en_support_jaccard": 0.7203788145549975
+    }
+   ],
+   "spearman_gap": -0.310657437086716
+  },
+  "S3": {
+   "table": [
+    {
+     "successes": 158,
+     "n": 1756,
+     "base_rate": 0.08997722095671981,
+     "draws": 10,
+     "vote_leads_in_draws": 2,
+     "vote_f05": 0.2459889472042648,
+     "en_f05": 0.25894276520015225,
+     "gap": -0.012953817995887466,
+     "vote_optimism": 0.06746810477818341,
+     "en_optimism": 0.09712526104031331,
+     "vote_selection_jaccard": 0.5984780472050246,
+     "en_support_jaccard": 0.6669214924141323
+    },
+    {
+     "successes": 158,
+     "n": 3160,
+     "base_rate": 0.05,
+     "draws": 10,
+     "vote_leads_in_draws": 2,
+     "vote_f05": 0.17158124492177765,
+     "en_f05": 0.18290510269441895,
+     "gap": -0.011323857772641319,
+     "vote_optimism": 0.05934517614843068,
+     "en_optimism": 0.08113547828051204,
+     "vote_selection_jaccard": 0.6304710354005258,
+     "en_support_jaccard": 0.7203788145549975
+    },
+    {
+     "successes": 158,
+     "n": 5267,
+     "base_rate": 0.02999810138598823,
+     "draws": 10,
+     "vote_leads_in_draws": 4,
+     "vote_f05": 0.1301971226687148,
+     "en_f05": 0.13155156922714262,
+     "gap": -0.0013544465584277923,
+     "vote_optimism": 0.04459004287614421,
+     "en_optimism": 0.06078477853179069,
+     "vote_selection_jaccard": 0.651873990328406,
+     "en_support_jaccard": 0.7231078833902037
+    },
+    {
+     "successes": 158,
+     "n": 8173,
+     "base_rate": 0.019331946653615564,
+     "draws": 1,
+     "vote_leads_in_draws": 1,
+     "vote_f05": 0.0956661950089521,
+     "en_f05": 0.09175331783708765,
+     "gap": 0.003912877171864448,
+     "vote_optimism": 0.03584705688324366,
+     "en_optimism": 0.04779861755836015,
+     "vote_selection_jaccard": 0.6810056322928524,
+     "en_support_jaccard": 0.7290745812757067
+    }
+   ],
+   "spearman_gap": -0.43178955621641196
+  },
+  "S4": {
+   "table": [
+    {
+     "successes": 15,
+     "n": 776,
+     "base_rate": 0.019329896907216496,
+     "draws": 10,
+     "vote_leads_in_draws": 8,
+     "vote_f05": 0.08794445186327696,
+     "en_f05": 0.04345627377131857,
+     "gap": 0.04448817809195839,
+     "vote_optimism": 0.18400255930963116,
+     "en_optimism": 0.19740854959459259,
+     "vote_selection_jaccard": 0.4869549133353982,
+     "en_support_jaccard": 0.30205298139032016
+    },
+    {
+     "successes": 30,
+     "n": 1552,
+     "base_rate": 0.019329896907216496,
+     "draws": 10,
+     "vote_leads_in_draws": 7,
+     "vote_f05": 0.0941207467215216,
+     "en_f05": 0.0750269846944549,
+     "gap": 0.019093762027066696,
+     "vote_optimism": 0.1350137144371399,
+     "en_optimism": 0.18330038694346498,
+     "vote_selection_jaccard": 0.47896470124077856,
+     "en_support_jaccard": 0.4423710249418442
+    },
+    {
+     "successes": 60,
+     "n": 3104,
+     "base_rate": 0.019329896907216496,
+     "draws": 10,
+     "vote_leads_in_draws": 10,
+     "vote_f05": 0.09515430751696799,
+     "en_f05": 0.07328380245892616,
+     "gap": 0.021870505058041823,
+     "vote_optimism": 0.07339100876568173,
+     "en_optimism": 0.11477668836399754,
+     "vote_selection_jaccard": 0.5729171324931635,
+     "en_support_jaccard": 0.578751253529634
+    },
+    {
+     "successes": 100,
+     "n": 5173,
+     "base_rate": 0.019331142470520007,
+     "draws": 10,
+     "vote_leads_in_draws": 7,
+     "vote_f05": 0.08456899078381025,
+     "en_f05": 0.07511453861558676,
+     "gap": 0.009454452168223508,
+     "vote_optimism": 0.04996264087387884,
+     "en_optimism": 0.0730753256795386,
+     "vote_selection_jaccard": 0.590135347172596,
+     "en_support_jaccard": 0.6783438286945878
+    },
+    {
+     "successes": 158,
+     "n": 8173,
+     "base_rate": 0.019331946653615564,
+     "draws": 1,
+     "vote_leads_in_draws": 1,
+     "vote_f05": 0.0956661950089521,
+     "en_f05": 0.09175331783708765,
+     "gap": 0.003912877171864448,
+     "vote_optimism": 0.03584705688324366,
+     "en_optimism": 0.04779861755836015,
+     "vote_selection_jaccard": 0.6810056322928524,
+     "en_support_jaccard": 0.7290745812757067
+    }
+   ],
+   "spearman_gap": -0.366797454177077
+  },
+  "S5": {
+   "table": [
+    {
+     "successes": 15,
+     "n": 167,
+     "base_rate": 0.08982035928143713,
+     "draws": 10,
+     "vote_leads_in_draws": 9,
+     "vote_f05": 0.2359042416144824,
+     "en_f05": 0.14700493091583036,
+     "gap": 0.08889931069865206,
+     "vote_optimism": 0.273295434358349,
+     "en_optimism": 0.36797950662089624,
+     "vote_selection_jaccard": 0.45587074093519175,
+     "en_support_jaccard": 0.3425551367287114
+    },
+    {
+     "successes": 30,
+     "n": 333,
+     "base_rate": 0.09009009009009009,
+     "draws": 10,
+     "vote_leads_in_draws": 6,
+     "vote_f05": 0.22554033774259014,
+     "en_f05": 0.18970254911243228,
+     "gap": 0.035837788630157866,
+     "vote_optimism": 0.16864158177247254,
+     "en_optimism": 0.26996496911871737,
+     "vote_selection_jaccard": 0.48946929988910776,
+     "en_support_jaccard": 0.47588045957075786
+    },
+    {
+     "successes": 60,
+     "n": 667,
+     "base_rate": 0.08995502248875563,
+     "draws": 10,
+     "vote_leads_in_draws": 5,
+     "vote_f05": 0.254447694059588,
+     "en_f05": 0.24620141519306554,
+     "gap": 0.008246278866522436,
+     "vote_optimism": 0.1273724741709163,
+     "en_optimism": 0.18343759668197518,
+     "vote_selection_jaccard": 0.5308118248926137,
+     "en_support_jaccard": 0.5629475526254704
+    },
+    {
+     "successes": 100,
+     "n": 1111,
+     "base_rate": 0.09000900090009001,
+     "draws": 10,
+     "vote_leads_in_draws": 5,
+     "vote_f05": 0.23851647796606557,
+     "en_f05": 0.24569282395403302,
+     "gap": -0.007176345987967489,
+     "vote_optimism": 0.09005306518315064,
+     "en_optimism": 0.13684619916004687,
+     "vote_selection_jaccard": 0.5692129367938373,
+     "en_support_jaccard": 0.6449708476696709
+    },
+    {
+     "successes": 158,
+     "n": 1756,
+     "base_rate": 0.08997722095671981,
+     "draws": 10,
+     "vote_leads_in_draws": 2,
+     "vote_f05": 0.2459889472042648,
+     "en_f05": 0.25894276520015225,
+     "gap": -0.012953817995887466,
+     "vote_optimism": 0.06746810477818341,
+     "en_optimism": 0.09712526104031331,
+     "vote_selection_jaccard": 0.5984780472050246,
+     "en_support_jaccard": 0.6669214924141323
+    }
+   ],
+   "spearman_gap": -0.5615353673523289
+  }
+ },
+ "points": 20,
+ "draws": 191,
+ "elastic_net_overfits_more_at_points": 18,
+ "note": "optimism = mean training-fold F0.5 minus held-out pooled F0.5, averaged over draws"
+}

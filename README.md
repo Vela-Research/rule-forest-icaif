@@ -1,95 +1,110 @@
-# Rule Forest — Reproduction Package
+# Rule Forest
 
-Anonymized code and data for *"Rule Forest: Interpretable Ensembles of LLM-Generated
-Questions for Rare-Outcome Prediction."* Everything needed to reproduce the paper's
-tables and figures **offline** (no API key, no network) from precomputed LLM outputs is
-included.
+Code and data for *Rule Forest: Interpretable Ensembles of LLM-Generated Questions for
+Rare-Outcome Prediction* (ACM ICAIF 2026).
 
-## Layout
-```
-LICENSE  requirements.txt
-rrf_submission/
-  PROMPTS.md                 # exact question-generation prompt templates (verbatim)
-  src/                       # scoring + question-filtering modules + llms/prompts.py
-  precomputed/               # anonymized LLM question-response matrices + baseline outputs
-  data/                      # anonymized founder dataset (9,192 profiles)
-  notebooks/paper_reproduction.ipynb
-baselines/
-  leakage_free_ablation/     # canonical leakage-free Rule Forest harness (reproduces F0.5 = 0.102)
-  traditional_ml_port/       # Engineered-ML and Embeddings baseline outputs
-baselines_llm/
-  gptree/  rrm/              # GPTree / RRM per-seed artifacts (single-split runs)
-  rescore/                   # 10x10 re-scoring of GPTree/RRM -> paper's Table 2 rows (offline)
-count_effect/                # Figures 4 & 5 (founder count-effect + Kiva), self-contained
-```
+Rule Forest asks an LLM to write YES/NO questions about a profile, answers them with an LLM, and
+predicts success when at least T of the N best questions are answered YES. Every number and
+figure in the paper is rebuilt here from the shipped LLM answers, with no API key and no network.
 
-## Quickstart
-Requires **Python >= 3.11**.
+## Install
+
+Tested with Python 3.13.
+
 ```bash
 python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt   # offline core needs only: numpy pandas scipy scikit-learn matplotlib pyarrow
+pip install -r requirements.txt
+python -m pytest            # under a minute
 ```
 
-## Reproduce every headline number (offline, no API key)
+## Reproduce the paper
 
-**Founder table (Rule Forest + ablations + expert-in-the-loop):**
 ```bash
-cd baselines/leakage_free_ablation
-python full_leakfree.py        # -> results_full_leakfree.json  (Rule Forest F0.5=0.102; ablations; expert 0.125)
-python make_model_panel.py     # -> results_model_panel.json    (per-generator vote/elastic-net panel)
-python section3_significance.py
-python generator_significance.py  # -> results/generator_significance.json (generator-comparison bootstrap)
-python expert_significance.py      # -> results/expert_significance.json (expert-in-the-loop bootstrap)
-python expert_vs_o3_significance.py # -> results/expert_vs_o3_significance.json (Rule Forest + Expert vs o3 few-shot)
-```
-**Engineered ML / Embeddings baselines:**
-```bash
-cd baselines/traditional_ml_port/engineered_ml && python run_engineered_ml.py   # Engineered ML F0.5=0.066
-```
-Embeddings (F0.5=0.047) is shipped as `baselines/traditional_ml_port/embeddings/embeddings_result.json`; re-encoding the prose needs `baselines/traditional_ml_port/training/requirements-training.txt` (torch / xgboost / sentence-transformers).
-
-**GPTree / RRM baselines (Table 2), by re-scoring the frozen trees/rules under 10x10 CV:**
-```bash
-cd baselines_llm/rescore && python rescore_gptree_rrm.py   # GPTree 0.068, RRM 0.080 (see rescore/README.md)
-```
-**Figures 4 & 5:**
-```bash
-cd count_effect && python make_figure4.py && python make_figure5.py   # -> figures/*.pdf
+python reproduce.py --quick   # every table, figure and quoted number, from the committed model predictions (minutes)
+python reproduce.py           # also refit every model (about 25 CPU-hours; about 2 hours on 16 cores)
 ```
 
-## Paper -> artifact map
-| Paper item | Value | Where |
+Either way the results land in `results/` and the figures in `figures/`, and
+[`results/PAPER_NUMBERS.md`](results/PAPER_NUMBERS.md) lists every number the paper quotes with
+the file it comes from. `git status results figures` then shows whether anything changed.
+
+| Paper | Script | Result |
 |---|---|---|
-| Table 2 — Rule Forest (LLM + vote) | 0.109 / 0.082 / **0.102** | `baselines/leakage_free_ablation/results_full_leakfree.json` (panel a, LLM-Only) |
-| Table 2 — Engineered ML / Embeddings | 0.066 / 0.047 | `baselines/traditional_ml_port/engineered_ml/run_engineered_ml.py` ; `.../embeddings/embeddings_result.json` |
-| Table 2 — LogReg (elastic net) | 0.080 | `rrf_submission/precomputed/gpt_4o_mini/benchmark_results/benchmark_gpt_4o_mini.csv` |
-| Table 2 — prompting (o3 few-shot / GPT-4o-mini zero-shot) | 0.088 / 0.086 | `rrf_submission/precomputed/gpt_4o_mini/vanilla/` |
-| Table 2 — GPTree / RRM | 0.068 / 0.080 | `baselines_llm/rescore/` (run `rescore_gptree_rrm.py`) |
-| Table 3 — similarity / threshold ablations | 0.102 / 0.106 / 0.097 ; 0.090 / 0.102 / 0.081 | `results_full_leakfree.json` (panels b, c) |
-| Table 3 — generator (vote): GPT-4o-mini / Claude / GPT-5.2 | 0.102 / 0.083 / 0.064 | `results_model_panel.json` |
-| Table 3 — generator (elastic net): GPT-4o-mini / Claude / GPT-5.2 | 0.080 / 0.061 / 0.041 | `results_model_panel.json` |
-| Expert-in-the-loop | precision 0.109->0.164 ; F0.5 0.102->0.125 | `results_full_leakfree.json` (panel a) |
-| Figure 4 — founder count-effect (rho=-0.517) | founders 1.9% / 5% + reliability | `count_effect/make_figure4.py` |
-| Figure 5 — Kiva generalisation | vote vs elastic net vs base rate | `count_effect/make_figure5.py` |
+| Table 2, Section 5.1 | `experiments/founders.py` | `results/table2.json` |
+| Table 2, GPTree and RRM | `baselines/gptree_rrm/rescore.py` | `results/gptree_rrm.json` |
+| Table 2, Engineered ML and Embeddings | `baselines/engineered_ml/run.py`, `baselines/embeddings/run.py` | `results/engineered_ml.json`, `results/embeddings.json` |
+| Table 3, Section 5.3 | `experiments/founders.py` | `results/table3.json` |
+| Section 5.2, expert questions and equal-length shortlists | `experiments/founders.py` | `results/expert.json`, `results/shortlists.json` |
+| Sections 4.1 and 4.2, question counts and missing answers | `experiments/questions.py` | `results/questions.json` |
+| Figure 4 | `experiments/figure4.py` | `results/figure4.json`, `figures/figure4.pdf` |
+| Figure 5 | `experiments/figure5.py` | `results/figure5.json`, `figures/figure5.pdf` |
 
-## Notes on reproducibility
-- **Leakage-free harness.** The canonical Rule Forest numbers come from
-  `baselines/leakage_free_ablation/`, which ranks candidate questions **within each training
-  fold** (documented correction history 0.118 -> 0.105 -> 0.102).
-- **Offline core vs. API pipeline.** All paper numbers reproduce offline from the shipped
-  precomputed LLM outputs. Regenerating those outputs from scratch (question generation +
-  scoring) requires an LLM API key; the offline reproduction does not.
-- **Prompt templates.** The exact question-generation prompts are in
-  `rrf_submission/PROMPTS.md` (readable) and `rrf_submission/src/llms/prompts.py` (literal
-  source). The anonymised two-stage template produced the shipped `precomputed/` question
-  matrices.
-- **GPTree / RRM.** `baselines_llm/{gptree,rrm}/*_results.json` are the single-held-out-split
-  runs; the paper's Table 2 numbers come from the 10x10 re-scoring in `baselines_llm/rescore/`
-  (reuses the frozen tree / rule set, no API calls).
+## How the evaluation works
 
-## Data
-- **Founders** (`rrf_submission/data/founders_summary_data_anonymised.csv`): 9,192 U.S. companies
-  founded 2010-2016 as anonymized natural-language summaries. The held-out evaluation set is 8,204
-  founders with 158 positives (1.93% base rate).
-- **Kiva microloans** (`count_effect/data/kiva_rq_scores_run1.jsonl`): 5,000 loans (222 positive,
-  4.44% base rate); the task is to predict which loans fail to reach their funding goal.
+- **Cross-validation.** Every trained model is scored by 10 repeats of stratified 10-fold
+  cross-validation (seed 42 + repeat - 1), with the same folds for every model on the same data.
+- **No test label is used for training.** In each outer training fold, Rule Forest builds its
+  candidate pool (precision floor and removal of near-duplicate questions) and ranks the questions
+  by training F0.5. It then picks N and T with 10 inner folds of the training founders, which score
+  every (N, T) on that fixed ranking; the pool and the ranking are not refitted inside the inner
+  folds. The elastic net tunes its penalty by inner cross-validation and its threshold on the
+  training fold.
+- **Pooled scoring.** Within each repeat the hits of the 10 test folds are pooled, and precision,
+  recall and F0.5 are computed once. Tables report the mean and SD over the 10 repeats (over 30 for
+  GPTree and RRM, whose three runs each have 10).
+- **Intervals.** Differences between two models come with a paired bootstrap over founders
+  (10,000 resamples, seed 42).
+
+## Layout
+
+```
+rule_forest/     the method (data loaders, candidate pool, vote, elastic net, metrics)
+experiments/     one script per part of the paper; each writes results/<name>.json
+baselines/       GPTree, RRM, Engineered ML and Embeddings (see baselines/README.md)
+data/            the founder and Kiva answers, profiles and labels (see data/README.md)
+prompts/         every LLM prompt, verbatim
+results/         numbers, model predictions (results/predictions/) and sweep draws
+figures/         Figures 4 and 5
+tests/           unit tests and checks of the reported numbers
+```
+
+## Use Rule Forest on your own data
+
+Answers are a 0/1 matrix with one row per question and one column per example.
+
+```python
+import numpy as np
+from rule_forest import vote
+
+# X: (questions, examples) 0/1 answers; y: 0/1 labels; questions: list of question text
+fit = vote.fit(X, y, train=np.arange(X.shape[1]))
+print(fit.scorecard(questions))     # "Predict success when at least T of these N questions ..."
+flagged = fit.predict(X_new)        # X_new has the same question rows
+```
+
+`vote.fit` takes the pool settings as keywords, for example `similarity="jaccard"`,
+`threshold=0.9` or `floor=0.05`. The precision floor (default 0.02001) sits just above the
+founders' 1.93% base rate and should be set near the base rate of your data.
+
+## Versions
+
+The version linked from the submitted paper is the git tag `icaif26-submission`. The camera-ready
+version differs in five ways, each of which changes some reported numbers.
+
+1. The candidate pool is rebuilt inside each training fold. Before, its precision floor and its
+   choice between near-duplicates used the labels of all evaluation founders.
+2. The elastic net, GPTree and RRM rows use the same pooled scoring as Rule Forest, and the
+   elastic net reads each question once (it had read every GPT-4o-mini question twice).
+3. The Jaccard and cosine settings of Table 3 now compute what their names say. Jaccard compared
+   whole answer vectors, which made it a stricter Hamming rule, and the cosine clustering was given
+   a square distance matrix where scipy expects a condensed one.
+4. Figure 4 uses evaluation founders only.
+5. Figure 5 leaves out the 40 loans the LLM saw when writing the Kiva questions, and puts back in
+   place the answers of 1,433 Kiva replies that skipped a question (see `data/README.md`).
+
+## License
+
+The code is under the MIT license (see `LICENSE`). The data in `data/` are released to reproduce
+the paper. The founder profiles are anonymised summaries built from licensed company and
+professional-background data (paper, Section 3), and the Kiva loans come from Kiva's public data
+snapshot.

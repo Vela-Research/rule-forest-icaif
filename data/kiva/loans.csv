@@ -1,0 +1,5001 @@
+id,country,sector,loan_amount
+kv00000,Cambodia,Personal Use,75.0
+kv00001,Mongolia,Transportation,825.0
+kv00002,Nigeria,Clothing,1200.0
+kv00003,Pakistan,Arts,400.0
+kv00004,Togo,Food,250.0
+kv00005,Vietnam,Education,975.0
+kv00006,Nicaragua,Housing,850.0
+kv00007,Cambodia,Agriculture,250.0
+kv00008,Philippines,Retail,350.0
+kv00009,Kenya,Services,125.0
+kv00010,Ghana,Food,325.0
+kv00011,Philippines,Retail,225.0
+kv00012,Ecuador,Transportation,1100.0
+kv00013,Iraq,Services,6000.0
+kv00014,Bolivia,Agriculture,2250.0
+kv00015,Bolivia,Health,5000.0
+kv00016,Cambodia,Transportation,750.0
+kv00017,Paraguay,Education,900.0
+kv00018,Kenya,Services,300.0
+kv00019,Rwanda,Agriculture,1700.0
+kv00020,Albania,Housing,1600.0
+kv00021,Tajikistan,Agriculture,700.0
+kv00022,Mali,Agriculture,150.0
+kv00023,Lebanon,Retail,1200.0
+kv00024,Colombia,Retail,1575.0
+kv00025,Kenya,Agriculture,1275.0
+kv00026,Togo,Retail,75.0
+kv00027,Azerbaijan,Services,1200.0
+kv00028,Nicaragua,Food,1450.0
+kv00029,Mali,Agriculture,4175.0
+kv00030,El Salvador,Agriculture,500.0
+kv00031,Philippines,Agriculture,225.0
+kv00032,Uganda,Retail,1200.0
+kv00033,Senegal,Retail,450.0
+kv00034,Colombia,Manufacturing,575.0
+kv00035,Cameroon,Agriculture,275.0
+kv00036,Samoa,Agriculture,700.0
+kv00037,Philippines,Retail,475.0
+kv00038,Cambodia,Agriculture,900.0
+kv00039,Philippines,Retail,275.0
+kv00040,Philippines,Food,375.0
+kv00041,Kenya,Agriculture,700.0
+kv00042,Philippines,Agriculture,425.0
+kv00043,Cambodia,Agriculture,600.0
+kv00044,Uganda,Agriculture,600.0
+kv00045,Nigeria,Construction,225.0
+kv00046,Indonesia,Services,200.0
+kv00047,El Salvador,Services,500.0
+kv00048,Burundi,Food,3800.0
+kv00049,Bolivia,Agriculture,525.0
+kv00050,Cameroon,Agriculture,900.0
+kv00051,Togo,Food,325.0
+kv00052,Philippines,Food,500.0
+kv00053,Nigeria,Health,550.0
+kv00054,Tajikistan,Services,3125.0
+kv00055,Philippines,Agriculture,125.0
+kv00056,Kenya,Agriculture,200.0
+kv00057,Armenia,Personal Use,625.0
+kv00058,Tajikistan,Education,475.0
+kv00059,Peru,Retail,1100.0
+kv00060,Philippines,Retail,225.0
+kv00061,Azerbaijan,Health,1300.0
+kv00062,Cambodia,Education,1675.0
+kv00063,Philippines,Food,125.0
+kv00064,Philippines,Retail,300.0
+kv00065,Palestine,Retail,2000.0
+kv00066,Madagascar,Clothing,325.0
+kv00067,Tajikistan,Manufacturing,2950.0
+kv00068,Ghana,Food,300.0
+kv00069,India,Housing,350.0
+kv00070,Philippines,Clothing,675.0
+kv00071,Philippines,Retail,175.0
+kv00072,Mexico,Retail,475.0
+kv00073,Ghana,Food,1975.0
+kv00074,Albania,Agriculture,1000.0
+kv00075,Kenya,Clothing,50.0
+kv00076,Colombia,Services,250.0
+kv00077,Guatemala,Arts,525.0
+kv00078,Colombia,Entertainment,425.0
+kv00079,Nigeria,Personal Use,100.0
+kv00080,Vietnam,Agriculture,125.0
+kv00081,Guatemala,Agriculture,3000.0
+kv00082,Nicaragua,Services,325.0
+kv00083,Mozambique,Retail,225.0
+kv00084,Guatemala,Education,625.0
+kv00085,Nigeria,Retail,675.0
+kv00086,Colombia,Services,600.0
+kv00087,Philippines,Transportation,250.0
+kv00088,Philippines,Transportation,250.0
+kv00089,Tajikistan,Transportation,250.0
+kv00090,Philippines,Services,100.0
+kv00091,El Salvador,Food,1500.0
+kv00092,Mozambique,Food,525.0
+kv00093,Pakistan,Retail,500.0
+kv00094,Kenya,Food,100.0
+kv00095,Cambodia,Agriculture,775.0
+kv00096,Rwanda,Retail,600.0
+kv00097,Azerbaijan,Agriculture,700.0
+kv00098,Kyrgyzstan,Agriculture,1275.0
+kv00099,Kenya,Agriculture,200.0
+kv00100,Ecuador,Services,875.0
+kv00101,Kenya,Agriculture,200.0
+kv00102,Cambodia,Agriculture,500.0
+kv00103,Philippines,Retail,250.0
+kv00104,Philippines,Agriculture,175.0
+kv00105,Ecuador,Entertainment,675.0
+kv00106,Uganda,Food,300.0
+kv00107,Philippines,Food,250.0
+kv00108,Philippines,Agriculture,325.0
+kv00109,Philippines,Food,250.0
+kv00110,Senegal,Agriculture,1050.0
+kv00111,Nicaragua,Retail,900.0
+kv00112,Philippines,Food,200.0
+kv00113,Philippines,Retail,575.0
+kv00114,Philippines,Housing,425.0
+kv00115,El Salvador,Agriculture,600.0
+kv00116,Samoa,Services,425.0
+kv00117,Tajikistan,Agriculture,800.0
+kv00118,Nicaragua,Food,250.0
+kv00119,Tanzania,Arts,350.0
+kv00120,Kenya,Retail,300.0
+kv00121,Sierra Leone,Clothing,200.0
+kv00122,Chile,Services,1625.0
+kv00123,Kenya,Agriculture,100.0
+kv00124,Philippines,Retail,175.0
+kv00125,Kenya,Services,300.0
+kv00126,Philippines,Agriculture,250.0
+kv00127,Rwanda,Food,850.0
+kv00128,Honduras,Retail,600.0
+kv00129,Afghanistan,Retail,1075.0
+kv00130,India,Housing,675.0
+kv00131,Kenya,Food,350.0
+kv00132,Nicaragua,Retail,1125.0
+kv00133,Kenya,Agriculture,1175.0
+kv00134,Kenya,Clothing,250.0
+kv00135,Kenya,Retail,250.0
+kv00136,Kenya,Food,225.0
+kv00137,Togo,Food,425.0
+kv00138,El Salvador,Retail,650.0
+kv00139,Peru,Personal Use,775.0
+kv00140,Palestine,Clothing,1000.0
+kv00141,Kenya,Services,200.0
+kv00142,Solomon Islands,Retail,400.0
+kv00143,Nicaragua,Construction,525.0
+kv00144,Philippines,Retail,300.0
+kv00145,Philippines,Agriculture,325.0
+kv00146,El Salvador,Services,1200.0
+kv00147,Costa Rica,Agriculture,1100.0
+kv00148,Philippines,Retail,475.0
+kv00149,Philippines,Food,475.0
+kv00150,Guatemala,Services,1325.0
+kv00151,Pakistan,Food,400.0
+kv00152,Ecuador,Retail,1175.0
+kv00153,Cambodia,Agriculture,1000.0
+kv00154,Kenya,Clothing,725.0
+kv00155,Peru,Construction,1075.0
+kv00156,Indonesia,Retail,1050.0
+kv00157,Pakistan,Services,200.0
+kv00158,Togo,Retail,700.0
+kv00159,Kenya,Transportation,200.0
+kv00160,Tanzania,Retail,500.0
+kv00161,El Salvador,Retail,500.0
+kv00162,Burkina Faso,Food,825.0
+kv00163,Armenia,Services,2125.0
+kv00164,Ukraine,Clothing,2975.0
+kv00165,Philippines,Food,350.0
+kv00166,Kenya,Agriculture,300.0
+kv00167,Philippines,Food,275.0
+kv00168,Nicaragua,Housing,2000.0
+kv00169,Rwanda,Food,2425.0
+kv00170,Ecuador,Retail,1200.0
+kv00171,Paraguay,Retail,1325.0
+kv00172,Peru,Transportation,625.0
+kv00173,Philippines,Food,125.0
+kv00174,Peru,Services,350.0
+kv00175,Philippines,Retail,275.0
+kv00176,El Salvador,Services,1400.0
+kv00177,Peru,Retail,425.0
+kv00178,Philippines,Transportation,125.0
+kv00179,Kenya,Agriculture,350.0
+kv00180,Uganda,Food,1625.0
+kv00181,Tanzania,Retail,1050.0
+kv00182,Ghana,Health,1075.0
+kv00183,Peru,Retail,750.0
+kv00184,Kenya,Agriculture,375.0
+kv00185,Tajikistan,Education,700.0
+kv00186,Nicaragua,Retail,650.0
+kv00187,Ukraine,Retail,1000.0
+kv00188,Liberia,Food,225.0
+kv00189,Azerbaijan,Food,1425.0
+kv00190,Nigeria,Personal Use,325.0
+kv00191,Peru,Retail,425.0
+kv00192,South Sudan,Food,375.0
+kv00193,Peru,Food,375.0
+kv00194,Peru,Food,275.0
+kv00195,Togo,Retail,1000.0
+kv00196,Senegal,Retail,625.0
+kv00197,Philippines,Retail,700.0
+kv00198,El Salvador,Agriculture,300.0
+kv00199,Cambodia,Agriculture,175.0
+kv00200,Togo,Retail,375.0
+kv00201,Philippines,Retail,425.0
+kv00202,Philippines,Retail,550.0
+kv00203,Mali,Agriculture,2625.0
+kv00204,Peru,Agriculture,425.0
+kv00205,Tajikistan,Agriculture,1500.0
+kv00206,Nicaragua,Construction,1000.0
+kv00207,Philippines,Agriculture,225.0
+kv00208,Colombia,Food,1350.0
+kv00209,Cameroon,Retail,600.0
+kv00210,Ghana,Food,275.0
+kv00211,Philippines,Agriculture,125.0
+kv00212,Nicaragua,Education,200.0
+kv00213,Indonesia,Agriculture,300.0
+kv00214,Kenya,Food,500.0
+kv00215,Indonesia,Housing,1075.0
+kv00216,Philippines,Agriculture,350.0
+kv00217,Ecuador,Services,525.0
+kv00218,Mali,Food,750.0
+kv00219,Philippines,Retail,225.0
+kv00220,Peru,Food,575.0
+kv00221,Honduras,Food,250.0
+kv00222,Ghana,Retail,500.0
+kv00223,Philippines,Food,350.0
+kv00224,Burundi,Food,4525.0
+kv00225,El Salvador,Agriculture,1300.0
+kv00226,Philippines,Retail,225.0
+kv00227,Philippines,Retail,425.0
+kv00228,Bolivia,Retail,600.0
+kv00229,Lao People's Democratic Republic,Personal Use,1375.0
+kv00230,Philippines,Food,200.0
+kv00231,Uganda,Retail,2000.0
+kv00232,Nigeria,Agriculture,75.0
+kv00233,Philippines,Retail,250.0
+kv00234,El Salvador,Agriculture,850.0
+kv00235,Kenya,Retail,100.0
+kv00236,Cambodia,Agriculture,750.0
+kv00237,Mali,Agriculture,1875.0
+kv00238,Uganda,Education,200.0
+kv00239,Kenya,Education,500.0
+kv00240,Pakistan,Food,375.0
+kv00241,Lebanon,Food,2000.0
+kv00242,Palestine,Retail,1500.0
+kv00243,El Salvador,Agriculture,200.0
+kv00244,Kenya,Retail,225.0
+kv00245,Peru,Food,1250.0
+kv00246,Kenya,Retail,300.0
+kv00247,Pakistan,Education,1925.0
+kv00248,Rwanda,Food,3250.0
+kv00249,Philippines,Agriculture,150.0
+kv00250,Togo,Food,700.0
+kv00251,Philippines,Food,300.0
+kv00252,Kenya,Food,300.0
+kv00253,Kenya,Food,325.0
+kv00254,Philippines,Food,125.0
+kv00255,Kenya,Food,125.0
+kv00256,Philippines,Agriculture,275.0
+kv00257,Cambodia,Agriculture,500.0
+kv00258,Philippines,Food,325.0
+kv00259,Pakistan,Agriculture,500.0
+kv00260,Tajikistan,Services,850.0
+kv00261,Uganda,Agriculture,300.0
+kv00262,Armenia,Agriculture,1050.0
+kv00263,Cambodia,Agriculture,525.0
+kv00264,El Salvador,Retail,600.0
+kv00265,Uganda,Food,675.0
+kv00266,Philippines,Retail,200.0
+kv00267,Uganda,Services,775.0
+kv00268,Uganda,Food,200.0
+kv00269,Samoa,Food,425.0
+kv00270,Peru,Food,400.0
+kv00271,Paraguay,Retail,2625.0
+kv00272,Peru,Services,975.0
+kv00273,Philippines,Retail,225.0
+kv00274,Rwanda,Clothing,525.0
+kv00275,Bolivia,Food,300.0
+kv00276,Philippines,Transportation,275.0
+kv00277,The Democratic Republic of the Congo,Retail,4200.0
+kv00278,Philippines,Food,200.0
+kv00279,Indonesia,Personal Use,1525.0
+kv00280,Armenia,Agriculture,3000.0
+kv00281,Bolivia,Transportation,500.0
+kv00282,Kenya,Agriculture,200.0
+kv00283,Philippines,Retail,250.0
+kv00284,Nicaragua,Manufacturing,225.0
+kv00285,Sierra Leone,Education,275.0
+kv00286,Tajikistan,Food,700.0
+kv00287,Uganda,Food,650.0
+kv00288,Paraguay,Retail,5275.0
+kv00289,Iraq,Food,1200.0
+kv00290,Liberia,Food,175.0
+kv00291,Peru,Agriculture,750.0
+kv00292,Kenya,Food,325.0
+kv00293,Tajikistan,Health,200.0
+kv00294,Vietnam,Manufacturing,500.0
+kv00295,India,Food,4825.0
+kv00296,Azerbaijan,Retail,1200.0
+kv00297,Peru,Food,500.0
+kv00298,Kenya,Agriculture,825.0
+kv00299,El Salvador,Agriculture,500.0
+kv00300,Cambodia,Agriculture,75.0
+kv00301,Indonesia,Agriculture,175.0
+kv00302,Guatemala,Arts,6025.0
+kv00303,Nigeria,Food,350.0
+kv00304,Lebanon,Services,1000.0
+kv00305,Georgia,Food,1000.0
+kv00306,Philippines,Agriculture,125.0
+kv00307,Philippines,Food,325.0
+kv00308,Uganda,Education,150.0
+kv00309,Cambodia,Agriculture,1325.0
+kv00310,Senegal,Manufacturing,325.0
+kv00311,Afghanistan,Retail,650.0
+kv00312,Uganda,Food,4600.0
+kv00313,Kenya,Agriculture,300.0
+kv00314,Madagascar,Agriculture,200.0
+kv00315,Philippines,Retail,575.0
+kv00316,Mozambique,Clothing,550.0
+kv00317,South Sudan,Retail,200.0
+kv00318,Lebanon,Services,2000.0
+kv00319,Madagascar,Retail,700.0
+kv00320,El Salvador,Food,800.0
+kv00321,Togo,Food,125.0
+kv00322,El Salvador,Agriculture,300.0
+kv00323,Cambodia,Personal Use,200.0
+kv00324,Philippines,Agriculture,475.0
+kv00325,Honduras,Food,550.0
+kv00326,Philippines,Services,725.0
+kv00327,Ghana,Food,1275.0
+kv00328,Liberia,Food,150.0
+kv00329,Ecuador,Clothing,1000.0
+kv00330,Bolivia,Construction,1000.0
+kv00331,Philippines,Agriculture,400.0
+kv00332,Uganda,Clothing,1400.0
+kv00333,Kenya,Retail,125.0
+kv00334,Timor-Leste,Food,700.0
+kv00335,Peru,Retail,375.0
+kv00336,Philippines,Agriculture,350.0
+kv00337,Armenia,Agriculture,3000.0
+kv00338,Nicaragua,Food,350.0
+kv00339,Kenya,Personal Use,100.0
+kv00340,Peru,Clothing,750.0
+kv00341,Peru,Services,2300.0
+kv00342,Pakistan,Food,1000.0
+kv00343,Nigeria,Services,1200.0
+kv00344,Tajikistan,Agriculture,425.0
+kv00345,Vietnam,Food,950.0
+kv00346,Vietnam,Housing,675.0
+kv00347,Uganda,Services,150.0
+kv00348,El Salvador,Housing,600.0
+kv00349,Peru,Services,1025.0
+kv00350,Rwanda,Agriculture,425.0
+kv00351,Mongolia,Personal Use,1100.0
+kv00352,Jordan,Education,1050.0
+kv00353,Azerbaijan,Food,1200.0
+kv00354,Kenya,Food,200.0
+kv00355,Philippines,Transportation,650.0
+kv00356,Pakistan,Services,550.0
+kv00357,Philippines,Retail,725.0
+kv00358,Peru,Agriculture,375.0
+kv00359,Samoa,Services,600.0
+kv00360,Costa Rica,Retail,375.0
+kv00361,Uganda,Retail,275.0
+kv00362,Peru,Agriculture,375.0
+kv00363,Kenya,Food,1000.0
+kv00364,Kenya,Food,600.0
+kv00365,Philippines,Food,300.0
+kv00366,El Salvador,Retail,500.0
+kv00367,Zambia,Services,2575.0
+kv00368,Rwanda,Food,650.0
+kv00369,Jordan,Clothing,725.0
+kv00370,India,Housing,300.0
+kv00371,Rwanda,Clothing,875.0
+kv00372,Philippines,Retail,125.0
+kv00373,Philippines,Retail,100.0
+kv00374,El Salvador,Food,325.0
+kv00375,Sierra Leone,Food,175.0
+kv00376,Samoa,Agriculture,425.0
+kv00377,Philippines,Food,450.0
+kv00378,Philippines,Retail,375.0
+kv00379,Ghana,Food,700.0
+kv00380,Guatemala,Food,5025.0
+kv00381,Philippines,Retail,325.0
+kv00382,Cambodia,Personal Use,175.0
+kv00383,Nicaragua,Agriculture,850.0
+kv00384,Cambodia,Personal Use,100.0
+kv00385,Uganda,Food,900.0
+kv00386,Tajikistan,Health,800.0
+kv00387,Ecuador,Food,600.0
+kv00388,Tajikistan,Clothing,600.0
+kv00389,Peru,Food,375.0
+kv00390,Kenya,Retail,400.0
+kv00391,Paraguay,Food,3275.0
+kv00392,Philippines,Retail,175.0
+kv00393,Peru,Retail,2000.0
+kv00394,Cambodia,Agriculture,675.0
+kv00395,Philippines,Food,425.0
+kv00396,Philippines,Agriculture,175.0
+kv00397,India,Agriculture,3075.0
+kv00398,Kenya,Services,400.0
+kv00399,Kenya,Retail,425.0
+kv00400,United States,Services,2000.0
+kv00401,Peru,Agriculture,375.0
+kv00402,Cambodia,Food,600.0
+kv00403,Philippines,Agriculture,300.0
+kv00404,India,Agriculture,250.0
+kv00405,Peru,Food,700.0
+kv00406,El Salvador,Clothing,1000.0
+kv00407,Uganda,Clothing,525.0
+kv00408,Nicaragua,Education,1000.0
+kv00409,Philippines,Food,200.0
+kv00410,Guatemala,Food,1150.0
+kv00411,Indonesia,Housing,550.0
+kv00412,Yemen,Food,2350.0
+kv00413,Tajikistan,Food,1700.0
+kv00414,Kenya,Agriculture,550.0
+kv00415,Philippines,Retail,550.0
+kv00416,Philippines,Food,1175.0
+kv00417,Kenya,Food,600.0
+kv00418,Ghana,Food,550.0
+kv00419,Peru,Retail,725.0
+kv00420,Colombia,Agriculture,1550.0
+kv00421,Paraguay,Retail,4375.0
+kv00422,Cambodia,Personal Use,200.0
+kv00423,Paraguay,Food,1000.0
+kv00424,Philippines,Retail,225.0
+kv00425,Uganda,Food,775.0
+kv00426,Cambodia,Agriculture,500.0
+kv00427,Colombia,Manufacturing,1100.0
+kv00428,Philippines,Agriculture,300.0
+kv00429,Philippines,Retail,325.0
+kv00430,Philippines,Agriculture,375.0
+kv00431,El Salvador,Clothing,1000.0
+kv00432,Cambodia,Personal Use,100.0
+kv00433,Philippines,Agriculture,175.0
+kv00434,Zimbabwe,Agriculture,500.0
+kv00435,Uganda,Transportation,750.0
+kv00436,Pakistan,Services,200.0
+kv00437,Togo,Arts,800.0
+kv00438,Philippines,Retail,350.0
+kv00439,Philippines,Housing,225.0
+kv00440,Philippines,Agriculture,125.0
+kv00441,Nicaragua,Food,3675.0
+kv00442,Kenya,Agriculture,825.0
+kv00443,Tajikistan,Agriculture,500.0
+kv00444,El Salvador,Agriculture,400.0
+kv00445,El Salvador,Housing,500.0
+kv00446,Mali,Clothing,525.0
+kv00447,Kenya,Agriculture,850.0
+kv00448,Uganda,Education,1075.0
+kv00449,Philippines,Retail,250.0
+kv00450,India,Arts,475.0
+kv00451,Philippines,Services,275.0
+kv00452,India,Agriculture,225.0
+kv00453,Tajikistan,Housing,550.0
+kv00454,Albania,Housing,2550.0
+kv00455,Philippines,Agriculture,600.0
+kv00456,Pakistan,Retail,300.0
+kv00457,India,Personal Use,125.0
+kv00458,Vietnam,Food,500.0
+kv00459,Senegal,Retail,725.0
+kv00460,Colombia,Services,400.0
+kv00461,Philippines,Retail,500.0
+kv00462,Nicaragua,Health,800.0
+kv00463,Philippines,Arts,325.0
+kv00464,Philippines,Agriculture,1200.0
+kv00465,Philippines,Agriculture,250.0
+kv00466,United States,Retail,1000.0
+kv00467,Kenya,Agriculture,200.0
+kv00468,Bolivia,Retail,3550.0
+kv00469,Samoa,Retail,325.0
+kv00470,Peru,Health,1075.0
+kv00471,Philippines,Services,475.0
+kv00472,Philippines,Agriculture,375.0
+kv00473,Vietnam,Food,900.0
+kv00474,Cambodia,Retail,500.0
+kv00475,Kenya,Services,575.0
+kv00476,Cameroon,Agriculture,1200.0
+kv00477,Nicaragua,Housing,400.0
+kv00478,Peru,Retail,575.0
+kv00479,Peru,Retail,275.0
+kv00480,Philippines,Food,300.0
+kv00481,Peru,Retail,2525.0
+kv00482,Uganda,Food,325.0
+kv00483,Ecuador,Clothing,900.0
+kv00484,Armenia,Services,2200.0
+kv00485,Philippines,Food,700.0
+kv00486,Liberia,Food,175.0
+kv00487,Philippines,Retail,225.0
+kv00488,Mali,Agriculture,1650.0
+kv00489,Uganda,Agriculture,4300.0
+kv00490,Cambodia,Personal Use,125.0
+kv00491,Lebanon,Construction,1200.0
+kv00492,Peru,Services,775.0
+kv00493,Kenya,Agriculture,925.0
+kv00494,Costa Rica,Housing,1975.0
+kv00495,Kenya,Services,400.0
+kv00496,Guatemala,Clothing,275.0
+kv00497,Lebanon,Education,550.0
+kv00498,Cambodia,Agriculture,1000.0
+kv00499,Samoa,Arts,1200.0
+kv00500,Pakistan,Retail,450.0
+kv00501,Vietnam,Food,875.0
+kv00502,Philippines,Retail,125.0
+kv00503,Congo,Services,625.0
+kv00504,Philippines,Agriculture,250.0
+kv00505,Honduras,Food,350.0
+kv00506,Nicaragua,Services,450.0
+kv00507,Philippines,Retail,425.0
+kv00508,Philippines,Retail,550.0
+kv00509,Kenya,Agriculture,700.0
+kv00510,Kenya,Retail,250.0
+kv00511,Philippines,Food,375.0
+kv00512,Philippines,Retail,250.0
+kv00513,Bolivia,Arts,3925.0
+kv00514,Ukraine,Retail,1200.0
+kv00515,Cambodia,Agriculture,1975.0
+kv00516,Burkina Faso,Retail,2100.0
+kv00517,Kosovo,Arts,800.0
+kv00518,Kyrgyzstan,Agriculture,2475.0
+kv00519,Philippines,Retail,325.0
+kv00520,Jordan,Clothing,1150.0
+kv00521,Nigeria,Food,975.0
+kv00522,Philippines,Food,500.0
+kv00523,Pakistan,Services,400.0
+kv00524,India,Personal Use,350.0
+kv00525,Kenya,Agriculture,250.0
+kv00526,United States,Education,500.0
+kv00527,Philippines,Housing,100.0
+kv00528,Ecuador,Retail,550.0
+kv00529,El Salvador,Agriculture,600.0
+kv00530,Philippines,Services,150.0
+kv00531,Philippines,Retail,175.0
+kv00532,Kenya,Agriculture,225.0
+kv00533,Peru,Services,325.0
+kv00534,Philippines,Personal Use,225.0
+kv00535,Colombia,Agriculture,1025.0
+kv00536,Uganda,Clothing,475.0
+kv00537,Ecuador,Agriculture,900.0
+kv00538,Uganda,Food,450.0
+kv00539,Costa Rica,Personal Use,825.0
+kv00540,Peru,Food,325.0
+kv00541,Samoa,Agriculture,700.0
+kv00542,El Salvador,Food,1400.0
+kv00543,Mali,Retail,1025.0
+kv00544,Cambodia,Personal Use,100.0
+kv00545,Cambodia,Personal Use,175.0
+kv00546,Kenya,Retail,200.0
+kv00547,Nigeria,Retail,1000.0
+kv00548,Mongolia,Retail,3000.0
+kv00549,Cambodia,Agriculture,250.0
+kv00550,Philippines,Services,200.0
+kv00551,Philippines,Retail,125.0
+kv00552,Peru,Agriculture,375.0
+kv00553,Mozambique,Construction,675.0
+kv00554,Peru,Retail,950.0
+kv00555,Uganda,Agriculture,1050.0
+kv00556,Rwanda,Food,850.0
+kv00557,Peru,Agriculture,200.0
+kv00558,Dominican Republic,Clothing,2250.0
+kv00559,Pakistan,Food,675.0
+kv00560,Bolivia,Construction,800.0
+kv00561,Philippines,Transportation,225.0
+kv00562,Mongolia,Food,750.0
+kv00563,Colombia,Retail,500.0
+kv00564,Ghana,Retail,850.0
+kv00565,Philippines,Agriculture,250.0
+kv00566,Nigeria,Housing,175.0
+kv00567,Sierra Leone,Construction,275.0
+kv00568,Honduras,Agriculture,425.0
+kv00569,United States,Food,10000.0
+kv00570,Turkey,Food,250.0
+kv00571,Philippines,Agriculture,400.0
+kv00572,Ecuador,Retail,550.0
+kv00573,Sierra Leone,Retail,750.0
+kv00574,Cambodia,Transportation,1000.0
+kv00575,Philippines,Food,250.0
+kv00576,Philippines,Agriculture,700.0
+kv00577,Philippines,Retail,125.0
+kv00578,Cambodia,Personal Use,1000.0
+kv00579,India,Agriculture,475.0
+kv00580,Peru,Food,200.0
+kv00581,Ecuador,Agriculture,800.0
+kv00582,The Democratic Republic of the Congo,Agriculture,1800.0
+kv00583,Indonesia,Retail,75.0
+kv00584,Kenya,Food,300.0
+kv00585,Nigeria,Personal Use,250.0
+kv00586,Cambodia,Agriculture,1250.0
+kv00587,Azerbaijan,Agriculture,1300.0
+kv00588,Cambodia,Personal Use,225.0
+kv00589,Philippines,Clothing,525.0
+kv00590,Lao People's Democratic Republic,Personal Use,425.0
+kv00591,Cambodia,Personal Use,100.0
+kv00592,Indonesia,Retail,225.0
+kv00593,Philippines,Retail,675.0
+kv00594,Senegal,Agriculture,275.0
+kv00595,The Democratic Republic of the Congo,Services,5000.0
+kv00596,Kenya,Retail,650.0
+kv00597,Kenya,Clothing,225.0
+kv00598,Kenya,Food,175.0
+kv00599,Ecuador,Agriculture,1125.0
+kv00600,Colombia,Retail,525.0
+kv00601,Mali,Agriculture,4175.0
+kv00602,Burkina Faso,Food,550.0
+kv00603,Paraguay,Food,2150.0
+kv00604,Uganda,Agriculture,275.0
+kv00605,Cambodia,Food,800.0
+kv00606,Armenia,Agriculture,525.0
+kv00607,Philippines,Retail,350.0
+kv00608,Nicaragua,Food,225.0
+kv00609,Mongolia,Transportation,775.0
+kv00610,Kenya,Food,250.0
+kv00611,Philippines,Agriculture,400.0
+kv00612,Philippines,Services,225.0
+kv00613,Tajikistan,Agriculture,850.0
+kv00614,Cambodia,Agriculture,875.0
+kv00615,Pakistan,Arts,300.0
+kv00616,Cambodia,Agriculture,600.0
+kv00617,El Salvador,Personal Use,1500.0
+kv00618,Paraguay,Agriculture,2975.0
+kv00619,Kenya,Food,125.0
+kv00620,Cambodia,Agriculture,550.0
+kv00621,Philippines,Food,225.0
+kv00622,Nigeria,Agriculture,250.0
+kv00623,Kenya,Retail,125.0
+kv00624,El Salvador,Food,400.0
+kv00625,Paraguay,Clothing,900.0
+kv00626,Paraguay,Clothing,3375.0
+kv00627,Burkina Faso,Agriculture,1650.0
+kv00628,Uganda,Retail,225.0
+kv00629,El Salvador,Agriculture,1000.0
+kv00630,Jordan,Education,425.0
+kv00631,Ecuador,Services,350.0
+kv00632,Paraguay,Food,2900.0
+kv00633,Philippines,Agriculture,200.0
+kv00634,Philippines,Retail,275.0
+kv00635,Philippines,Agriculture,1000.0
+kv00636,El Salvador,Housing,200.0
+kv00637,Cambodia,Agriculture,325.0
+kv00638,Nicaragua,Agriculture,450.0
+kv00639,Tajikistan,Food,600.0
+kv00640,Peru,Agriculture,450.0
+kv00641,Cambodia,Education,1500.0
+kv00642,Nicaragua,Retail,300.0
+kv00643,Colombia,Services,225.0
+kv00644,Armenia,Agriculture,2500.0
+kv00645,Mexico,Retail,775.0
+kv00646,Indonesia,Food,125.0
+kv00647,Mozambique,Housing,600.0
+kv00648,Burkina Faso,Agriculture,2025.0
+kv00649,Philippines,Food,175.0
+kv00650,Turkey,Services,450.0
+kv00651,Mexico,Retail,2600.0
+kv00652,Kenya,Clothing,400.0
+kv00653,Indonesia,Housing,450.0
+kv00654,El Salvador,Construction,1025.0
+kv00655,Kenya,Health,75.0
+kv00656,Albania,Agriculture,1000.0
+kv00657,United States,Clothing,5000.0
+kv00658,Kenya,Agriculture,625.0
+kv00659,Cambodia,Transportation,1000.0
+kv00660,Peru,Agriculture,300.0
+kv00661,Sierra Leone,Retail,1400.0
+kv00662,Sierra Leone,Food,225.0
+kv00663,Philippines,Clothing,475.0
+kv00664,Tanzania,Retail,175.0
+kv00665,Mexico,Services,6650.0
+kv00666,Togo,Services,625.0
+kv00667,Kenya,Agriculture,800.0
+kv00668,Iraq,Food,2000.0
+kv00669,Ukraine,Transportation,1000.0
+kv00670,Peru,Agriculture,975.0
+kv00671,Ecuador,Agriculture,1500.0
+kv00672,Kenya,Food,300.0
+kv00673,Georgia,Health,1200.0
+kv00674,Ghana,Services,375.0
+kv00675,Nicaragua,Personal Use,825.0
+kv00676,Kenya,Agriculture,100.0
+kv00677,Philippines,Agriculture,275.0
+kv00678,El Salvador,Personal Use,300.0
+kv00679,Philippines,Services,725.0
+kv00680,The Democratic Republic of the Congo,Retail,6325.0
+kv00681,Pakistan,Retail,425.0
+kv00682,Vietnam,Agriculture,2475.0
+kv00683,Jordan,Food,1425.0
+kv00684,Cambodia,Transportation,700.0
+kv00685,Kenya,Retail,250.0
+kv00686,Pakistan,Manufacturing,275.0
+kv00687,Philippines,Agriculture,225.0
+kv00688,Colombia,Retail,1000.0
+kv00689,Bolivia,Retail,1400.0
+kv00690,Bolivia,Housing,1450.0
+kv00691,Armenia,Agriculture,850.0
+kv00692,Kenya,Services,525.0
+kv00693,Kyrgyzstan,Food,900.0
+kv00694,Philippines,Clothing,325.0
+kv00695,Togo,Food,200.0
+kv00696,El Salvador,Transportation,300.0
+kv00697,Mali,Agriculture,150.0
+kv00698,Mexico,Housing,800.0
+kv00699,Philippines,Retail,200.0
+kv00700,Uganda,Clothing,600.0
+kv00701,Tajikistan,Retail,2500.0
+kv00702,Tajikistan,Agriculture,325.0
+kv00703,Philippines,Food,450.0
+kv00704,Timor-Leste,Education,600.0
+kv00705,United States,Retail,1000.0
+kv00706,Tajikistan,Retail,1225.0
+kv00707,Uganda,Education,650.0
+kv00708,Peru,Agriculture,375.0
+kv00709,Pakistan,Transportation,625.0
+kv00710,Mexico,Food,2850.0
+kv00711,Cambodia,Agriculture,500.0
+kv00712,Philippines,Housing,200.0
+kv00713,Peru,Agriculture,475.0
+kv00714,Bolivia,Construction,1000.0
+kv00715,Cambodia,Retail,3225.0
+kv00716,Uganda,Food,250.0
+kv00717,Mali,Food,675.0
+kv00718,Tajikistan,Housing,775.0
+kv00719,El Salvador,Housing,500.0
+kv00720,Kenya,Retail,575.0
+kv00721,Colombia,Food,1600.0
+kv00722,Philippines,Retail,400.0
+kv00723,Lebanon,Food,1500.0
+kv00724,El Salvador,Housing,300.0
+kv00725,Tajikistan,Education,250.0
+kv00726,Uganda,Retail,625.0
+kv00727,El Salvador,Food,200.0
+kv00728,Philippines,Transportation,175.0
+kv00729,Myanmar (Burma),Agriculture,850.0
+kv00730,Colombia,Food,675.0
+kv00731,El Salvador,Food,800.0
+kv00732,Philippines,Agriculture,325.0
+kv00733,Uganda,Retail,500.0
+kv00734,Philippines,Retail,750.0
+kv00735,Philippines,Retail,450.0
+kv00736,Philippines,Services,625.0
+kv00737,Senegal,Retail,1025.0
+kv00738,Vietnam,Clothing,825.0
+kv00739,Peru,Agriculture,1075.0
+kv00740,Kenya,Agriculture,1025.0
+kv00741,Pakistan,Services,350.0
+kv00742,Philippines,Agriculture,600.0
+kv00743,India,Arts,450.0
+kv00744,Philippines,Retail,450.0
+kv00745,Ghana,Food,350.0
+kv00746,Kenya,Food,500.0
+kv00747,Kenya,Food,350.0
+kv00748,Turkey,Retail,350.0
+kv00749,Bolivia,Food,1500.0
+kv00750,Mongolia,Transportation,3625.0
+kv00751,Paraguay,Clothing,1575.0
+kv00752,Ghana,Food,800.0
+kv00753,Ecuador,Agriculture,600.0
+kv00754,Paraguay,Education,1175.0
+kv00755,Sierra Leone,Housing,3375.0
+kv00756,Cambodia,Agriculture,125.0
+kv00757,Rwanda,Retail,650.0
+kv00758,Kenya,Agriculture,175.0
+kv00759,Philippines,Food,300.0
+kv00760,Myanmar (Burma),Agriculture,5925.0
+kv00761,Ecuador,Retail,1050.0
+kv00762,Guatemala,Arts,1250.0
+kv00763,Nigeria,Food,700.0
+kv00764,Philippines,Retail,350.0
+kv00765,Turkey,Clothing,400.0
+kv00766,Honduras,Retail,750.0
+kv00767,Kenya,Food,200.0
+kv00768,Ecuador,Agriculture,1100.0
+kv00769,Philippines,Services,300.0
+kv00770,Ecuador,Agriculture,350.0
+kv00771,Burkina Faso,Retail,500.0
+kv00772,Cambodia,Housing,600.0
+kv00773,Tajikistan,Food,2000.0
+kv00774,Cambodia,Agriculture,200.0
+kv00775,Sierra Leone,Food,1175.0
+kv00776,Kenya,Agriculture,600.0
+kv00777,Tajikistan,Clothing,750.0
+kv00778,Peru,Agriculture,550.0
+kv00779,Jordan,Food,2125.0
+kv00780,Cambodia,Agriculture,1000.0
+kv00781,Vietnam,Education,400.0
+kv00782,Tajikistan,Housing,650.0
+kv00783,Kenya,Agriculture,600.0
+kv00784,El Salvador,Agriculture,300.0
+kv00785,Indonesia,Services,100.0
+kv00786,Togo,Transportation,900.0
+kv00787,Tajikistan,Housing,1050.0
+kv00788,Colombia,Services,675.0
+kv00789,Peru,Agriculture,725.0
+kv00790,Uganda,Services,775.0
+kv00791,Pakistan,Arts,400.0
+kv00792,Togo,Food,100.0
+kv00793,Nicaragua,Food,500.0
+kv00794,Kenya,Retail,125.0
+kv00795,El Salvador,Retail,500.0
+kv00796,Egypt,Agriculture,1975.0
+kv00797,Cambodia,Personal Use,125.0
+kv00798,Paraguay,Education,675.0
+kv00799,Philippines,Retail,325.0
+kv00800,Kenya,Agriculture,825.0
+kv00801,Uganda,Retail,875.0
+kv00802,Peru,Transportation,550.0
+kv00803,Colombia,Agriculture,700.0
+kv00804,Cambodia,Food,700.0
+kv00805,Kenya,Agriculture,450.0
+kv00806,El Salvador,Agriculture,1000.0
+kv00807,Vietnam,Agriculture,675.0
+kv00808,Philippines,Retail,300.0
+kv00809,Bolivia,Housing,600.0
+kv00810,Mexico,Construction,200.0
+kv00811,Ecuador,Agriculture,1500.0
+kv00812,Myanmar (Burma),Agriculture,925.0
+kv00813,Palestine,Housing,1500.0
+kv00814,Cambodia,Personal Use,200.0
+kv00815,Ecuador,Food,875.0
+kv00816,Ghana,Clothing,750.0
+kv00817,Kosovo,Agriculture,400.0
+kv00818,El Salvador,Housing,250.0
+kv00819,Peru,Retail,450.0
+kv00820,Uganda,Clothing,575.0
+kv00821,Lao People's Democratic Republic,Personal Use,1550.0
+kv00822,Ecuador,Agriculture,1100.0
+kv00823,Kenya,Education,500.0
+kv00824,Pakistan,Services,350.0
+kv00825,Honduras,Food,350.0
+kv00826,Cambodia,Personal Use,175.0
+kv00827,Philippines,Agriculture,250.0
+kv00828,India,Personal Use,150.0
+kv00829,Kenya,Services,100.0
+kv00830,Cambodia,Personal Use,125.0
+kv00831,Uganda,Agriculture,225.0
+kv00832,Ecuador,Services,675.0
+kv00833,Tajikistan,Services,150.0
+kv00834,Tanzania,Health,2550.0
+kv00835,Pakistan,Services,500.0
+kv00836,Yemen,Food,800.0
+kv00837,Philippines,Food,275.0
+kv00838,United States,Agriculture,2850.0
+kv00839,Cambodia,Personal Use,1000.0
+kv00840,Jordan,Retail,725.0
+kv00841,Paraguay,Food,4125.0
+kv00842,Tajikistan,Health,650.0
+kv00843,Nicaragua,Housing,500.0
+kv00844,United States,Entertainment,9300.0
+kv00845,Philippines,Retail,125.0
+kv00846,Rwanda,Food,3900.0
+kv00847,Ukraine,Retail,1000.0
+kv00848,Kyrgyzstan,Agriculture,2525.0
+kv00849,Cambodia,Housing,1500.0
+kv00850,Ecuador,Arts,1125.0
+kv00851,Philippines,Retail,225.0
+kv00852,Kenya,Retail,75.0
+kv00853,Bolivia,Food,5925.0
+kv00854,Cambodia,Agriculture,200.0
+kv00855,Liberia,Food,225.0
+kv00856,Kenya,Food,500.0
+kv00857,Nicaragua,Agriculture,1600.0
+kv00858,Mali,Retail,1725.0
+kv00859,Indonesia,Services,925.0
+kv00860,Philippines,Retail,125.0
+kv00861,Sri Lanka,Services,175.0
+kv00862,Uganda,Services,550.0
+kv00863,Ghana,Retail,575.0
+kv00864,Nicaragua,Clothing,650.0
+kv00865,Uganda,Food,625.0
+kv00866,El Salvador,Retail,600.0
+kv00867,Kyrgyzstan,Manufacturing,2125.0
+kv00868,Ecuador,Manufacturing,1000.0
+kv00869,Philippines,Food,325.0
+kv00870,Kenya,Food,250.0
+kv00871,Philippines,Agriculture,400.0
+kv00872,Nigeria,Agriculture,150.0
+kv00873,Kyrgyzstan,Agriculture,1350.0
+kv00874,Togo,Food,450.0
+kv00875,Palestine,Services,1000.0
+kv00876,Kenya,Personal Use,75.0
+kv00877,Cambodia,Agriculture,500.0
+kv00878,United States,Services,10000.0
+kv00879,Philippines,Agriculture,225.0
+kv00880,Uganda,Education,325.0
+kv00881,Kenya,Services,250.0
+kv00882,Egypt,Agriculture,675.0
+kv00883,Uganda,Agriculture,1425.0
+kv00884,Colombia,Education,125.0
+kv00885,Mongolia,Clothing,1050.0
+kv00886,Kenya,Retail,225.0
+kv00887,Nicaragua,Retail,700.0
+kv00888,Peru,Food,950.0
+kv00889,Ecuador,Clothing,475.0
+kv00890,Mozambique,Housing,750.0
+kv00891,Pakistan,Agriculture,450.0
+kv00892,Kenya,Agriculture,875.0
+kv00893,Tajikistan,Health,800.0
+kv00894,Philippines,Agriculture,275.0
+kv00895,Senegal,Agriculture,525.0
+kv00896,Thailand,Arts,2150.0
+kv00897,Philippines,Agriculture,200.0
+kv00898,Cambodia,Personal Use,175.0
+kv00899,El Salvador,Retail,850.0
+kv00900,Philippines,Food,350.0
+kv00901,Philippines,Retail,1000.0
+kv00902,Lebanon,Education,300.0
+kv00903,Nigeria,Agriculture,300.0
+kv00904,Nicaragua,Housing,1550.0
+kv00905,El Salvador,Food,1200.0
+kv00906,Tajikistan,Retail,525.0
+kv00907,Kenya,Retail,425.0
+kv00908,El Salvador,Services,600.0
+kv00909,Peru,Clothing,475.0
+kv00910,Cambodia,Personal Use,700.0
+kv00911,India,Housing,875.0
+kv00912,Cameroon,Food,650.0
+kv00913,Paraguay,Arts,6050.0
+kv00914,Cambodia,Arts,600.0
+kv00915,Philippines,Retail,650.0
+kv00916,Mexico,Construction,650.0
+kv00917,El Salvador,Housing,650.0
+kv00918,Ukraine,Retail,625.0
+kv00919,Armenia,Health,2100.0
+kv00920,Ghana,Food,525.0
+kv00921,Samoa,Food,450.0
+kv00922,India,Agriculture,450.0
+kv00923,Peru,Services,200.0
+kv00924,Peru,Transportation,375.0
+kv00925,Kenya,Agriculture,650.0
+kv00926,Kenya,Clothing,1075.0
+kv00927,Lebanon,Services,1300.0
+kv00928,Mexico,Arts,1525.0
+kv00929,Pakistan,Construction,1875.0
+kv00930,Tajikistan,Agriculture,700.0
+kv00931,Cambodia,Agriculture,525.0
+kv00932,Philippines,Retail,400.0
+kv00933,Cambodia,Food,1000.0
+kv00934,Philippines,Food,400.0
+kv00935,India,Retail,250.0
+kv00936,Peru,Services,325.0
+kv00937,Mexico,Services,375.0
+kv00938,Ghana,Retail,825.0
+kv00939,Cambodia,Agriculture,500.0
+kv00940,Mali,Retail,2025.0
+kv00941,Philippines,Retail,275.0
+kv00942,Philippines,Agriculture,175.0
+kv00943,Kenya,Agriculture,500.0
+kv00944,Armenia,Agriculture,2200.0
+kv00945,Kenya,Agriculture,500.0
+kv00946,Togo,Retail,450.0
+kv00947,Kenya,Services,275.0
+kv00948,Nigeria,Food,1025.0
+kv00949,Kenya,Food,200.0
+kv00950,Kenya,Agriculture,400.0
+kv00951,Cameroon,Food,425.0
+kv00952,Dominican Republic,Education,6725.0
+kv00953,Tanzania,Food,2075.0
+kv00954,Kenya,Agriculture,100.0
+kv00955,Cambodia,Personal Use,200.0
+kv00956,Peru,Agriculture,325.0
+kv00957,Armenia,Agriculture,850.0
+kv00958,Samoa,Arts,775.0
+kv00959,South Sudan,Food,400.0
+kv00960,Ukraine,Housing,775.0
+kv00961,Tajikistan,Retail,1200.0
+kv00962,Liberia,Food,175.0
+kv00963,Philippines,Food,350.0
+kv00964,Uganda,Retail,2100.0
+kv00965,Pakistan,Arts,950.0
+kv00966,Mozambique,Housing,575.0
+kv00967,Dominican Republic,Food,3725.0
+kv00968,Zambia,Services,525.0
+kv00969,Kenya,Manufacturing,475.0
+kv00970,Samoa,Agriculture,650.0
+kv00971,Kenya,Health,350.0
+kv00972,Tajikistan,Food,1050.0
+kv00973,Uganda,Agriculture,275.0
+kv00974,El Salvador,Agriculture,800.0
+kv00975,Vietnam,Education,450.0
+kv00976,Paraguay,Education,1125.0
+kv00977,Pakistan,Manufacturing,400.0
+kv00978,Peru,Agriculture,900.0
+kv00979,El Salvador,Agriculture,300.0
+kv00980,Colombia,Clothing,1050.0
+kv00981,Philippines,Transportation,425.0
+kv00982,Philippines,Construction,125.0
+kv00983,Philippines,Retail,675.0
+kv00984,Philippines,Retail,425.0
+kv00985,Kenya,Clothing,575.0
+kv00986,El Salvador,Food,500.0
+kv00987,Jordan,Food,1200.0
+kv00988,Ecuador,Agriculture,900.0
+kv00989,Ecuador,Agriculture,500.0
+kv00990,Tajikistan,Food,2275.0
+kv00991,Philippines,Food,400.0
+kv00992,Mexico,Food,975.0
+kv00993,Liberia,Food,325.0
+kv00994,Mali,Clothing,375.0
+kv00995,Philippines,Housing,200.0
+kv00996,Lebanon,Education,500.0
+kv00997,Senegal,Retail,325.0
+kv00998,Peru,Agriculture,575.0
+kv00999,Tajikistan,Clothing,1200.0
+kv01000,Kenya,Food,600.0
+kv01001,Philippines,Retail,550.0
+kv01002,Philippines,Retail,350.0
+kv01003,Philippines,Transportation,125.0
+kv01004,Palestine,Food,1200.0
+kv01005,Kenya,Agriculture,1050.0
+kv01006,Togo,Clothing,250.0
+kv01007,Pakistan,Agriculture,450.0
+kv01008,Philippines,Personal Use,200.0
+kv01009,Lesotho,Personal Use,1000.0
+kv01010,Philippines,Retail,200.0
+kv01011,Lebanon,Food,1500.0
+kv01012,Philippines,Food,250.0
+kv01013,Cambodia,Personal Use,125.0
+kv01014,Philippines,Food,275.0
+kv01015,Samoa,Personal Use,525.0
+kv01016,Zimbabwe,Clothing,500.0
+kv01017,Sierra Leone,Retail,650.0
+kv01018,Philippines,Agriculture,225.0
+kv01019,Kenya,Wholesale,600.0
+kv01020,Nicaragua,Retail,1850.0
+kv01021,Cambodia,Agriculture,500.0
+kv01022,Philippines,Retail,400.0
+kv01023,Tajikistan,Agriculture,2225.0
+kv01024,Philippines,Agriculture,225.0
+kv01025,Philippines,Retail,200.0
+kv01026,Philippines,Food,400.0
+kv01027,Ghana,Retail,275.0
+kv01028,Philippines,Food,175.0
+kv01029,Solomon Islands,Retail,650.0
+kv01030,Philippines,Agriculture,100.0
+kv01031,Sierra Leone,Retail,775.0
+kv01032,Nigeria,Agriculture,75.0
+kv01033,Tanzania,Clothing,375.0
+kv01034,Kenya,Retail,900.0
+kv01035,Honduras,Agriculture,475.0
+kv01036,Nigeria,Personal Use,1050.0
+kv01037,Togo,Food,100.0
+kv01038,Mongolia,Food,1150.0
+kv01039,Nicaragua,Construction,375.0
+kv01040,Nicaragua,Retail,350.0
+kv01041,Philippines,Agriculture,175.0
+kv01042,Philippines,Agriculture,325.0
+kv01043,Kenya,Health,1800.0
+kv01044,Kenya,Services,50.0
+kv01045,Lebanon,Food,1500.0
+kv01046,Mali,Food,1050.0
+kv01047,Uganda,Transportation,600.0
+kv01048,Cambodia,Retail,1000.0
+kv01049,Kenya,Agriculture,300.0
+kv01050,Vietnam,Agriculture,900.0
+kv01051,Mozambique,Food,600.0
+kv01052,Guatemala,Clothing,650.0
+kv01053,Togo,Agriculture,1150.0
+kv01054,Kenya,Agriculture,500.0
+kv01055,Mali,Agriculture,5150.0
+kv01056,El Salvador,Housing,700.0
+kv01057,Palestine,Services,2000.0
+kv01058,Nicaragua,Clothing,1050.0
+kv01059,Lebanon,Food,1300.0
+kv01060,Vietnam,Housing,475.0
+kv01061,Philippines,Transportation,450.0
+kv01062,Rwanda,Retail,2450.0
+kv01063,Burkina Faso,Retail,1025.0
+kv01064,The Democratic Republic of the Congo,Retail,6400.0
+kv01065,Bolivia,Transportation,700.0
+kv01066,Peru,Retail,375.0
+kv01067,Uganda,Food,1050.0
+kv01068,Paraguay,Retail,1150.0
+kv01069,Philippines,Retail,125.0
+kv01070,Philippines,Agriculture,350.0
+kv01071,Kenya,Education,500.0
+kv01072,Philippines,Food,400.0
+kv01073,Cambodia,Personal Use,125.0
+kv01074,Peru,Food,350.0
+kv01075,Peru,Food,450.0
+kv01076,Uganda,Clothing,950.0
+kv01077,Honduras,Food,725.0
+kv01078,Philippines,Agriculture,425.0
+kv01079,Peru,Agriculture,775.0
+kv01080,Kenya,Retail,1200.0
+kv01081,Kenya,Agriculture,875.0
+kv01082,Cambodia,Agriculture,3575.0
+kv01083,Cambodia,Agriculture,100.0
+kv01084,El Salvador,Agriculture,1000.0
+kv01085,United States,Personal Use,5075.0
+kv01086,Philippines,Agriculture,175.0
+kv01087,Philippines,Transportation,375.0
+kv01088,Liberia,Food,200.0
+kv01089,Philippines,Retail,725.0
+kv01090,Cambodia,Agriculture,500.0
+kv01091,Nigeria,Agriculture,1350.0
+kv01092,El Salvador,Retail,1500.0
+kv01093,Nicaragua,Housing,675.0
+kv01094,Lebanon,Education,575.0
+kv01095,Peru,Services,1500.0
+kv01096,Lebanon,Clothing,2800.0
+kv01097,Philippines,Food,225.0
+kv01098,Bolivia,Retail,400.0
+kv01099,Kosovo,Agriculture,2275.0
+kv01100,Mali,Food,850.0
+kv01101,Sierra Leone,Retail,925.0
+kv01102,Colombia,Arts,475.0
+kv01103,Lebanon,Clothing,750.0
+kv01104,Philippines,Agriculture,250.0
+kv01105,Egypt,Clothing,1700.0
+kv01106,El Salvador,Retail,700.0
+kv01107,Philippines,Agriculture,350.0
+kv01108,Kenya,Agriculture,400.0
+kv01109,Uganda,Retail,725.0
+kv01110,Philippines,Retail,425.0
+kv01111,Cambodia,Agriculture,625.0
+kv01112,South Sudan,Food,375.0
+kv01113,Senegal,Agriculture,600.0
+kv01114,Uganda,Retail,975.0
+kv01115,Ghana,Food,675.0
+kv01116,Cameroon,Food,525.0
+kv01117,Philippines,Retail,175.0
+kv01118,Cambodia,Arts,500.0
+kv01119,Togo,Food,125.0
+kv01120,El Salvador,Food,350.0
+kv01121,Peru,Personal Use,3050.0
+kv01122,Zimbabwe,Agriculture,1200.0
+kv01123,Ghana,Food,600.0
+kv01124,Kenya,Food,500.0
+kv01125,Kyrgyzstan,Transportation,2600.0
+kv01126,Tajikistan,Agriculture,2000.0
+kv01127,Mongolia,Housing,2175.0
+kv01128,Kenya,Services,600.0
+kv01129,Kenya,Transportation,250.0
+kv01130,The Democratic Republic of the Congo,Retail,5125.0
+kv01131,Philippines,Agriculture,1200.0
+kv01132,Lesotho,Personal Use,475.0
+kv01133,Cambodia,Personal Use,100.0
+kv01134,Philippines,Services,250.0
+kv01135,Colombia,Agriculture,175.0
+kv01136,Tanzania,Personal Use,625.0
+kv01137,Nigeria,Food,675.0
+kv01138,Philippines,Agriculture,125.0
+kv01139,Philippines,Retail,150.0
+kv01140,Mexico,Arts,425.0
+kv01141,Bolivia,Transportation,500.0
+kv01142,Cambodia,Personal Use,700.0
+kv01143,Honduras,Retail,650.0
+kv01144,Cambodia,Personal Use,175.0
+kv01145,Uganda,Housing,1325.0
+kv01146,Philippines,Food,650.0
+kv01147,Mexico,Retail,925.0
+kv01148,Nicaragua,Retail,275.0
+kv01149,Nicaragua,Agriculture,600.0
+kv01150,Samoa,Food,450.0
+kv01151,United States,Clothing,3000.0
+kv01152,Tajikistan,Health,400.0
+kv01153,Peru,Services,4400.0
+kv01154,Mali,Retail,575.0
+kv01155,Philippines,Retail,275.0
+kv01156,Pakistan,Manufacturing,500.0
+kv01157,Nicaragua,Retail,1100.0
+kv01158,Madagascar,Clothing,450.0
+kv01159,Ecuador,Retail,1000.0
+kv01160,Malawi,Services,1250.0
+kv01161,Kenya,Agriculture,125.0
+kv01162,Honduras,Retail,1225.0
+kv01163,Tajikistan,Agriculture,650.0
+kv01164,El Salvador,Food,300.0
+kv01165,Kenya,Housing,350.0
+kv01166,Jordan,Clothing,725.0
+kv01167,Philippines,Food,225.0
+kv01168,Philippines,Retail,675.0
+kv01169,Nicaragua,Food,1275.0
+kv01170,Kenya,Agriculture,1225.0
+kv01171,Colombia,Services,825.0
+kv01172,Cambodia,Food,200.0
+kv01173,Philippines,Retail,125.0
+kv01174,Nicaragua,Housing,425.0
+kv01175,Philippines,Agriculture,300.0
+kv01176,Sierra Leone,Agriculture,300.0
+kv01177,Bolivia,Manufacturing,1025.0
+kv01178,Uganda,Agriculture,650.0
+kv01179,Philippines,Food,400.0
+kv01180,Cambodia,Personal Use,100.0
+kv01181,Cambodia,Food,2225.0
+kv01182,Vietnam,Agriculture,600.0
+kv01183,Pakistan,Transportation,300.0
+kv01184,Bolivia,Food,3775.0
+kv01185,Honduras,Food,1150.0
+kv01186,Rwanda,Agriculture,900.0
+kv01187,Cambodia,Housing,1000.0
+kv01188,Philippines,Food,450.0
+kv01189,El Salvador,Agriculture,500.0
+kv01190,Philippines,Services,200.0
+kv01191,Peru,Agriculture,3175.0
+kv01192,United States,Clothing,3000.0
+kv01193,Peru,Agriculture,950.0
+kv01194,Cambodia,Personal Use,250.0
+kv01195,Cambodia,Agriculture,525.0
+kv01196,Ecuador,Clothing,1100.0
+kv01197,Uganda,Food,250.0
+kv01198,Cambodia,Housing,125.0
+kv01199,Cambodia,Agriculture,500.0
+kv01200,Colombia,Food,625.0
+kv01201,Philippines,Retail,150.0
+kv01202,Honduras,Agriculture,775.0
+kv01203,Uganda,Agriculture,325.0
+kv01204,Philippines,Retail,200.0
+kv01205,Cambodia,Services,1250.0
+kv01206,Philippines,Transportation,125.0
+kv01207,United States,Retail,2000.0
+kv01208,Tajikistan,Agriculture,1800.0
+kv01209,Philippines,Agriculture,350.0
+kv01210,Samoa,Agriculture,1400.0
+kv01211,Ecuador,Agriculture,1000.0
+kv01212,Philippines,Agriculture,125.0
+kv01213,Philippines,Retail,575.0
+kv01214,Peru,Construction,275.0
+kv01215,Honduras,Agriculture,1475.0
+kv01216,Philippines,Retail,225.0
+kv01217,Lebanon,Manufacturing,1500.0
+kv01218,Kenya,Clothing,800.0
+kv01219,Bolivia,Education,2400.0
+kv01220,Congo,Services,475.0
+kv01221,Kenya,Transportation,125.0
+kv01222,Kenya,Agriculture,300.0
+kv01223,Philippines,Food,275.0
+kv01224,Kenya,Services,275.0
+kv01225,Brazil,Food,2525.0
+kv01226,Yemen,Construction,700.0
+kv01227,Philippines,Food,725.0
+kv01228,Madagascar,Agriculture,125.0
+kv01229,Cambodia,Personal Use,475.0
+kv01230,Peru,Clothing,1600.0
+kv01231,Philippines,Food,225.0
+kv01232,Senegal,Agriculture,625.0
+kv01233,Rwanda,Food,8000.0
+kv01234,Philippines,Retail,350.0
+kv01235,Lebanon,Education,1500.0
+kv01236,Peru,Food,725.0
+kv01237,Peru,Retail,725.0
+kv01238,Philippines,Housing,325.0
+kv01239,Philippines,Agriculture,450.0
+kv01240,Kenya,Agriculture,125.0
+kv01241,Uganda,Retail,175.0
+kv01242,Kenya,Retail,250.0
+kv01243,Uganda,Agriculture,825.0
+kv01244,India,Food,250.0
+kv01245,Philippines,Food,225.0
+kv01246,Rwanda,Food,2100.0
+kv01247,Bolivia,Food,1025.0
+kv01248,Peru,Retail,200.0
+kv01249,Dominican Republic,Food,2300.0
+kv01250,El Salvador,Housing,500.0
+kv01251,Philippines,Retail,250.0
+kv01252,Pakistan,Services,300.0
+kv01253,Philippines,Food,500.0
+kv01254,Kenya,Services,400.0
+kv01255,Kenya,Education,750.0
+kv01256,Cambodia,Arts,300.0
+kv01257,Uganda,Retail,500.0
+kv01258,Peru,Retail,775.0
+kv01259,Lebanon,Services,950.0
+kv01260,Philippines,Retail,125.0
+kv01261,Cambodia,Agriculture,875.0
+kv01262,El Salvador,Food,300.0
+kv01263,Cambodia,Food,1000.0
+kv01264,Nicaragua,Food,400.0
+kv01265,Kenya,Food,475.0
+kv01266,Nicaragua,Agriculture,650.0
+kv01267,Cambodia,Agriculture,875.0
+kv01268,Bolivia,Services,4925.0
+kv01269,Nicaragua,Food,400.0
+kv01270,Lebanon,Construction,1000.0
+kv01271,Mali,Agriculture,1725.0
+kv01272,South Sudan,Food,775.0
+kv01273,Pakistan,Services,300.0
+kv01274,Philippines,Food,350.0
+kv01275,Cambodia,Agriculture,1300.0
+kv01276,Peru,Retail,1225.0
+kv01277,El Salvador,Education,1500.0
+kv01278,Uganda,Services,1275.0
+kv01279,Cambodia,Transportation,1000.0
+kv01280,Indonesia,Housing,675.0
+kv01281,Bolivia,Food,300.0
+kv01282,Philippines,Agriculture,300.0
+kv01283,Mexico,Housing,1200.0
+kv01284,Kenya,Food,500.0
+kv01285,Burundi,Clothing,1200.0
+kv01286,Kenya,Food,375.0
+kv01287,Philippines,Food,125.0
+kv01288,Philippines,Transportation,250.0
+kv01289,Rwanda,Clothing,325.0
+kv01290,Lao People's Democratic Republic,Personal Use,250.0
+kv01291,Peru,Food,650.0
+kv01292,Philippines,Food,400.0
+kv01293,Ecuador,Retail,675.0
+kv01294,El Salvador,Agriculture,350.0
+kv01295,Philippines,Food,400.0
+kv01296,Uganda,Food,550.0
+kv01297,Vietnam,Agriculture,1350.0
+kv01298,Lebanon,Education,2425.0
+kv01299,Kenya,Retail,200.0
+kv01300,Philippines,Food,700.0
+kv01301,Pakistan,Food,400.0
+kv01302,Togo,Food,100.0
+kv01303,Philippines,Agriculture,250.0
+kv01304,Albania,Housing,1000.0
+kv01305,Tajikistan,Agriculture,1025.0
+kv01306,Colombia,Arts,350.0
+kv01307,Zimbabwe,Retail,1500.0
+kv01308,Kenya,Retail,500.0
+kv01309,Colombia,Manufacturing,1000.0
+kv01310,Cambodia,Food,750.0
+kv01311,Philippines,Food,125.0
+kv01312,Nigeria,Education,275.0
+kv01313,Indonesia,Food,100.0
+kv01314,Tajikistan,Agriculture,625.0
+kv01315,Kenya,Agriculture,250.0
+kv01316,Indonesia,Retail,450.0
+kv01317,Cambodia,Agriculture,450.0
+kv01318,Mozambique,Food,650.0
+kv01319,Philippines,Retail,225.0
+kv01320,Peru,Food,625.0
+kv01321,Philippines,Food,125.0
+kv01322,Ghana,Food,575.0
+kv01323,Philippines,Transportation,175.0
+kv01324,Senegal,Retail,300.0
+kv01325,Bolivia,Agriculture,1175.0
+kv01326,Vietnam,Agriculture,1375.0
+kv01327,Kenya,Food,775.0
+kv01328,Kenya,Food,175.0
+kv01329,Tajikistan,Agriculture,650.0
+kv01330,Philippines,Agriculture,225.0
+kv01331,Philippines,Housing,150.0
+kv01332,Armenia,Retail,1500.0
+kv01333,Colombia,Retail,1950.0
+kv01334,Philippines,Agriculture,125.0
+kv01335,South Sudan,Food,300.0
+kv01336,Colombia,Food,275.0
+kv01337,Nicaragua,Food,350.0
+kv01338,Vietnam,Services,550.0
+kv01339,India,Agriculture,150.0
+kv01340,Colombia,Agriculture,2025.0
+kv01341,Kenya,Agriculture,475.0
+kv01342,Philippines,Retail,175.0
+kv01343,Jordan,Clothing,1000.0
+kv01344,Honduras,Clothing,475.0
+kv01345,Samoa,Agriculture,325.0
+kv01346,Pakistan,Arts,500.0
+kv01347,Honduras,Clothing,275.0
+kv01348,Philippines,Food,525.0
+kv01349,Colombia,Retail,575.0
+kv01350,Philippines,Retail,125.0
+kv01351,Egypt,Agriculture,125.0
+kv01352,Philippines,Housing,325.0
+kv01353,Kenya,Transportation,400.0
+kv01354,Philippines,Personal Use,50.0
+kv01355,Azerbaijan,Food,1200.0
+kv01356,Kenya,Education,500.0
+kv01357,Ecuador,Food,1425.0
+kv01358,Kenya,Food,200.0
+kv01359,Nicaragua,Retail,225.0
+kv01360,Myanmar (Burma),Agriculture,3400.0
+kv01361,Peru,Food,250.0
+kv01362,Togo,Food,175.0
+kv01363,Philippines,Retail,225.0
+kv01364,Nicaragua,Housing,450.0
+kv01365,Liberia,Retail,200.0
+kv01366,Cambodia,Agriculture,800.0
+kv01367,Paraguay,Food,600.0
+kv01368,Kenya,Personal Use,50.0
+kv01369,Philippines,Clothing,200.0
+kv01370,Colombia,Retail,675.0
+kv01371,Kenya,Agriculture,425.0
+kv01372,Kenya,Food,100.0
+kv01373,Senegal,Retail,750.0
+kv01374,Philippines,Agriculture,250.0
+kv01375,Pakistan,Services,250.0
+kv01376,Pakistan,Retail,350.0
+kv01377,Tanzania,Retail,3000.0
+kv01378,Cambodia,Transportation,400.0
+kv01379,Samoa,Food,1275.0
+kv01380,Mali,Agriculture,2075.0
+kv01381,Philippines,Food,625.0
+kv01382,Philippines,Food,225.0
+kv01383,Peru,Clothing,625.0
+kv01384,Philippines,Retail,150.0
+kv01385,El Salvador,Services,200.0
+kv01386,Philippines,Housing,275.0
+kv01387,Uganda,Construction,400.0
+kv01388,Lebanon,Education,1800.0
+kv01389,Kenya,Health,600.0
+kv01390,Philippines,Retail,375.0
+kv01391,Burkina Faso,Food,575.0
+kv01392,Tajikistan,Agriculture,1475.0
+kv01393,Indonesia,Services,875.0
+kv01394,Senegal,Retail,100.0
+kv01395,Samoa,Agriculture,650.0
+kv01396,Cambodia,Personal Use,1000.0
+kv01397,Cambodia,Personal Use,125.0
+kv01398,Nigeria,Food,350.0
+kv01399,Peru,Services,400.0
+kv01400,Honduras,Food,650.0
+kv01401,Philippines,Retail,475.0
+kv01402,Paraguay,Food,2075.0
+kv01403,Vietnam,Retail,375.0
+kv01404,Kyrgyzstan,Agriculture,1950.0
+kv01405,Kenya,Food,400.0
+kv01406,Nicaragua,Retail,375.0
+kv01407,Ecuador,Clothing,500.0
+kv01408,Tajikistan,Agriculture,650.0
+kv01409,Cambodia,Agriculture,150.0
+kv01410,Pakistan,Food,300.0
+kv01411,Palestine,Education,1500.0
+kv01412,Senegal,Retail,2100.0
+kv01413,Cambodia,Housing,600.0
+kv01414,Peru,Retail,1075.0
+kv01415,Mexico,Agriculture,725.0
+kv01416,Honduras,Clothing,275.0
+kv01417,Philippines,Retail,600.0
+kv01418,Bolivia,Retail,2350.0
+kv01419,Sierra Leone,Clothing,725.0
+kv01420,Ecuador,Retail,1075.0
+kv01421,Colombia,Agriculture,275.0
+kv01422,Peru,Agriculture,500.0
+kv01423,Ghana,Food,375.0
+kv01424,Philippines,Transportation,250.0
+kv01425,El Salvador,Retail,800.0
+kv01426,El Salvador,Agriculture,1000.0
+kv01427,Tajikistan,Agriculture,1475.0
+kv01428,Ecuador,Clothing,825.0
+kv01429,El Salvador,Food,1000.0
+kv01430,Cambodia,Education,500.0
+kv01431,Mongolia,Food,1525.0
+kv01432,Philippines,Housing,125.0
+kv01433,Ecuador,Retail,875.0
+kv01434,Samoa,Services,600.0
+kv01435,Indonesia,Housing,450.0
+kv01436,Kenya,Transportation,475.0
+kv01437,Bolivia,Transportation,300.0
+kv01438,El Salvador,Agriculture,600.0
+kv01439,Philippines,Retail,175.0
+kv01440,Peru,Agriculture,2150.0
+kv01441,Kenya,Services,525.0
+kv01442,Tanzania,Services,1500.0
+kv01443,Pakistan,Services,300.0
+kv01444,Cambodia,Personal Use,225.0
+kv01445,India,Agriculture,150.0
+kv01446,Colombia,Agriculture,625.0
+kv01447,Peru,Agriculture,725.0
+kv01448,Armenia,Personal Use,1500.0
+kv01449,Cambodia,Food,625.0
+kv01450,Somalia,Personal Use,475.0
+kv01451,Kenya,Food,250.0
+kv01452,Philippines,Retail,450.0
+kv01453,Colombia,Services,300.0
+kv01454,Cambodia,Personal Use,175.0
+kv01455,Paraguay,Education,250.0
+kv01456,Costa Rica,Agriculture,1025.0
+kv01457,Cambodia,Food,4450.0
+kv01458,Uganda,Agriculture,100.0
+kv01459,El Salvador,Services,1000.0
+kv01460,Mozambique,Retail,500.0
+kv01461,Nicaragua,Housing,1050.0
+kv01462,Tajikistan,Food,850.0
+kv01463,Kenya,Agriculture,300.0
+kv01464,Ecuador,Food,1000.0
+kv01465,Guatemala,Clothing,400.0
+kv01466,Colombia,Clothing,925.0
+kv01467,El Salvador,Agriculture,350.0
+kv01468,Cambodia,Agriculture,250.0
+kv01469,Nicaragua,Food,475.0
+kv01470,Philippines,Retail,175.0
+kv01471,Paraguay,Food,3050.0
+kv01472,Peru,Retail,1075.0
+kv01473,Colombia,Retail,300.0
+kv01474,Mexico,Personal Use,150.0
+kv01475,Philippines,Food,675.0
+kv01476,Nigeria,Agriculture,100.0
+kv01477,Philippines,Clothing,250.0
+kv01478,Togo,Retail,400.0
+kv01479,The Democratic Republic of the Congo,Clothing,5975.0
+kv01480,Senegal,Retail,1975.0
+kv01481,Egypt,Agriculture,650.0
+kv01482,Cambodia,Personal Use,125.0
+kv01483,Pakistan,Transportation,300.0
+kv01484,Philippines,Housing,250.0
+kv01485,Jordan,Education,725.0
+kv01486,Honduras,Services,650.0
+kv01487,Kenya,Services,300.0
+kv01488,Nicaragua,Housing,425.0
+kv01489,Uganda,Food,450.0
+kv01490,Uganda,Housing,900.0
+kv01491,Uganda,Food,400.0
+kv01492,Peru,Agriculture,2900.0
+kv01493,Philippines,Agriculture,325.0
+kv01494,Armenia,Food,3000.0
+kv01495,Philippines,Agriculture,175.0
+kv01496,Mexico,Retail,300.0
+kv01497,Nigeria,Personal Use,75.0
+kv01498,El Salvador,Food,200.0
+kv01499,Haiti,Services,125.0
+kv01500,Cambodia,Agriculture,550.0
+kv01501,Kenya,Retail,200.0
+kv01502,Guatemala,Arts,2900.0
+kv01503,Rwanda,Retail,1350.0
+kv01504,Senegal,Food,700.0
+kv01505,Peru,Agriculture,475.0
+kv01506,Kenya,Agriculture,350.0
+kv01507,Philippines,Food,200.0
+kv01508,Tanzania,Retail,700.0
+kv01509,India,Agriculture,4225.0
+kv01510,Uganda,Clothing,200.0
+kv01511,Kenya,Agriculture,975.0
+kv01512,Philippines,Agriculture,225.0
+kv01513,Bolivia,Education,825.0
+kv01514,Cambodia,Housing,1100.0
+kv01515,Peru,Agriculture,300.0
+kv01516,El Salvador,Manufacturing,900.0
+kv01517,Philippines,Food,350.0
+kv01518,Nicaragua,Food,725.0
+kv01519,Peru,Agriculture,325.0
+kv01520,Togo,Food,175.0
+kv01521,Ghana,Food,700.0
+kv01522,Benin,Retail,300.0
+kv01523,Egypt,Agriculture,400.0
+kv01524,Kenya,Agriculture,300.0
+kv01525,Tajikistan,Agriculture,650.0
+kv01526,Armenia,Agriculture,2500.0
+kv01527,Philippines,Retail,850.0
+kv01528,Peru,Entertainment,950.0
+kv01529,El Salvador,Food,450.0
+kv01530,Philippines,Agriculture,200.0
+kv01531,Armenia,Agriculture,1475.0
+kv01532,Peru,Services,625.0
+kv01533,Peru,Agriculture,900.0
+kv01534,Philippines,Food,150.0
+kv01535,Kenya,Agriculture,375.0
+kv01536,Mali,Agriculture,350.0
+kv01537,Philippines,Retail,250.0
+kv01538,Philippines,Retail,325.0
+kv01539,Zambia,Services,1625.0
+kv01540,Cambodia,Agriculture,1500.0
+kv01541,Kenya,Food,200.0
+kv01542,Rwanda,Retail,725.0
+kv01543,Ghana,Retail,300.0
+kv01544,Tanzania,Food,3275.0
+kv01545,Pakistan,Services,275.0
+kv01546,El Salvador,Agriculture,500.0
+kv01547,Cambodia,Personal Use,100.0
+kv01548,Philippines,Food,475.0
+kv01549,Peru,Food,275.0
+kv01550,Lebanon,Services,2000.0
+kv01551,Uganda,Agriculture,275.0
+kv01552,Philippines,Retail,225.0
+kv01553,Yemen,Retail,7000.0
+kv01554,El Salvador,Housing,900.0
+kv01555,Cambodia,Agriculture,475.0
+kv01556,Togo,Retail,1200.0
+kv01557,Kenya,Transportation,125.0
+kv01558,Philippines,Agriculture,275.0
+kv01559,Cameroon,Food,350.0
+kv01560,Bolivia,Agriculture,1450.0
+kv01561,Philippines,Housing,175.0
+kv01562,Pakistan,Retail,825.0
+kv01563,Uganda,Food,575.0
+kv01564,Nigeria,Agriculture,150.0
+kv01565,Azerbaijan,Food,1925.0
+kv01566,Bolivia,Education,1475.0
+kv01567,South Sudan,Clothing,950.0
+kv01568,Uganda,Agriculture,450.0
+kv01569,Samoa,Agriculture,800.0
+kv01570,Kenya,Agriculture,1075.0
+kv01571,Philippines,Agriculture,425.0
+kv01572,Benin,Retail,1300.0
+kv01573,India,Housing,300.0
+kv01574,Peru,Services,600.0
+kv01575,Nigeria,Agriculture,100.0
+kv01576,Philippines,Agriculture,550.0
+kv01577,Uganda,Housing,1025.0
+kv01578,Costa Rica,Agriculture,1225.0
+kv01579,India,Arts,150.0
+kv01580,Armenia,Agriculture,1500.0
+kv01581,Uganda,Agriculture,450.0
+kv01582,Philippines,Food,125.0
+kv01583,Pakistan,Retail,450.0
+kv01584,Kenya,Agriculture,300.0
+kv01585,Philippines,Retail,475.0
+kv01586,Tajikistan,Personal Use,1000.0
+kv01587,Armenia,Retail,1500.0
+kv01588,Cameroon,Food,650.0
+kv01589,Philippines,Services,75.0
+kv01590,Honduras,Food,425.0
+kv01591,Colombia,Retail,775.0
+kv01592,El Salvador,Clothing,350.0
+kv01593,Lebanon,Education,1000.0
+kv01594,Kenya,Agriculture,500.0
+kv01595,Sierra Leone,Retail,250.0
+kv01596,Philippines,Agriculture,175.0
+kv01597,Philippines,Food,425.0
+kv01598,Peru,Retail,1625.0
+kv01599,Mexico,Clothing,1550.0
+kv01600,Philippines,Agriculture,250.0
+kv01601,Uganda,Housing,1200.0
+kv01602,Uganda,Agriculture,1375.0
+kv01603,Kenya,Food,125.0
+kv01604,Nigeria,Education,575.0
+kv01605,Cambodia,Transportation,500.0
+kv01606,Tajikistan,Education,1100.0
+kv01607,Benin,Retail,825.0
+kv01608,Philippines,Agriculture,100.0
+kv01609,Philippines,Agriculture,425.0
+kv01610,Kenya,Agriculture,250.0
+kv01611,Paraguay,Food,4775.0
+kv01612,Ghana,Food,275.0
+kv01613,Philippines,Food,300.0
+kv01614,Uganda,Services,1375.0
+kv01615,Philippines,Food,125.0
+kv01616,Philippines,Personal Use,225.0
+kv01617,Peru,Food,1150.0
+kv01618,Guatemala,Agriculture,875.0
+kv01619,Cambodia,Agriculture,600.0
+kv01620,Philippines,Agriculture,300.0
+kv01621,Pakistan,Services,1025.0
+kv01622,Peru,Food,775.0
+kv01623,Nicaragua,Services,350.0
+kv01624,Ecuador,Agriculture,800.0
+kv01625,Cambodia,Food,1200.0
+kv01626,Philippines,Retail,400.0
+kv01627,El Salvador,Housing,500.0
+kv01628,Peru,Clothing,400.0
+kv01629,Tajikistan,Agriculture,1000.0
+kv01630,Philippines,Retail,250.0
+kv01631,Iraq,Services,2500.0
+kv01632,Kenya,Retail,450.0
+kv01633,Kenya,Food,100.0
+kv01634,Pakistan,Services,1125.0
+kv01635,Colombia,Retail,175.0
+kv01636,Ecuador,Agriculture,600.0
+kv01637,Sierra Leone,Food,175.0
+kv01638,Mongolia,Arts,1800.0
+kv01639,Philippines,Food,400.0
+kv01640,Cambodia,Agriculture,1725.0
+kv01641,Pakistan,Retail,500.0
+kv01642,Kenya,Retail,475.0
+kv01643,Pakistan,Services,400.0
+kv01644,Ghana,Food,125.0
+kv01645,Liberia,Construction,925.0
+kv01646,Peru,Food,700.0
+kv01647,Philippines,Food,175.0
+kv01648,Kenya,Food,500.0
+kv01649,Philippines,Agriculture,200.0
+kv01650,Uganda,Services,50.0
+kv01651,Philippines,Retail,600.0
+kv01652,Peru,Food,525.0
+kv01653,Philippines,Agriculture,1075.0
+kv01654,Philippines,Agriculture,175.0
+kv01655,Philippines,Retail,125.0
+kv01656,Philippines,Food,175.0
+kv01657,Kenya,Retail,300.0
+kv01658,Pakistan,Agriculture,400.0
+kv01659,Mexico,Food,375.0
+kv01660,Nicaragua,Health,225.0
+kv01661,Mexico,Food,925.0
+kv01662,Cambodia,Agriculture,1325.0
+kv01663,Cambodia,Retail,1000.0
+kv01664,Philippines,Food,250.0
+kv01665,Colombia,Retail,250.0
+kv01666,Jordan,Arts,750.0
+kv01667,Indonesia,Housing,175.0
+kv01668,Cambodia,Retail,2400.0
+kv01669,Peru,Food,325.0
+kv01670,Bolivia,Food,300.0
+kv01671,Kenya,Services,250.0
+kv01672,Mexico,Housing,1650.0
+kv01673,Philippines,Food,350.0
+kv01674,Benin,Food,325.0
+kv01675,Kenya,Agriculture,375.0
+kv01676,Kenya,Agriculture,375.0
+kv01677,Philippines,Food,425.0
+kv01678,Peru,Agriculture,3250.0
+kv01679,Indonesia,Retail,900.0
+kv01680,Paraguay,Clothing,3025.0
+kv01681,Pakistan,Retail,250.0
+kv01682,Honduras,Retail,575.0
+kv01683,Mali,Retail,400.0
+kv01684,Honduras,Retail,650.0
+kv01685,Cambodia,Agriculture,375.0
+kv01686,Kenya,Personal Use,300.0
+kv01687,Kenya,Services,350.0
+kv01688,Tajikistan,Agriculture,875.0
+kv01689,Liberia,Food,250.0
+kv01690,Kenya,Agriculture,400.0
+kv01691,Nicaragua,Agriculture,575.0
+kv01692,Kenya,Food,375.0
+kv01693,Peru,Agriculture,575.0
+kv01694,Philippines,Agriculture,325.0
+kv01695,Kenya,Agriculture,350.0
+kv01696,Kenya,Food,375.0
+kv01697,Pakistan,Manufacturing,1150.0
+kv01698,Cambodia,Agriculture,1200.0
+kv01699,Philippines,Agriculture,225.0
+kv01700,Kenya,Education,500.0
+kv01701,Cambodia,Agriculture,1000.0
+kv01702,Philippines,Retail,200.0
+kv01703,Cambodia,Housing,1500.0
+kv01704,Cambodia,Personal Use,100.0
+kv01705,Philippines,Retail,600.0
+kv01706,Honduras,Clothing,550.0
+kv01707,Kyrgyzstan,Agriculture,1275.0
+kv01708,Kenya,Agriculture,500.0
+kv01709,Philippines,Retail,750.0
+kv01710,Philippines,Retail,500.0
+kv01711,Mali,Agriculture,1350.0
+kv01712,Ghana,Manufacturing,425.0
+kv01713,Pakistan,Construction,875.0
+kv01714,Tajikistan,Agriculture,475.0
+kv01715,Nicaragua,Housing,725.0
+kv01716,Myanmar (Burma),Agriculture,3925.0
+kv01717,Philippines,Food,400.0
+kv01718,Georgia,Transportation,2425.0
+kv01719,Costa Rica,Agriculture,225.0
+kv01720,Kenya,Retail,825.0
+kv01721,Kenya,Agriculture,200.0
+kv01722,Mexico,Retail,2475.0
+kv01723,Nicaragua,Retail,850.0
+kv01724,El Salvador,Services,500.0
+kv01725,India,Food,150.0
+kv01726,Benin,Agriculture,2275.0
+kv01727,Tanzania,Food,175.0
+kv01728,Azerbaijan,Clothing,1025.0
+kv01729,Guatemala,Arts,2925.0
+kv01730,Nicaragua,Housing,400.0
+kv01731,Nigeria,Agriculture,50.0
+kv01732,Tajikistan,Services,300.0
+kv01733,Philippines,Agriculture,375.0
+kv01734,Philippines,Manufacturing,325.0
+kv01735,Tanzania,Agriculture,275.0
+kv01736,Paraguay,Retail,575.0
+kv01737,Uganda,Retail,1500.0
+kv01738,Lebanon,Services,2000.0
+kv01739,Philippines,Housing,250.0
+kv01740,Tajikistan,Food,175.0
+kv01741,Cambodia,Personal Use,250.0
+kv01742,Tajikistan,Health,250.0
+kv01743,Colombia,Services,1250.0
+kv01744,Malawi,Agriculture,50.0
+kv01745,Jordan,Education,575.0
+kv01746,Cambodia,Agriculture,1000.0
+kv01747,Kenya,Arts,125.0
+kv01748,Vietnam,Food,1025.0
+kv01749,Philippines,Agriculture,350.0
+kv01750,Kenya,Food,1000.0
+kv01751,Uganda,Education,1075.0
+kv01752,Pakistan,Food,575.0
+kv01753,Peru,Retail,450.0
+kv01754,Philippines,Agriculture,525.0
+kv01755,Cambodia,Personal Use,400.0
+kv01756,Togo,Food,200.0
+kv01757,Cambodia,Agriculture,1000.0
+kv01758,Peru,Transportation,775.0
+kv01759,Cambodia,Personal Use,100.0
+kv01760,Philippines,Food,150.0
+kv01761,Philippines,Retail,275.0
+kv01762,Philippines,Retail,125.0
+kv01763,Philippines,Food,75.0
+kv01764,Philippines,Personal Use,50.0
+kv01765,Rwanda,Construction,3050.0
+kv01766,Colombia,Food,700.0
+kv01767,Philippines,Agriculture,500.0
+kv01768,Tanzania,Clothing,175.0
+kv01769,Peru,Arts,3950.0
+kv01770,India,Personal Use,1800.0
+kv01771,Philippines,Agriculture,150.0
+kv01772,Colombia,Retail,1125.0
+kv01773,Philippines,Food,325.0
+kv01774,Nicaragua,Agriculture,825.0
+kv01775,Bolivia,Food,2625.0
+kv01776,Pakistan,Services,400.0
+kv01777,Zimbabwe,Food,1150.0
+kv01778,Ecuador,Retail,1100.0
+kv01779,Ecuador,Agriculture,800.0
+kv01780,Bolivia,Food,725.0
+kv01781,Cambodia,Agriculture,800.0
+kv01782,Pakistan,Services,475.0
+kv01783,Philippines,Services,150.0
+kv01784,Philippines,Housing,300.0
+kv01785,Mongolia,Retail,425.0
+kv01786,Peru,Agriculture,2900.0
+kv01787,Pakistan,Food,400.0
+kv01788,El Salvador,Agriculture,300.0
+kv01789,Vietnam,Agriculture,925.0
+kv01790,Philippines,Agriculture,575.0
+kv01791,Kenya,Services,500.0
+kv01792,Cambodia,Personal Use,100.0
+kv01793,India,Services,300.0
+kv01794,United States,Agriculture,10000.0
+kv01795,Philippines,Retail,400.0
+kv01796,Peru,Food,550.0
+kv01797,Philippines,Transportation,125.0
+kv01798,Ecuador,Retail,500.0
+kv01799,Peru,Services,300.0
+kv01800,Uganda,Transportation,1800.0
+kv01801,Philippines,Agriculture,400.0
+kv01802,Nigeria,Food,675.0
+kv01803,United States,Education,10000.0
+kv01804,Philippines,Agriculture,125.0
+kv01805,Armenia,Agriculture,1050.0
+kv01806,Colombia,Services,400.0
+kv01807,South Sudan,Food,450.0
+kv01808,Cambodia,Personal Use,100.0
+kv01809,Philippines,Retail,550.0
+kv01810,Philippines,Food,225.0
+kv01811,Philippines,Retail,475.0
+kv01812,Philippines,Transportation,125.0
+kv01813,Mexico,Construction,1200.0
+kv01814,Kenya,Agriculture,300.0
+kv01815,Dominican Republic,Retail,275.0
+kv01816,Philippines,Food,200.0
+kv01817,Ghana,Food,425.0
+kv01818,Philippines,Retail,350.0
+kv01819,Palestine,Food,2000.0
+kv01820,Philippines,Food,75.0
+kv01821,Paraguay,Retail,2750.0
+kv01822,Vietnam,Food,1325.0
+kv01823,El Salvador,Housing,350.0
+kv01824,Costa Rica,Transportation,2075.0
+kv01825,Philippines,Retail,300.0
+kv01826,Cambodia,Retail,625.0
+kv01827,Palestine,Education,2500.0
+kv01828,The Democratic Republic of the Congo,Clothing,500.0
+kv01829,Peru,Food,350.0
+kv01830,Philippines,Agriculture,225.0
+kv01831,Kenya,Agriculture,175.0
+kv01832,Colombia,Services,675.0
+kv01833,Philippines,Agriculture,350.0
+kv01834,Philippines,Transportation,250.0
+kv01835,Honduras,Retail,550.0
+kv01836,India,Housing,325.0
+kv01837,Uganda,Retail,675.0
+kv01838,Lebanon,Education,575.0
+kv01839,Honduras,Food,775.0
+kv01840,Mozambique,Food,225.0
+kv01841,Philippines,Retail,275.0
+kv01842,Kenya,Food,625.0
+kv01843,Mexico,Retail,1950.0
+kv01844,Togo,Clothing,200.0
+kv01845,El Salvador,Agriculture,200.0
+kv01846,Philippines,Food,375.0
+kv01847,Philippines,Retail,225.0
+kv01848,Philippines,Agriculture,375.0
+kv01849,Sierra Leone,Food,700.0
+kv01850,Kenya,Food,700.0
+kv01851,Philippines,Retail,700.0
+kv01852,El Salvador,Housing,550.0
+kv01853,Philippines,Food,150.0
+kv01854,Cambodia,Agriculture,500.0
+kv01855,Philippines,Agriculture,200.0
+kv01856,Philippines,Agriculture,200.0
+kv01857,Philippines,Agriculture,700.0
+kv01858,Rwanda,Food,8900.0
+kv01859,Cambodia,Food,600.0
+kv01860,Kenya,Retail,225.0
+kv01861,Cambodia,Personal Use,100.0
+kv01862,Armenia,Agriculture,2100.0
+kv01863,Mexico,Food,525.0
+kv01864,Philippines,Food,150.0
+kv01865,Georgia,Manufacturing,1850.0
+kv01866,Pakistan,Retail,300.0
+kv01867,Tanzania,Food,3825.0
+kv01868,Cambodia,Agriculture,500.0
+kv01869,Ghana,Food,475.0
+kv01870,Philippines,Food,250.0
+kv01871,Colombia,Services,275.0
+kv01872,Philippines,Retail,175.0
+kv01873,Philippines,Retail,475.0
+kv01874,Kenya,Clothing,250.0
+kv01875,Myanmar (Burma),Agriculture,1325.0
+kv01876,Kenya,Services,125.0
+kv01877,Tajikistan,Health,650.0
+kv01878,Kenya,Agriculture,300.0
+kv01879,Kenya,Clothing,500.0
+kv01880,Mexico,Housing,375.0
+kv01881,Uganda,Education,1475.0
+kv01882,Philippines,Agriculture,350.0
+kv01883,Tanzania,Food,325.0
+kv01884,Philippines,Agriculture,400.0
+kv01885,Uganda,Clothing,450.0
+kv01886,Kenya,Agriculture,350.0
+kv01887,Cambodia,Agriculture,750.0
+kv01888,Ukraine,Food,200.0
+kv01889,El Salvador,Services,750.0
+kv01890,Sierra Leone,Food,1150.0
+kv01891,Kenya,Agriculture,450.0
+kv01892,Nicaragua,Personal Use,475.0
+kv01893,Philippines,Food,525.0
+kv01894,Pakistan,Retail,950.0
+kv01895,Pakistan,Manufacturing,275.0
+kv01896,Indonesia,Retail,50.0
+kv01897,Philippines,Agriculture,675.0
+kv01898,Honduras,Personal Use,525.0
+kv01899,Rwanda,Retail,6975.0
+kv01900,Uganda,Agriculture,375.0
+kv01901,Ghana,Services,500.0
+kv01902,El Salvador,Retail,700.0
+kv01903,El Salvador,Food,800.0
+kv01904,Mali,Agriculture,3175.0
+kv01905,Bolivia,Agriculture,1275.0
+kv01906,Bolivia,Construction,800.0
+kv01907,Pakistan,Food,375.0
+kv01908,Philippines,Education,250.0
+kv01909,Philippines,Agriculture,200.0
+kv01910,Kenya,Food,600.0
+kv01911,El Salvador,Food,1025.0
+kv01912,Kenya,Food,350.0
+kv01913,Senegal,Retail,1100.0
+kv01914,Benin,Retail,375.0
+kv01915,Philippines,Retail,200.0
+kv01916,Cambodia,Housing,375.0
+kv01917,Philippines,Food,225.0
+kv01918,El Salvador,Housing,1300.0
+kv01919,Philippines,Retail,1225.0
+kv01920,Philippines,Food,550.0
+kv01921,Nigeria,Services,500.0
+kv01922,Cambodia,Agriculture,1000.0
+kv01923,Kosovo,Housing,2050.0
+kv01924,Uganda,Food,575.0
+kv01925,Tajikistan,Services,1950.0
+kv01926,Armenia,Clothing,2450.0
+kv01927,South Africa,Food,3500.0
+kv01928,Honduras,Clothing,1075.0
+kv01929,Samoa,Retail,825.0
+kv01930,Mali,Agriculture,1775.0
+kv01931,Egypt,Agriculture,75.0
+kv01932,Uganda,Retail,400.0
+kv01933,Nigeria,Retail,425.0
+kv01934,Philippines,Food,200.0
+kv01935,Ghana,Food,850.0
+kv01936,Philippines,Food,475.0
+kv01937,Tajikistan,Agriculture,675.0
+kv01938,Mexico,Retail,450.0
+kv01939,El Salvador,Agriculture,1500.0
+kv01940,Philippines,Retail,425.0
+kv01941,Colombia,Services,475.0
+kv01942,Mongolia,Manufacturing,300.0
+kv01943,Rwanda,Agriculture,1275.0
+kv01944,Cambodia,Personal Use,175.0
+kv01945,United States,Agriculture,5000.0
+kv01946,Colombia,Manufacturing,1100.0
+kv01947,Kenya,Clothing,125.0
+kv01948,Peru,Agriculture,475.0
+kv01949,Haiti,Food,250.0
+kv01950,Philippines,Agriculture,225.0
+kv01951,Tajikistan,Agriculture,775.0
+kv01952,Ecuador,Food,1425.0
+kv01953,Mexico,Food,5100.0
+kv01954,Kenya,Education,500.0
+kv01955,Armenia,Agriculture,1700.0
+kv01956,Cambodia,Personal Use,100.0
+kv01957,Peru,Construction,600.0
+kv01958,Indonesia,Agriculture,525.0
+kv01959,Philippines,Agriculture,325.0
+kv01960,El Salvador,Agriculture,500.0
+kv01961,Sierra Leone,Retail,975.0
+kv01962,Kenya,Agriculture,400.0
+kv01963,El Salvador,Agriculture,400.0
+kv01964,Peru,Agriculture,350.0
+kv01965,Kenya,Clothing,125.0
+kv01966,Peru,Agriculture,550.0
+kv01967,Senegal,Food,625.0
+kv01968,Cambodia,Education,500.0
+kv01969,Armenia,Personal Use,2450.0
+kv01970,Uganda,Housing,1400.0
+kv01971,Kenya,Services,475.0
+kv01972,Philippines,Arts,375.0
+kv01973,Kenya,Clothing,1200.0
+kv01974,Uganda,Food,150.0
+kv01975,Costa Rica,Services,950.0
+kv01976,Lebanon,Services,700.0
+kv01977,Guatemala,Agriculture,875.0
+kv01978,Kenya,Health,1350.0
+kv01979,Rwanda,Food,1775.0
+kv01980,Uganda,Clothing,450.0
+kv01981,India,Arts,325.0
+kv01982,Pakistan,Food,500.0
+kv01983,Philippines,Agriculture,250.0
+kv01984,Philippines,Agriculture,450.0
+kv01985,Paraguay,Retail,1975.0
+kv01986,Philippines,Food,550.0
+kv01987,Uganda,Clothing,575.0
+kv01988,India,Housing,350.0
+kv01989,India,Agriculture,225.0
+kv01990,Bolivia,Food,2875.0
+kv01991,Bolivia,Retail,1000.0
+kv01992,Kenya,Retail,225.0
+kv01993,Kenya,Agriculture,400.0
+kv01994,Samoa,Retail,500.0
+kv01995,Philippines,Agriculture,175.0
+kv01996,Philippines,Retail,475.0
+kv01997,Kenya,Agriculture,575.0
+kv01998,Pakistan,Agriculture,400.0
+kv01999,Pakistan,Transportation,400.0
+kv02000,Mali,Retail,825.0
+kv02001,Uganda,Food,1175.0
+kv02002,Togo,Services,300.0
+kv02003,Jordan,Education,1450.0
+kv02004,Bolivia,Arts,400.0
+kv02005,Mexico,Arts,1875.0
+kv02006,Peru,Agriculture,200.0
+kv02007,Bolivia,Retail,1025.0
+kv02008,Sierra Leone,Food,275.0
+kv02009,Pakistan,Arts,450.0
+kv02010,Senegal,Retail,5200.0
+kv02011,Pakistan,Agriculture,400.0
+kv02012,Bolivia,Construction,500.0
+kv02013,Mali,Retail,525.0
+kv02014,Palestine,Entertainment,1000.0
+kv02015,Nigeria,Services,875.0
+kv02016,El Salvador,Housing,500.0
+kv02017,Cameroon,Agriculture,375.0
+kv02018,Tajikistan,Agriculture,275.0
+kv02019,Senegal,Retail,675.0
+kv02020,Philippines,Retail,625.0
+kv02021,Philippines,Services,1000.0
+kv02022,Philippines,Agriculture,175.0
+kv02023,Kenya,Food,600.0
+kv02024,Sierra Leone,Retail,800.0
+kv02025,Pakistan,Services,300.0
+kv02026,Kenya,Retail,125.0
+kv02027,Philippines,Housing,200.0
+kv02028,Kenya,Food,500.0
+kv02029,Bolivia,Clothing,375.0
+kv02030,Peru,Personal Use,200.0
+kv02031,Kenya,Agriculture,425.0
+kv02032,Philippines,Transportation,350.0
+kv02033,Sierra Leone,Services,200.0
+kv02034,Nicaragua,Retail,400.0
+kv02035,Philippines,Food,275.0
+kv02036,Peru,Education,325.0
+kv02037,Cambodia,Agriculture,375.0
+kv02038,El Salvador,Agriculture,500.0
+kv02039,Philippines,Retail,700.0
+kv02040,Nicaragua,Housing,600.0
+kv02041,Kenya,Transportation,400.0
+kv02042,Uganda,Services,500.0
+kv02043,Peru,Arts,375.0
+kv02044,Colombia,Food,475.0
+kv02045,Ecuador,Agriculture,550.0
+kv02046,Nepal,Wholesale,475.0
+kv02047,Ecuador,Retail,1000.0
+kv02048,Jordan,Services,2825.0
+kv02049,United States,Services,1000.0
+kv02050,Tajikistan,Retail,750.0
+kv02051,Uganda,Retail,1000.0
+kv02052,Nepal,Food,350.0
+kv02053,Costa Rica,Agriculture,1100.0
+kv02054,Kenya,Entertainment,250.0
+kv02055,Ukraine,Clothing,1250.0
+kv02056,Turkey,Services,325.0
+kv02057,Honduras,Clothing,250.0
+kv02058,Kenya,Agriculture,250.0
+kv02059,India,Agriculture,250.0
+kv02060,El Salvador,Retail,700.0
+kv02061,Pakistan,Services,500.0
+kv02062,Philippines,Personal Use,150.0
+kv02063,Philippines,Food,125.0
+kv02064,Mali,Clothing,525.0
+kv02065,Lebanon,Clothing,1000.0
+kv02066,Tajikistan,Education,475.0
+kv02067,Bolivia,Personal Use,300.0
+kv02068,Pakistan,Education,2850.0
+kv02069,Tajikistan,Health,575.0
+kv02070,Honduras,Services,650.0
+kv02071,Philippines,Transportation,250.0
+kv02072,Jordan,Arts,425.0
+kv02073,El Salvador,Food,500.0
+kv02074,Pakistan,Retail,500.0
+kv02075,Burkina Faso,Food,525.0
+kv02076,Madagascar,Agriculture,325.0
+kv02077,Nigeria,Agriculture,150.0
+kv02078,Kenya,Agriculture,650.0
+kv02079,Kenya,Agriculture,450.0
+kv02080,Philippines,Retail,325.0
+kv02081,Peru,Personal Use,550.0
+kv02082,Palestine,Agriculture,1000.0
+kv02083,Guatemala,Clothing,650.0
+kv02084,India,Services,575.0
+kv02085,Philippines,Food,150.0
+kv02086,Kenya,Transportation,625.0
+kv02087,Kenya,Agriculture,300.0
+kv02088,Philippines,Food,200.0
+kv02089,Colombia,Retail,950.0
+kv02090,Georgia,Transportation,2100.0
+kv02091,Philippines,Retail,225.0
+kv02092,Philippines,Retail,400.0
+kv02093,Ecuador,Agriculture,1650.0
+kv02094,Philippines,Retail,200.0
+kv02095,Lao People's Democratic Republic,Personal Use,125.0
+kv02096,Kenya,Food,200.0
+kv02097,Jordan,Education,1700.0
+kv02098,Tajikistan,Clothing,1000.0
+kv02099,Honduras,Agriculture,450.0
+kv02100,Lebanon,Clothing,2500.0
+kv02101,Philippines,Food,350.0
+kv02102,Philippines,Agriculture,200.0
+kv02103,Peru,Retail,1600.0
+kv02104,Colombia,Food,825.0
+kv02105,Kenya,Services,600.0
+kv02106,Philippines,Food,250.0
+kv02107,Uganda,Clothing,175.0
+kv02108,India,Clothing,400.0
+kv02109,South Sudan,Retail,1100.0
+kv02110,El Salvador,Retail,1000.0
+kv02111,Yemen,Personal Use,300.0
+kv02112,Colombia,Food,225.0
+kv02113,Lebanon,Agriculture,2000.0
+kv02114,Zimbabwe,Agriculture,1000.0
+kv02115,Philippines,Food,300.0
+kv02116,Ghana,Food,425.0
+kv02117,Albania,Agriculture,650.0
+kv02118,Tajikistan,Health,575.0
+kv02119,Philippines,Food,200.0
+kv02120,Nicaragua,Clothing,700.0
+kv02121,Vietnam,Agriculture,2775.0
+kv02122,Sierra Leone,Food,275.0
+kv02123,Tanzania,Retail,775.0
+kv02124,The Democratic Republic of the Congo,Retail,5000.0
+kv02125,Philippines,Food,100.0
+kv02126,Vietnam,Agriculture,2450.0
+kv02127,Burkina Faso,Food,2625.0
+kv02128,Tanzania,Food,1900.0
+kv02129,Tajikistan,Health,675.0
+kv02130,Senegal,Retail,150.0
+kv02131,Uganda,Education,600.0
+kv02132,Kenya,Retail,950.0
+kv02133,Philippines,Food,325.0
+kv02134,Kenya,Agriculture,800.0
+kv02135,Uganda,Transportation,1100.0
+kv02136,Jordan,Clothing,750.0
+kv02137,Nicaragua,Food,400.0
+kv02138,Peru,Services,1200.0
+kv02139,Kenya,Agriculture,175.0
+kv02140,Tajikistan,Services,275.0
+kv02141,Tajikistan,Education,1225.0
+kv02142,Nicaragua,Services,600.0
+kv02143,Tajikistan,Clothing,1275.0
+kv02144,Kenya,Food,700.0
+kv02145,Togo,Retail,300.0
+kv02146,Ghana,Food,525.0
+kv02147,Georgia,Food,1100.0
+kv02148,Vietnam,Food,1150.0
+kv02149,Tajikistan,Agriculture,1025.0
+kv02150,Peru,Food,500.0
+kv02151,Nicaragua,Food,625.0
+kv02152,Bolivia,Manufacturing,400.0
+kv02153,Uganda,Food,1950.0
+kv02154,Mongolia,Food,900.0
+kv02155,Samoa,Agriculture,775.0
+kv02156,Philippines,Agriculture,675.0
+kv02157,Kenya,Arts,125.0
+kv02158,Pakistan,Construction,1050.0
+kv02159,Nicaragua,Retail,700.0
+kv02160,Philippines,Agriculture,475.0
+kv02161,Philippines,Clothing,450.0
+kv02162,Ghana,Food,350.0
+kv02163,Philippines,Agriculture,650.0
+kv02164,Cambodia,Arts,1000.0
+kv02165,Peru,Clothing,725.0
+kv02166,Ukraine,Personal Use,1000.0
+kv02167,Senegal,Food,875.0
+kv02168,El Salvador,Agriculture,750.0
+kv02169,Sierra Leone,Food,1175.0
+kv02170,Ghana,Food,2500.0
+kv02171,Indonesia,Agriculture,3750.0
+kv02172,Philippines,Agriculture,225.0
+kv02173,Peru,Housing,1050.0
+kv02174,Iraq,Food,2000.0
+kv02175,El Salvador,Manufacturing,1500.0
+kv02176,Pakistan,Retail,300.0
+kv02177,Peru,Agriculture,1000.0
+kv02178,India,Retail,500.0
+kv02179,Kenya,Agriculture,1000.0
+kv02180,Philippines,Food,250.0
+kv02181,Vietnam,Agriculture,950.0
+kv02182,Liberia,Retail,200.0
+kv02183,Cambodia,Agriculture,1000.0
+kv02184,Armenia,Agriculture,2000.0
+kv02185,Peru,Arts,225.0
+kv02186,Philippines,Retail,225.0
+kv02187,Pakistan,Arts,425.0
+kv02188,Tajikistan,Food,925.0
+kv02189,Philippines,Personal Use,200.0
+kv02190,Tajikistan,Food,600.0
+kv02191,Uganda,Retail,3475.0
+kv02192,Uganda,Clothing,100.0
+kv02193,Cambodia,Agriculture,4275.0
+kv02194,Philippines,Agriculture,1150.0
+kv02195,Burkina Faso,Food,4225.0
+kv02196,Samoa,Food,600.0
+kv02197,Tanzania,Retail,1100.0
+kv02198,Philippines,Retail,325.0
+kv02199,Philippines,Transportation,725.0
+kv02200,Philippines,Agriculture,300.0
+kv02201,Armenia,Agriculture,1500.0
+kv02202,Kenya,Construction,475.0
+kv02203,India,Manufacturing,125.0
+kv02204,Ecuador,Clothing,975.0
+kv02205,Sierra Leone,Services,1075.0
+kv02206,Philippines,Clothing,125.0
+kv02207,India,Agriculture,300.0
+kv02208,Cambodia,Personal Use,275.0
+kv02209,Tajikistan,Agriculture,200.0
+kv02210,Uganda,Retail,975.0
+kv02211,Cambodia,Food,800.0
+kv02212,Philippines,Agriculture,475.0
+kv02213,Nicaragua,Retail,350.0
+kv02214,Kenya,Agriculture,1500.0
+kv02215,Philippines,Retail,300.0
+kv02216,Solomon Islands,Personal Use,775.0
+kv02217,Ecuador,Agriculture,1500.0
+kv02218,Philippines,Retail,150.0
+kv02219,Peru,Agriculture,700.0
+kv02220,Philippines,Food,400.0
+kv02221,Iraq,Food,3000.0
+kv02222,Cambodia,Personal Use,200.0
+kv02223,Honduras,Agriculture,275.0
+kv02224,Cambodia,Personal Use,100.0
+kv02225,El Salvador,Agriculture,800.0
+kv02226,Nicaragua,Clothing,375.0
+kv02227,Kenya,Personal Use,100.0
+kv02228,Lebanon,Services,1200.0
+kv02229,Kenya,Clothing,500.0
+kv02230,El Salvador,Food,400.0
+kv02231,Liberia,Retail,625.0
+kv02232,Philippines,Agriculture,475.0
+kv02233,Armenia,Agriculture,3000.0
+kv02234,Uganda,Education,1050.0
+kv02235,Tajikistan,Clothing,1100.0
+kv02236,El Salvador,Services,1025.0
+kv02237,Tanzania,Agriculture,350.0
+kv02238,Uganda,Agriculture,675.0
+kv02239,Palestine,Manufacturing,1500.0
+kv02240,Kenya,Retail,375.0
+kv02241,Lebanon,Education,5100.0
+kv02242,Kenya,Manufacturing,950.0
+kv02243,Cambodia,Food,100.0
+kv02244,Philippines,Food,350.0
+kv02245,Iraq,Services,5400.0
+kv02246,Paraguay,Food,125.0
+kv02247,Rwanda,Construction,750.0
+kv02248,Uganda,Agriculture,150.0
+kv02249,Kenya,Retail,200.0
+kv02250,Philippines,Services,325.0
+kv02251,India,Food,225.0
+kv02252,Azerbaijan,Agriculture,950.0
+kv02253,Nicaragua,Agriculture,1200.0
+kv02254,Philippines,Agriculture,375.0
+kv02255,Philippines,Agriculture,175.0
+kv02256,Uganda,Clothing,675.0
+kv02257,Cambodia,Personal Use,200.0
+kv02258,Vietnam,Retail,325.0
+kv02259,Philippines,Food,125.0
+kv02260,Philippines,Food,350.0
+kv02261,Cambodia,Personal Use,500.0
+kv02262,Kenya,Food,825.0
+kv02263,Cambodia,Personal Use,275.0
+kv02264,Peru,Retail,1100.0
+kv02265,Sierra Leone,Food,275.0
+kv02266,Madagascar,Clothing,200.0
+kv02267,Ecuador,Agriculture,1000.0
+kv02268,Colombia,Arts,350.0
+kv02269,Senegal,Agriculture,1350.0
+kv02270,Uganda,Retail,825.0
+kv02271,Kenya,Agriculture,300.0
+kv02272,Kenya,Transportation,450.0
+kv02273,Kenya,Food,300.0
+kv02274,Vietnam,Housing,500.0
+kv02275,India,Food,225.0
+kv02276,Philippines,Food,225.0
+kv02277,El Salvador,Agriculture,1000.0
+kv02278,Peru,Services,300.0
+kv02279,Philippines,Retail,300.0
+kv02280,Kenya,Services,400.0
+kv02281,Kenya,Agriculture,650.0
+kv02282,Haiti,Retail,500.0
+kv02283,Mexico,Services,850.0
+kv02284,Mali,Agriculture,850.0
+kv02285,El Salvador,Agriculture,200.0
+kv02286,Rwanda,Agriculture,1975.0
+kv02287,India,Retail,250.0
+kv02288,Philippines,Retail,300.0
+kv02289,Peru,Arts,675.0
+kv02290,Sierra Leone,Retail,675.0
+kv02291,Philippines,Agriculture,425.0
+kv02292,Pakistan,Retail,200.0
+kv02293,Mozambique,Agriculture,950.0
+kv02294,Cambodia,Agriculture,1000.0
+kv02295,Tanzania,Food,750.0
+kv02296,Peru,Personal Use,1325.0
+kv02297,Palestine,Agriculture,3000.0
+kv02298,Ecuador,Retail,1000.0
+kv02299,Cambodia,Housing,1000.0
+kv02300,Philippines,Agriculture,300.0
+kv02301,Burkina Faso,Food,625.0
+kv02302,Bolivia,Clothing,400.0
+kv02303,Indonesia,Housing,525.0
+kv02304,Peru,Food,950.0
+kv02305,Kenya,Services,250.0
+kv02306,Cambodia,Personal Use,75.0
+kv02307,Philippines,Retail,100.0
+kv02308,Mali,Manufacturing,525.0
+kv02309,Uganda,Agriculture,2450.0
+kv02310,Uganda,Education,575.0
+kv02311,Uganda,Food,3025.0
+kv02312,Kenya,Retail,700.0
+kv02313,Mongolia,Clothing,1375.0
+kv02314,Mali,Agriculture,1100.0
+kv02315,Mali,Manufacturing,1250.0
+kv02316,Guatemala,Personal Use,2875.0
+kv02317,Ecuador,Agriculture,800.0
+kv02318,Philippines,Agriculture,250.0
+kv02319,Philippines,Food,375.0
+kv02320,United States,Food,2500.0
+kv02321,Uganda,Food,375.0
+kv02322,Dominican Republic,Retail,175.0
+kv02323,Mongolia,Food,2225.0
+kv02324,Philippines,Clothing,675.0
+kv02325,Philippines,Retail,250.0
+kv02326,Philippines,Agriculture,300.0
+kv02327,Pakistan,Arts,350.0
+kv02328,Pakistan,Clothing,1250.0
+kv02329,Paraguay,Education,550.0
+kv02330,Ghana,Food,450.0
+kv02331,Cambodia,Personal Use,750.0
+kv02332,Azerbaijan,Retail,625.0
+kv02333,Mexico,Retail,1200.0
+kv02334,Nigeria,Education,200.0
+kv02335,Philippines,Agriculture,350.0
+kv02336,Cambodia,Food,850.0
+kv02337,Vietnam,Agriculture,1100.0
+kv02338,Peru,Agriculture,375.0
+kv02339,Honduras,Food,275.0
+kv02340,Cambodia,Food,1000.0
+kv02341,Senegal,Retail,175.0
+kv02342,Cambodia,Food,1000.0
+kv02343,Costa Rica,Agriculture,925.0
+kv02344,Togo,Food,1075.0
+kv02345,Cambodia,Agriculture,900.0
+kv02346,Samoa,Agriculture,450.0
+kv02347,Kenya,Retail,1475.0
+kv02348,Dominican Republic,Retail,3525.0
+kv02349,Peru,Retail,925.0
+kv02350,Nicaragua,Retail,450.0
+kv02351,Kenya,Food,250.0
+kv02352,Kyrgyzstan,Agriculture,1050.0
+kv02353,Philippines,Retail,375.0
+kv02354,Philippines,Food,350.0
+kv02355,Sierra Leone,Food,300.0
+kv02356,Uganda,Housing,675.0
+kv02357,Peru,Agriculture,325.0
+kv02358,Togo,Retail,925.0
+kv02359,Tanzania,Retail,275.0
+kv02360,Tajikistan,Agriculture,325.0
+kv02361,Tajikistan,Agriculture,425.0
+kv02362,India,Housing,175.0
+kv02363,Kenya,Food,300.0
+kv02364,Kenya,Health,250.0
+kv02365,Nigeria,Agriculture,275.0
+kv02366,Cambodia,Agriculture,500.0
+kv02367,Mali,Agriculture,775.0
+kv02368,Vietnam,Housing,725.0
+kv02369,Philippines,Agriculture,200.0
+kv02370,Kenya,Food,250.0
+kv02371,Togo,Retail,800.0
+kv02372,Mali,Agriculture,1175.0
+kv02373,Nigeria,Food,350.0
+kv02374,Kyrgyzstan,Education,1100.0
+kv02375,Ghana,Manufacturing,325.0
+kv02376,Kenya,Food,200.0
+kv02377,Liberia,Retail,175.0
+kv02378,Philippines,Retail,175.0
+kv02379,Sierra Leone,Food,800.0
+kv02380,Cambodia,Food,1000.0
+kv02381,Kyrgyzstan,Education,1100.0
+kv02382,United States,Services,8225.0
+kv02383,El Salvador,Housing,500.0
+kv02384,Philippines,Transportation,1025.0
+kv02385,Ghana,Food,500.0
+kv02386,Philippines,Agriculture,550.0
+kv02387,Philippines,Food,325.0
+kv02388,Philippines,Food,225.0
+kv02389,Philippines,Agriculture,225.0
+kv02390,Nepal,Food,325.0
+kv02391,Kenya,Food,100.0
+kv02392,Tanzania,Food,350.0
+kv02393,Philippines,Retail,400.0
+kv02394,Bolivia,Housing,600.0
+kv02395,Kenya,Agriculture,650.0
+kv02396,Philippines,Services,125.0
+kv02397,Kosovo,Agriculture,1025.0
+kv02398,Kenya,Food,225.0
+kv02399,Peru,Manufacturing,200.0
+kv02400,Georgia,Clothing,5000.0
+kv02401,Philippines,Health,200.0
+kv02402,Kenya,Retail,375.0
+kv02403,El Salvador,Food,1000.0
+kv02404,El Salvador,Arts,600.0
+kv02405,Philippines,Retail,225.0
+kv02406,Tajikistan,Agriculture,1575.0
+kv02407,Vietnam,Housing,400.0
+kv02408,Nicaragua,Food,400.0
+kv02409,Cambodia,Arts,1525.0
+kv02410,Peru,Agriculture,325.0
+kv02411,Peru,Retail,375.0
+kv02412,El Salvador,Services,1000.0
+kv02413,Bolivia,Transportation,500.0
+kv02414,El Salvador,Agriculture,300.0
+kv02415,Palestine,Services,1500.0
+kv02416,Kyrgyzstan,Agriculture,1300.0
+kv02417,Togo,Food,325.0
+kv02418,Bolivia,Retail,4775.0
+kv02419,Kenya,Agriculture,125.0
+kv02420,Philippines,Agriculture,275.0
+kv02421,Philippines,Food,250.0
+kv02422,Honduras,Retail,325.0
+kv02423,Kenya,Agriculture,1050.0
+kv02424,Benin,Services,275.0
+kv02425,Philippines,Food,175.0
+kv02426,Togo,Retail,875.0
+kv02427,Cambodia,Agriculture,3100.0
+kv02428,India,Agriculture,2975.0
+kv02429,Nicaragua,Retail,1125.0
+kv02430,Philippines,Food,275.0
+kv02431,Uganda,Services,725.0
+kv02432,Pakistan,Transportation,300.0
+kv02433,Ghana,Retail,525.0
+kv02434,Uganda,Retail,600.0
+kv02435,Jordan,Food,450.0
+kv02436,Cambodia,Agriculture,800.0
+kv02437,India,Food,325.0
+kv02438,Philippines,Food,575.0
+kv02439,Cambodia,Agriculture,1000.0
+kv02440,Honduras,Food,250.0
+kv02441,Nicaragua,Health,400.0
+kv02442,Vietnam,Housing,475.0
+kv02443,Nigeria,Services,350.0
+kv02444,Ghana,Food,275.0
+kv02445,Philippines,Agriculture,250.0
+kv02446,Colombia,Arts,350.0
+kv02447,Ecuador,Agriculture,800.0
+kv02448,Mozambique,Housing,900.0
+kv02449,Philippines,Retail,150.0
+kv02450,Tajikistan,Food,650.0
+kv02451,Paraguay,Retail,1000.0
+kv02452,Jordan,Education,1425.0
+kv02453,South Sudan,Food,175.0
+kv02454,Peru,Retail,725.0
+kv02455,Uganda,Retail,300.0
+kv02456,Bolivia,Retail,600.0
+kv02457,Lebanon,Services,1300.0
+kv02458,Philippines,Agriculture,150.0
+kv02459,Philippines,Services,125.0
+kv02460,Ecuador,Retail,700.0
+kv02461,Sierra Leone,Food,150.0
+kv02462,Zimbabwe,Services,1550.0
+kv02463,El Salvador,Agriculture,300.0
+kv02464,Philippines,Agriculture,300.0
+kv02465,Tajikistan,Retail,425.0
+kv02466,Kenya,Food,250.0
+kv02467,Nicaragua,Housing,300.0
+kv02468,Philippines,Food,300.0
+kv02469,Vietnam,Housing,900.0
+kv02470,India,Arts,150.0
+kv02471,Kenya,Retail,125.0
+kv02472,Jordan,Construction,1725.0
+kv02473,Liberia,Food,175.0
+kv02474,Benin,Food,300.0
+kv02475,Nicaragua,Clothing,300.0
+kv02476,Kenya,Retail,250.0
+kv02477,Tajikistan,Food,1150.0
+kv02478,Palestine,Services,850.0
+kv02479,Tajikistan,Agriculture,350.0
+kv02480,Paraguay,Services,1200.0
+kv02481,Philippines,Clothing,325.0
+kv02482,Uganda,Agriculture,525.0
+kv02483,Pakistan,Services,300.0
+kv02484,India,Food,225.0
+kv02485,Philippines,Retail,1000.0
+kv02486,Tajikistan,Food,600.0
+kv02487,Sierra Leone,Retail,925.0
+kv02488,United States,Agriculture,2000.0
+kv02489,Ghana,Food,225.0
+kv02490,Georgia,Agriculture,1225.0
+kv02491,Mali,Food,650.0
+kv02492,Kenya,Retail,1000.0
+kv02493,Pakistan,Arts,300.0
+kv02494,El Salvador,Food,450.0
+kv02495,Pakistan,Services,300.0
+kv02496,Philippines,Food,125.0
+kv02497,Bolivia,Retail,1500.0
+kv02498,India,Services,325.0
+kv02499,Philippines,Retail,325.0
+kv02500,Cambodia,Agriculture,750.0
+kv02501,Philippines,Agriculture,175.0
+kv02502,Kenya,Agriculture,100.0
+kv02503,Philippines,Retail,525.0
+kv02504,Philippines,Agriculture,450.0
+kv02505,Philippines,Retail,1000.0
+kv02506,Tajikistan,Agriculture,1025.0
+kv02507,Nigeria,Retail,450.0
+kv02508,Kyrgyzstan,Housing,975.0
+kv02509,Colombia,Retail,1175.0
+kv02510,Peru,Retail,725.0
+kv02511,Mexico,Retail,250.0
+kv02512,Kenya,Retail,500.0
+kv02513,Peru,Services,375.0
+kv02514,Philippines,Agriculture,125.0
+kv02515,Pakistan,Arts,475.0
+kv02516,Kenya,Agriculture,350.0
+kv02517,Philippines,Food,375.0
+kv02518,Philippines,Transportation,325.0
+kv02519,Nicaragua,Retail,750.0
+kv02520,Philippines,Retail,500.0
+kv02521,Peru,Agriculture,1200.0
+kv02522,Peru,Agriculture,400.0
+kv02523,Ecuador,Clothing,775.0
+kv02524,Paraguay,Education,1150.0
+kv02525,Nigeria,Services,800.0
+kv02526,Costa Rica,Agriculture,800.0
+kv02527,Uganda,Agriculture,1175.0
+kv02528,Tanzania,Food,550.0
+kv02529,Pakistan,Retail,225.0
+kv02530,Philippines,Agriculture,200.0
+kv02531,Philippines,Retail,375.0
+kv02532,India,Agriculture,450.0
+kv02533,Cambodia,Personal Use,200.0
+kv02534,Kenya,Retail,875.0
+kv02535,Cambodia,Personal Use,1200.0
+kv02536,Nigeria,Agriculture,200.0
+kv02537,Honduras,Retail,1025.0
+kv02538,Ghana,Services,275.0
+kv02539,Uganda,Agriculture,425.0
+kv02540,Vietnam,Construction,1150.0
+kv02541,Philippines,Agriculture,350.0
+kv02542,Jordan,Education,2125.0
+kv02543,Liberia,Retail,450.0
+kv02544,Colombia,Food,525.0
+kv02545,Kyrgyzstan,Housing,2800.0
+kv02546,Bolivia,Retail,525.0
+kv02547,Philippines,Agriculture,475.0
+kv02548,Bolivia,Services,1850.0
+kv02549,Guatemala,Retail,675.0
+kv02550,Philippines,Retail,875.0
+kv02551,Cambodia,Agriculture,375.0
+kv02552,Philippines,Retail,475.0
+kv02553,Costa Rica,Agriculture,2000.0
+kv02554,Paraguay,Manufacturing,800.0
+kv02555,Haiti,Retail,125.0
+kv02556,Kenya,Retail,525.0
+kv02557,Senegal,Food,1150.0
+kv02558,Cambodia,Housing,200.0
+kv02559,Paraguay,Services,1000.0
+kv02560,El Salvador,Transportation,900.0
+kv02561,Kenya,Agriculture,475.0
+kv02562,Burundi,Food,3275.0
+kv02563,Pakistan,Retail,250.0
+kv02564,Pakistan,Education,1100.0
+kv02565,Philippines,Agriculture,600.0
+kv02566,El Salvador,Retail,500.0
+kv02567,Mexico,Health,1350.0
+kv02568,Benin,Food,1025.0
+kv02569,El Salvador,Housing,500.0
+kv02570,Nigeria,Food,350.0
+kv02571,Philippines,Agriculture,250.0
+kv02572,Samoa,Agriculture,1450.0
+kv02573,Rwanda,Food,2875.0
+kv02574,Philippines,Food,200.0
+kv02575,Philippines,Retail,225.0
+kv02576,Kenya,Clothing,500.0
+kv02577,Egypt,Services,550.0
+kv02578,Philippines,Transportation,450.0
+kv02579,Burkina Faso,Food,925.0
+kv02580,El Salvador,Food,100.0
+kv02581,Kenya,Agriculture,600.0
+kv02582,El Salvador,Agriculture,1050.0
+kv02583,Nicaragua,Retail,325.0
+kv02584,Paraguay,Services,2925.0
+kv02585,Philippines,Retail,650.0
+kv02586,Mongolia,Services,525.0
+kv02587,Bolivia,Food,450.0
+kv02588,Philippines,Agriculture,500.0
+kv02589,Colombia,Retail,400.0
+kv02590,Philippines,Retail,300.0
+kv02591,Jordan,Retail,2550.0
+kv02592,Georgia,Food,275.0
+kv02593,Samoa,Agriculture,650.0
+kv02594,Peru,Retail,475.0
+kv02595,Georgia,Agriculture,1525.0
+kv02596,Philippines,Housing,175.0
+kv02597,India,Housing,675.0
+kv02598,Philippines,Food,250.0
+kv02599,Cambodia,Housing,1000.0
+kv02600,Philippines,Agriculture,575.0
+kv02601,El Salvador,Housing,200.0
+kv02602,Philippines,Retail,425.0
+kv02603,Honduras,Food,400.0
+kv02604,Tanzania,Agriculture,475.0
+kv02605,Colombia,Services,800.0
+kv02606,Mexico,Food,4500.0
+kv02607,Palestine,Services,1425.0
+kv02608,Togo,Food,1075.0
+kv02609,Uganda,Transportation,600.0
+kv02610,Kenya,Retail,125.0
+kv02611,Tajikistan,Education,525.0
+kv02612,Philippines,Agriculture,500.0
+kv02613,Bolivia,Retail,2950.0
+kv02614,Peru,Food,100.0
+kv02615,Togo,Services,950.0
+kv02616,Philippines,Services,625.0
+kv02617,El Salvador,Housing,500.0
+kv02618,Peru,Agriculture,375.0
+kv02619,Paraguay,Retail,4350.0
+kv02620,Liberia,Retail,150.0
+kv02621,Armenia,Agriculture,3000.0
+kv02622,Sierra Leone,Food,650.0
+kv02623,Kenya,Agriculture,550.0
+kv02624,El Salvador,Agriculture,300.0
+kv02625,Ecuador,Retail,500.0
+kv02626,Philippines,Retail,350.0
+kv02627,Kenya,Agriculture,525.0
+kv02628,India,Transportation,475.0
+kv02629,Madagascar,Retail,300.0
+kv02630,Pakistan,Services,300.0
+kv02631,Mali,Arts,850.0
+kv02632,Nigeria,Services,950.0
+kv02633,Philippines,Food,225.0
+kv02634,El Salvador,Agriculture,200.0
+kv02635,Philippines,Agriculture,200.0
+kv02636,Philippines,Services,225.0
+kv02637,Peru,Housing,375.0
+kv02638,Kenya,Retail,1050.0
+kv02639,Haiti,Retail,250.0
+kv02640,Philippines,Retail,200.0
+kv02641,India,Food,400.0
+kv02642,Kenya,Retail,900.0
+kv02643,Philippines,Food,125.0
+kv02644,El Salvador,Food,1100.0
+kv02645,El Salvador,Food,1500.0
+kv02646,Kenya,Agriculture,350.0
+kv02647,Ghana,Food,175.0
+kv02648,Ukraine,Agriculture,1775.0
+kv02649,Kenya,Agriculture,400.0
+kv02650,Kenya,Agriculture,400.0
+kv02651,Tajikistan,Food,1000.0
+kv02652,Cambodia,Agriculture,300.0
+kv02653,Nigeria,Personal Use,25.0
+kv02654,Mexico,Food,300.0
+kv02655,Guatemala,Food,1975.0
+kv02656,Sierra Leone,Food,600.0
+kv02657,Tajikistan,Services,500.0
+kv02658,Philippines,Retail,150.0
+kv02659,Philippines,Agriculture,225.0
+kv02660,Liberia,Food,625.0
+kv02661,Philippines,Retail,1175.0
+kv02662,Albania,Food,1800.0
+kv02663,Cambodia,Agriculture,1075.0
+kv02664,Bolivia,Clothing,1025.0
+kv02665,Honduras,Agriculture,225.0
+kv02666,Armenia,Clothing,1500.0
+kv02667,Honduras,Housing,525.0
+kv02668,Philippines,Retail,300.0
+kv02669,Tanzania,Retail,775.0
+kv02670,Philippines,Food,125.0
+kv02671,Philippines,Food,825.0
+kv02672,Cambodia,Agriculture,300.0
+kv02673,Tajikistan,Retail,3000.0
+kv02674,Mozambique,Retail,575.0
+kv02675,Philippines,Agriculture,475.0
+kv02676,Peru,Retail,650.0
+kv02677,Bolivia,Transportation,450.0
+kv02678,Philippines,Services,150.0
+kv02679,Colombia,Retail,650.0
+kv02680,Rwanda,Agriculture,1925.0
+kv02681,El Salvador,Services,675.0
+kv02682,Philippines,Agriculture,175.0
+kv02683,Palestine,Construction,1300.0
+kv02684,El Salvador,Food,200.0
+kv02685,Sierra Leone,Services,700.0
+kv02686,Peru,Retail,250.0
+kv02687,Philippines,Retail,250.0
+kv02688,Cambodia,Services,500.0
+kv02689,Kyrgyzstan,Agriculture,725.0
+kv02690,Kenya,Food,350.0
+kv02691,Uganda,Housing,900.0
+kv02692,Kenya,Agriculture,925.0
+kv02693,Ecuador,Arts,1050.0
+kv02694,Iraq,Services,3000.0
+kv02695,Costa Rica,Services,3250.0
+kv02696,Kenya,Food,575.0
+kv02697,Philippines,Agriculture,775.0
+kv02698,Philippines,Agriculture,125.0
+kv02699,Peru,Agriculture,550.0
+kv02700,Ecuador,Agriculture,600.0
+kv02701,Kyrgyzstan,Agriculture,975.0
+kv02702,Samoa,Arts,875.0
+kv02703,Nicaragua,Education,525.0
+kv02704,Paraguay,Retail,800.0
+kv02705,Jordan,Education,1425.0
+kv02706,Colombia,Agriculture,1400.0
+kv02707,Pakistan,Agriculture,300.0
+kv02708,Nigeria,Personal Use,50.0
+kv02709,Pakistan,Retail,825.0
+kv02710,Uganda,Construction,625.0
+kv02711,Vietnam,Housing,550.0
+kv02712,Tanzania,Food,1625.0
+kv02713,Kenya,Agriculture,300.0
+kv02714,United States,Services,4000.0
+kv02715,Kyrgyzstan,Agriculture,650.0
+kv02716,Cambodia,Agriculture,300.0
+kv02717,Cambodia,Agriculture,250.0
+kv02718,El Salvador,Agriculture,750.0
+kv02719,Kenya,Agriculture,575.0
+kv02720,El Salvador,Clothing,600.0
+kv02721,Philippines,Agriculture,100.0
+kv02722,Armenia,Agriculture,1600.0
+kv02723,Philippines,Food,300.0
+kv02724,Pakistan,Agriculture,300.0
+kv02725,Philippines,Retail,500.0
+kv02726,Kyrgyzstan,Agriculture,975.0
+kv02727,Nicaragua,Food,1000.0
+kv02728,Mozambique,Retail,675.0
+kv02729,Peru,Retail,5400.0
+kv02730,Kenya,Agriculture,200.0
+kv02731,Philippines,Retail,475.0
+kv02732,Kenya,Agriculture,300.0
+kv02733,Philippines,Agriculture,225.0
+kv02734,Philippines,Retail,200.0
+kv02735,Cambodia,Personal Use,125.0
+kv02736,Tajikistan,Agriculture,700.0
+kv02737,Benin,Retail,700.0
+kv02738,Kenya,Transportation,300.0
+kv02739,Chile,Retail,3900.0
+kv02740,Peru,Services,350.0
+kv02741,Rwanda,Retail,3450.0
+kv02742,Nicaragua,Retail,575.0
+kv02743,Uganda,Food,200.0
+kv02744,Paraguay,Food,950.0
+kv02745,Togo,Food,350.0
+kv02746,Peru,Clothing,200.0
+kv02747,Kenya,Clothing,500.0
+kv02748,Mongolia,Retail,1600.0
+kv02749,Albania,Agriculture,1450.0
+kv02750,Peru,Retail,3375.0
+kv02751,Jordan,Education,1475.0
+kv02752,Uganda,Food,125.0
+kv02753,Nicaragua,Agriculture,975.0
+kv02754,United States,Transportation,5450.0
+kv02755,El Salvador,Agriculture,400.0
+kv02756,Jordan,Housing,575.0
+kv02757,Nigeria,Clothing,1200.0
+kv02758,Dominican Republic,Retail,4200.0
+kv02759,Kyrgyzstan,Agriculture,2200.0
+kv02760,Peru,Agriculture,725.0
+kv02761,Cambodia,Housing,750.0
+kv02762,Cambodia,Agriculture,1000.0
+kv02763,Philippines,Services,175.0
+kv02764,Philippines,Agriculture,300.0
+kv02765,Kenya,Services,1200.0
+kv02766,Nigeria,Personal Use,200.0
+kv02767,Cambodia,Personal Use,225.0
+kv02768,Philippines,Retail,350.0
+kv02769,Pakistan,Food,475.0
+kv02770,Lebanon,Agriculture,1575.0
+kv02771,Peru,Agriculture,2200.0
+kv02772,Ecuador,Agriculture,1075.0
+kv02773,Tajikistan,Agriculture,900.0
+kv02774,Philippines,Retail,575.0
+kv02775,Rwanda,Retail,850.0
+kv02776,Philippines,Retail,550.0
+kv02777,Costa Rica,Agriculture,1000.0
+kv02778,Costa Rica,Personal Use,525.0
+kv02779,Vietnam,Food,1350.0
+kv02780,Guatemala,Agriculture,1300.0
+kv02781,El Salvador,Agriculture,325.0
+kv02782,Philippines,Retail,200.0
+kv02783,Indonesia,Retail,175.0
+kv02784,Philippines,Personal Use,225.0
+kv02785,Philippines,Clothing,125.0
+kv02786,Kenya,Services,50.0
+kv02787,Philippines,Manufacturing,375.0
+kv02788,Jordan,Food,1025.0
+kv02789,Uganda,Food,3200.0
+kv02790,Philippines,Agriculture,375.0
+kv02791,Philippines,Retail,250.0
+kv02792,Colombia,Manufacturing,850.0
+kv02793,Mexico,Housing,975.0
+kv02794,Kenya,Agriculture,650.0
+kv02795,Ecuador,Food,1100.0
+kv02796,Kyrgyzstan,Education,1100.0
+kv02797,Uganda,Clothing,300.0
+kv02798,Liberia,Retail,525.0
+kv02799,Nigeria,Clothing,875.0
+kv02800,Mali,Agriculture,775.0
+kv02801,Pakistan,Arts,300.0
+kv02802,Philippines,Retail,800.0
+kv02803,Kenya,Retail,350.0
+kv02804,Philippines,Food,350.0
+kv02805,Uganda,Education,1425.0
+kv02806,Ghana,Clothing,175.0
+kv02807,Peru,Retail,1025.0
+kv02808,Cambodia,Agriculture,500.0
+kv02809,Cambodia,Personal Use,1000.0
+kv02810,Vietnam,Housing,900.0
+kv02811,Tajikistan,Transportation,925.0
+kv02812,Ecuador,Services,1000.0
+kv02813,Costa Rica,Agriculture,950.0
+kv02814,Tajikistan,Retail,2550.0
+kv02815,Zimbabwe,Clothing,1000.0
+kv02816,Indonesia,Housing,375.0
+kv02817,Vietnam,Agriculture,1525.0
+kv02818,El Salvador,Clothing,1500.0
+kv02819,Kenya,Agriculture,1175.0
+kv02820,Vietnam,Agriculture,850.0
+kv02821,Kenya,Education,375.0
+kv02822,Mexico,Housing,775.0
+kv02823,Cambodia,Food,1000.0
+kv02824,Kenya,Retail,125.0
+kv02825,Mongolia,Food,1450.0
+kv02826,Bolivia,Food,1175.0
+kv02827,Bolivia,Food,3425.0
+kv02828,Peru,Personal Use,475.0
+kv02829,Philippines,Food,150.0
+kv02830,Ecuador,Food,775.0
+kv02831,Philippines,Services,225.0
+kv02832,Nicaragua,Housing,700.0
+kv02833,El Salvador,Agriculture,1000.0
+kv02834,Philippines,Retail,175.0
+kv02835,Nigeria,Food,950.0
+kv02836,Mozambique,Construction,625.0
+kv02837,Cambodia,Personal Use,100.0
+kv02838,Nicaragua,Education,775.0
+kv02839,Tanzania,Clothing,125.0
+kv02840,Philippines,Food,200.0
+kv02841,Kenya,Agriculture,525.0
+kv02842,Cambodia,Personal Use,125.0
+kv02843,Vietnam,Agriculture,675.0
+kv02844,Nicaragua,Clothing,500.0
+kv02845,South Sudan,Clothing,575.0
+kv02846,Nicaragua,Services,875.0
+kv02847,Kyrgyzstan,Agriculture,1075.0
+kv02848,Nicaragua,Food,400.0
+kv02849,Honduras,Agriculture,1375.0
+kv02850,Rwanda,Services,275.0
+kv02851,Kenya,Housing,475.0
+kv02852,Philippines,Services,325.0
+kv02853,India,Agriculture,1300.0
+kv02854,Kenya,Manufacturing,575.0
+kv02855,Pakistan,Retail,400.0
+kv02856,Ecuador,Arts,1525.0
+kv02857,Philippines,Agriculture,350.0
+kv02858,Lebanon,Manufacturing,3000.0
+kv02859,Kenya,Agriculture,675.0
+kv02860,Philippines,Clothing,350.0
+kv02861,Cambodia,Housing,500.0
+kv02862,El Salvador,Agriculture,350.0
+kv02863,Togo,Retail,225.0
+kv02864,Philippines,Food,250.0
+kv02865,Ghana,Agriculture,1450.0
+kv02866,Bolivia,Transportation,200.0
+kv02867,Kenya,Agriculture,300.0
+kv02868,Pakistan,Retail,300.0
+kv02869,Georgia,Agriculture,425.0
+kv02870,Philippines,Agriculture,225.0
+kv02871,El Salvador,Food,200.0
+kv02872,Kenya,Agriculture,100.0
+kv02873,Guatemala,Transportation,1200.0
+kv02874,Iraq,Retail,1000.0
+kv02875,Guatemala,Agriculture,500.0
+kv02876,Myanmar (Burma),Agriculture,1100.0
+kv02877,Philippines,Housing,200.0
+kv02878,Ghana,Services,225.0
+kv02879,Philippines,Agriculture,125.0
+kv02880,Rwanda,Retail,925.0
+kv02881,Tajikistan,Manufacturing,300.0
+kv02882,Indonesia,Retail,1550.0
+kv02883,Samoa,Food,775.0
+kv02884,Colombia,Retail,600.0
+kv02885,El Salvador,Agriculture,400.0
+kv02886,Cambodia,Personal Use,125.0
+kv02887,Ghana,Food,1750.0
+kv02888,Ghana,Food,525.0
+kv02889,Mexico,Food,750.0
+kv02890,El Salvador,Agriculture,100.0
+kv02891,Bolivia,Manufacturing,600.0
+kv02892,Philippines,Agriculture,525.0
+kv02893,Mexico,Agriculture,2600.0
+kv02894,Kyrgyzstan,Agriculture,875.0
+kv02895,El Salvador,Retail,500.0
+kv02896,Peru,Agriculture,750.0
+kv02897,Peru,Housing,1100.0
+kv02898,El Salvador,Agriculture,200.0
+kv02899,Kenya,Agriculture,100.0
+kv02900,Philippines,Food,550.0
+kv02901,Nicaragua,Agriculture,450.0
+kv02902,Peru,Food,375.0
+kv02903,Nicaragua,Food,1075.0
+kv02904,Philippines,Retail,225.0
+kv02905,Ecuador,Food,1100.0
+kv02906,Peru,Agriculture,925.0
+kv02907,Haiti,Food,475.0
+kv02908,Nigeria,Clothing,700.0
+kv02909,Kenya,Agriculture,825.0
+kv02910,Liberia,Clothing,350.0
+kv02911,Madagascar,Retail,375.0
+kv02912,Peru,Health,375.0
+kv02913,Bolivia,Services,875.0
+kv02914,Philippines,Agriculture,200.0
+kv02915,Tajikistan,Construction,3000.0
+kv02916,Colombia,Services,975.0
+kv02917,Pakistan,Clothing,300.0
+kv02918,Nicaragua,Education,750.0
+kv02919,United States,Services,5425.0
+kv02920,Kenya,Health,250.0
+kv02921,India,Agriculture,575.0
+kv02922,Cambodia,Personal Use,500.0
+kv02923,Nigeria,Personal Use,225.0
+kv02924,Nicaragua,Retail,750.0
+kv02925,Nicaragua,Housing,675.0
+kv02926,Nicaragua,Food,1125.0
+kv02927,Philippines,Agriculture,275.0
+kv02928,Tajikistan,Health,300.0
+kv02929,Philippines,Food,100.0
+kv02930,Philippines,Food,375.0
+kv02931,Nicaragua,Retail,800.0
+kv02932,India,Agriculture,275.0
+kv02933,Cambodia,Personal Use,125.0
+kv02934,Togo,Clothing,550.0
+kv02935,Costa Rica,Food,800.0
+kv02936,Cambodia,Retail,1000.0
+kv02937,Cameroon,Agriculture,375.0
+kv02938,Vietnam,Manufacturing,400.0
+kv02939,India,Arts,400.0
+kv02940,United States,Services,10000.0
+kv02941,Ecuador,Retail,1200.0
+kv02942,Cameroon,Food,175.0
+kv02943,Vietnam,Housing,475.0
+kv02944,Armenia,Agriculture,3000.0
+kv02945,Palestine,Clothing,1500.0
+kv02946,Kenya,Transportation,800.0
+kv02947,Philippines,Food,225.0
+kv02948,Nicaragua,Education,400.0
+kv02949,El Salvador,Services,500.0
+kv02950,Philippines,Food,225.0
+kv02951,El Salvador,Agriculture,500.0
+kv02952,Peru,Retail,875.0
+kv02953,Azerbaijan,Agriculture,775.0
+kv02954,India,Personal Use,200.0
+kv02955,Philippines,Retail,200.0
+kv02956,Philippines,Food,325.0
+kv02957,Philippines,Retail,300.0
+kv02958,Cambodia,Arts,450.0
+kv02959,Philippines,Agriculture,100.0
+kv02960,Kenya,Agriculture,600.0
+kv02961,Burundi,Food,2625.0
+kv02962,Philippines,Retail,525.0
+kv02963,Philippines,Food,225.0
+kv02964,Bolivia,Food,500.0
+kv02965,United States,Retail,2500.0
+kv02966,Philippines,Retail,350.0
+kv02967,Honduras,Food,725.0
+kv02968,Kenya,Clothing,350.0
+kv02969,Peru,Agriculture,950.0
+kv02970,El Salvador,Agriculture,1200.0
+kv02971,Mexico,Health,1375.0
+kv02972,Peru,Agriculture,725.0
+kv02973,Philippines,Education,125.0
+kv02974,Uganda,Food,100.0
+kv02975,Peru,Agriculture,600.0
+kv02976,Kenya,Food,475.0
+kv02977,Palestine,Transportation,2000.0
+kv02978,Uganda,Services,675.0
+kv02979,Mongolia,Retail,1450.0
+kv02980,Kyrgyzstan,Agriculture,1050.0
+kv02981,Kenya,Retail,175.0
+kv02982,Cambodia,Personal Use,175.0
+kv02983,Cambodia,Personal Use,125.0
+kv02984,Nicaragua,Clothing,400.0
+kv02985,El Salvador,Retail,1600.0
+kv02986,Colombia,Services,575.0
+kv02987,Mongolia,Transportation,700.0
+kv02988,Togo,Retail,175.0
+kv02989,Jordan,Services,1200.0
+kv02990,Philippines,Food,425.0
+kv02991,Peru,Transportation,650.0
+kv02992,Ghana,Retail,925.0
+kv02993,Philippines,Retail,350.0
+kv02994,Philippines,Retail,450.0
+kv02995,Liberia,Food,200.0
+kv02996,Armenia,Agriculture,2050.0
+kv02997,Philippines,Retail,175.0
+kv02998,Armenia,Agriculture,950.0
+kv02999,Tajikistan,Services,575.0
+kv03000,Uganda,Food,200.0
+kv03001,The Democratic Republic of the Congo,Food,3550.0
+kv03002,Mali,Food,350.0
+kv03003,El Salvador,Agriculture,400.0
+kv03004,Colombia,Agriculture,900.0
+kv03005,Philippines,Agriculture,300.0
+kv03006,Philippines,Retail,475.0
+kv03007,Philippines,Food,575.0
+kv03008,Cambodia,Personal Use,250.0
+kv03009,Kenya,Agriculture,300.0
+kv03010,Philippines,Food,200.0
+kv03011,Pakistan,Food,400.0
+kv03012,Paraguay,Food,950.0
+kv03013,Lebanon,Construction,1500.0
+kv03014,India,Housing,700.0
+kv03015,Mexico,Food,500.0
+kv03016,Uganda,Services,1300.0
+kv03017,Senegal,Agriculture,2100.0
+kv03018,Uganda,Retail,225.0
+kv03019,Rwanda,Food,450.0
+kv03020,Philippines,Agriculture,275.0
+kv03021,Kenya,Agriculture,500.0
+kv03022,Philippines,Retail,750.0
+kv03023,Nicaragua,Retail,700.0
+kv03024,Mexico,Retail,375.0
+kv03025,Yemen,Retail,475.0
+kv03026,Rwanda,Food,1750.0
+kv03027,Vietnam,Food,725.0
+kv03028,Philippines,Retail,425.0
+kv03029,Azerbaijan,Agriculture,725.0
+kv03030,Peru,Agriculture,200.0
+kv03031,El Salvador,Housing,350.0
+kv03032,Philippines,Food,225.0
+kv03033,Senegal,Services,325.0
+kv03034,Peru,Education,575.0
+kv03035,Albania,Housing,825.0
+kv03036,Pakistan,Clothing,400.0
+kv03037,Kenya,Services,200.0
+kv03038,Peru,Agriculture,375.0
+kv03039,Peru,Retail,400.0
+kv03040,Philippines,Retail,275.0
+kv03041,Tajikistan,Agriculture,425.0
+kv03042,Philippines,Retail,325.0
+kv03043,Cambodia,Personal Use,200.0
+kv03044,Palestine,Housing,150.0
+kv03045,Peru,Agriculture,375.0
+kv03046,Philippines,Food,250.0
+kv03047,Colombia,Retail,650.0
+kv03048,Peru,Food,300.0
+kv03049,Ecuador,Food,250.0
+kv03050,Tajikistan,Food,850.0
+kv03051,Vietnam,Food,725.0
+kv03052,Peru,Agriculture,700.0
+kv03053,Uganda,Services,300.0
+kv03054,Philippines,Retail,225.0
+kv03055,Kenya,Agriculture,2500.0
+kv03056,Dominican Republic,Clothing,2975.0
+kv03057,Tajikistan,Food,650.0
+kv03058,Brazil,Food,2825.0
+kv03059,Philippines,Retail,450.0
+kv03060,Kenya,Services,250.0
+kv03061,Philippines,Retail,125.0
+kv03062,Philippines,Agriculture,550.0
+kv03063,Vietnam,Housing,900.0
+kv03064,Ghana,Food,400.0
+kv03065,Philippines,Agriculture,125.0
+kv03066,Philippines,Retail,400.0
+kv03067,El Salvador,Retail,1100.0
+kv03068,Guatemala,Food,3550.0
+kv03069,Mexico,Construction,1200.0
+kv03070,Cambodia,Personal Use,1400.0
+kv03071,Honduras,Food,375.0
+kv03072,Kenya,Construction,600.0
+kv03073,Pakistan,Services,550.0
+kv03074,Philippines,Housing,225.0
+kv03075,Kenya,Agriculture,375.0
+kv03076,Senegal,Retail,775.0
+kv03077,Cameroon,Agriculture,175.0
+kv03078,Philippines,Food,250.0
+kv03079,Peru,Food,3125.0
+kv03080,Tanzania,Food,175.0
+kv03081,Kenya,Agriculture,100.0
+kv03082,Lebanon,Education,2700.0
+kv03083,United States,Food,10000.0
+kv03084,Zambia,Wholesale,2825.0
+kv03085,Uganda,Agriculture,425.0
+kv03086,Peru,Transportation,650.0
+kv03087,Kenya,Food,350.0
+kv03088,Kenya,Agriculture,100.0
+kv03089,Nepal,Food,175.0
+kv03090,Philippines,Retail,250.0
+kv03091,Mexico,Food,350.0
+kv03092,Cambodia,Services,2550.0
+kv03093,Philippines,Retail,250.0
+kv03094,Peru,Agriculture,2100.0
+kv03095,Pakistan,Food,925.0
+kv03096,Tanzania,Food,4650.0
+kv03097,Mozambique,Housing,350.0
+kv03098,Philippines,Food,325.0
+kv03099,Kyrgyzstan,Agriculture,975.0
+kv03100,Uganda,Retail,150.0
+kv03101,Philippines,Retail,500.0
+kv03102,Kenya,Retail,500.0
+kv03103,Peru,Food,225.0
+kv03104,Kenya,Services,825.0
+kv03105,Colombia,Education,100.0
+kv03106,Cameroon,Agriculture,300.0
+kv03107,Peru,Food,1200.0
+kv03108,Philippines,Agriculture,125.0
+kv03109,Ghana,Food,475.0
+kv03110,Pakistan,Education,975.0
+kv03111,Zambia,Services,3325.0
+kv03112,Philippines,Agriculture,125.0
+kv03113,Kenya,Retail,425.0
+kv03114,Pakistan,Services,400.0
+kv03115,Philippines,Clothing,300.0
+kv03116,Pakistan,Education,975.0
+kv03117,Togo,Clothing,650.0
+kv03118,Armenia,Agriculture,3000.0
+kv03119,Mexico,Personal Use,525.0
+kv03120,Philippines,Food,250.0
+kv03121,Georgia,Agriculture,1775.0
+kv03122,Bolivia,Food,6250.0
+kv03123,Kenya,Services,500.0
+kv03124,Kenya,Food,125.0
+kv03125,Philippines,Retail,475.0
+kv03126,Colombia,Food,250.0
+kv03127,India,Food,300.0
+kv03128,Rwanda,Retail,9125.0
+kv03129,Philippines,Food,225.0
+kv03130,Philippines,Food,300.0
+kv03131,Colombia,Retail,350.0
+kv03132,Philippines,Retail,450.0
+kv03133,Nepal,Food,375.0
+kv03134,Uganda,Clothing,800.0
+kv03135,Uganda,Food,200.0
+kv03136,Armenia,Health,875.0
+kv03137,Colombia,Food,1625.0
+kv03138,Mongolia,Manufacturing,600.0
+kv03139,Pakistan,Arts,125.0
+kv03140,Philippines,Agriculture,300.0
+kv03141,Peru,Agriculture,750.0
+kv03142,Philippines,Agriculture,350.0
+kv03143,Tajikistan,Education,700.0
+kv03144,Nicaragua,Services,500.0
+kv03145,Philippines,Food,450.0
+kv03146,Nicaragua,Services,425.0
+kv03147,Philippines,Agriculture,225.0
+kv03148,Philippines,Retail,450.0
+kv03149,Dominican Republic,Education,3100.0
+kv03150,Lebanon,Food,1000.0
+kv03151,Cambodia,Retail,700.0
+kv03152,Peru,Agriculture,1700.0
+kv03153,Philippines,Retail,200.0
+kv03154,Peru,Retail,350.0
+kv03155,Nigeria,Agriculture,50.0
+kv03156,Nicaragua,Retail,975.0
+kv03157,Tajikistan,Education,1150.0
+kv03158,Philippines,Retail,250.0
+kv03159,Peru,Agriculture,675.0
+kv03160,Philippines,Food,300.0
+kv03161,Mali,Services,1000.0
+kv03162,Cambodia,Arts,400.0
+kv03163,El Salvador,Agriculture,1000.0
+kv03164,Tanzania,Food,400.0
+kv03165,Pakistan,Services,450.0
+kv03166,Togo,Clothing,300.0
+kv03167,Vietnam,Food,1175.0
+kv03168,Ecuador,Retail,775.0
+kv03169,Philippines,Services,125.0
+kv03170,Philippines,Agriculture,150.0
+kv03171,El Salvador,Agriculture,500.0
+kv03172,Paraguay,Retail,6000.0
+kv03173,Philippines,Retail,125.0
+kv03174,Colombia,Services,325.0
+kv03175,Tajikistan,Agriculture,600.0
+kv03176,Tajikistan,Housing,850.0
+kv03177,Philippines,Agriculture,225.0
+kv03178,Mexico,Health,1300.0
+kv03179,Cambodia,Food,500.0
+kv03180,Rwanda,Agriculture,1575.0
+kv03181,Philippines,Transportation,225.0
+kv03182,Sierra Leone,Retail,925.0
+kv03183,Nicaragua,Agriculture,775.0
+kv03184,Paraguay,Retail,1250.0
+kv03185,Kenya,Clothing,225.0
+kv03186,Philippines,Retail,675.0
+kv03187,Philippines,Housing,200.0
+kv03188,Guatemala,Clothing,1050.0
+kv03189,Kenya,Clothing,400.0
+kv03190,Philippines,Retail,500.0
+kv03191,Paraguay,Food,650.0
+kv03192,Solomon Islands,Food,475.0
+kv03193,Mexico,Arts,575.0
+kv03194,Kenya,Agriculture,200.0
+kv03195,Philippines,Food,275.0
+kv03196,El Salvador,Food,400.0
+kv03197,Pakistan,Education,975.0
+kv03198,Togo,Services,1050.0
+kv03199,Philippines,Food,125.0
+kv03200,Kenya,Retail,475.0
+kv03201,Kenya,Agriculture,100.0
+kv03202,Ecuador,Food,300.0
+kv03203,Nepal,Agriculture,500.0
+kv03204,El Salvador,Food,500.0
+kv03205,Nicaragua,Housing,575.0
+kv03206,Cambodia,Food,300.0
+kv03207,Brazil,Services,3625.0
+kv03208,Azerbaijan,Food,1925.0
+kv03209,Philippines,Food,400.0
+kv03210,Philippines,Food,225.0
+kv03211,Philippines,Agriculture,325.0
+kv03212,Nigeria,Agriculture,150.0
+kv03213,Colombia,Agriculture,525.0
+kv03214,Pakistan,Transportation,450.0
+kv03215,Philippines,Retail,300.0
+kv03216,Philippines,Retail,625.0
+kv03217,Honduras,Retail,800.0
+kv03218,Pakistan,Clothing,350.0
+kv03219,Kenya,Food,300.0
+kv03220,Philippines,Agriculture,450.0
+kv03221,Philippines,Agriculture,125.0
+kv03222,Philippines,Retail,100.0
+kv03223,Philippines,Services,1075.0
+kv03224,Kenya,Services,650.0
+kv03225,Philippines,Agriculture,300.0
+kv03226,Armenia,Agriculture,1000.0
+kv03227,Philippines,Housing,225.0
+kv03228,Kenya,Food,250.0
+kv03229,Kenya,Clothing,975.0
+kv03230,Colombia,Retail,425.0
+kv03231,Philippines,Retail,400.0
+kv03232,Paraguay,Education,575.0
+kv03233,Azerbaijan,Agriculture,1350.0
+kv03234,Nicaragua,Health,775.0
+kv03235,Mongolia,Food,325.0
+kv03236,Cambodia,Personal Use,200.0
+kv03237,El Salvador,Housing,400.0
+kv03238,Ecuador,Agriculture,1100.0
+kv03239,Philippines,Food,500.0
+kv03240,Kenya,Transportation,350.0
+kv03241,Uganda,Retail,825.0
+kv03242,Philippines,Retail,275.0
+kv03243,Colombia,Food,475.0
+kv03244,Philippines,Food,300.0
+kv03245,Cambodia,Agriculture,750.0
+kv03246,Tanzania,Clothing,650.0
+kv03247,Philippines,Agriculture,325.0
+kv03248,Philippines,Agriculture,475.0
+kv03249,Philippines,Retail,325.0
+kv03250,South Africa,Education,2100.0
+kv03251,Philippines,Food,350.0
+kv03252,Philippines,Clothing,475.0
+kv03253,Bolivia,Food,3650.0
+kv03254,Cambodia,Education,750.0
+kv03255,Philippines,Retail,500.0
+kv03256,Kenya,Clothing,225.0
+kv03257,Mozambique,Housing,425.0
+kv03258,Vietnam,Agriculture,1150.0
+kv03259,Myanmar (Burma),Agriculture,925.0
+kv03260,Philippines,Retail,175.0
+kv03261,Peru,Manufacturing,1125.0
+kv03262,Peru,Food,300.0
+kv03263,Kenya,Agriculture,675.0
+kv03264,Peru,Retail,275.0
+kv03265,Bolivia,Services,2175.0
+kv03266,El Salvador,Agriculture,300.0
+kv03267,Nicaragua,Retail,150.0
+kv03268,Kyrgyzstan,Housing,675.0
+kv03269,Paraguay,Retail,1475.0
+kv03270,Kenya,Food,575.0
+kv03271,India,Arts,175.0
+kv03272,Kenya,Retail,300.0
+kv03273,India,Food,400.0
+kv03274,Mongolia,Manufacturing,725.0
+kv03275,Paraguay,Retail,1050.0
+kv03276,Nicaragua,Food,350.0
+kv03277,Tanzania,Food,700.0
+kv03278,Philippines,Agriculture,275.0
+kv03279,Ecuador,Retail,1000.0
+kv03280,Armenia,Food,1475.0
+kv03281,Mexico,Retail,225.0
+kv03282,Philippines,Services,150.0
+kv03283,Timor-Leste,Retail,1500.0
+kv03284,Samoa,Food,425.0
+kv03285,Georgia,Agriculture,875.0
+kv03286,Uganda,Retail,1950.0
+kv03287,Colombia,Agriculture,275.0
+kv03288,Kenya,Retail,250.0
+kv03289,Mali,Agriculture,2200.0
+kv03290,Tajikistan,Agriculture,500.0
+kv03291,Kenya,Services,300.0
+kv03292,Peru,Agriculture,575.0
+kv03293,Philippines,Personal Use,200.0
+kv03294,Senegal,Agriculture,825.0
+kv03295,Philippines,Agriculture,75.0
+kv03296,India,Services,225.0
+kv03297,Liberia,Food,300.0
+kv03298,Togo,Retail,225.0
+kv03299,Mongolia,Services,2275.0
+kv03300,India,Agriculture,325.0
+kv03301,India,Agriculture,200.0
+kv03302,Uganda,Services,825.0
+kv03303,Cambodia,Personal Use,175.0
+kv03304,Georgia,Education,925.0
+kv03305,Colombia,Food,600.0
+kv03306,Philippines,Agriculture,300.0
+kv03307,Cambodia,Agriculture,600.0
+kv03308,Tanzania,Arts,875.0
+kv03309,El Salvador,Agriculture,1500.0
+kv03310,Sierra Leone,Clothing,1175.0
+kv03311,Tajikistan,Food,400.0
+kv03312,Nicaragua,Construction,1050.0
+kv03313,Nicaragua,Food,750.0
+kv03314,Kenya,Agriculture,850.0
+kv03315,El Salvador,Housing,700.0
+kv03316,Kenya,Agriculture,1050.0
+kv03317,Kenya,Food,525.0
+kv03318,Paraguay,Food,5000.0
+kv03319,Philippines,Retail,300.0
+kv03320,Ghana,Retail,525.0
+kv03321,Peru,Food,3800.0
+kv03322,Philippines,Agriculture,250.0
+kv03323,Uganda,Agriculture,750.0
+kv03324,Cambodia,Food,300.0
+kv03325,Philippines,Food,625.0
+kv03326,Philippines,Retail,325.0
+kv03327,Azerbaijan,Agriculture,1550.0
+kv03328,Guatemala,Clothing,450.0
+kv03329,Kenya,Agriculture,550.0
+kv03330,Peru,Agriculture,1400.0
+kv03331,Philippines,Arts,125.0
+kv03332,Philippines,Food,225.0
+kv03333,Kyrgyzstan,Agriculture,1175.0
+kv03334,Bolivia,Clothing,425.0
+kv03335,Bolivia,Agriculture,1450.0
+kv03336,Cambodia,Agriculture,1250.0
+kv03337,South Sudan,Food,900.0
+kv03338,Kenya,Retail,200.0
+kv03339,Kenya,Agriculture,400.0
+kv03340,El Salvador,Agriculture,400.0
+kv03341,Pakistan,Transportation,425.0
+kv03342,Guatemala,Housing,275.0
+kv03343,Tajikistan,Personal Use,975.0
+kv03344,Dominican Republic,Retail,2400.0
+kv03345,Kenya,Agriculture,200.0
+kv03346,Philippines,Food,450.0
+kv03347,El Salvador,Retail,800.0
+kv03348,Mongolia,Agriculture,450.0
+kv03349,Rwanda,Retail,675.0
+kv03350,Philippines,Agriculture,325.0
+kv03351,Madagascar,Agriculture,125.0
+kv03352,Philippines,Retail,450.0
+kv03353,Pakistan,Entertainment,1250.0
+kv03354,Kenya,Food,300.0
+kv03355,Tajikistan,Agriculture,1075.0
+kv03356,Pakistan,Services,700.0
+kv03357,Philippines,Food,275.0
+kv03358,Peru,Retail,2225.0
+kv03359,Togo,Services,1025.0
+kv03360,India,Services,325.0
+kv03361,Burkina Faso,Clothing,575.0
+kv03362,El Salvador,Services,900.0
+kv03363,Georgia,Agriculture,975.0
+kv03364,Tajikistan,Education,1850.0
+kv03365,El Salvador,Agriculture,1000.0
+kv03366,Philippines,Agriculture,300.0
+kv03367,Pakistan,Clothing,300.0
+kv03368,Uganda,Clothing,250.0
+kv03369,Philippines,Clothing,275.0
+kv03370,Philippines,Clothing,300.0
+kv03371,Philippines,Food,575.0
+kv03372,Peru,Agriculture,550.0
+kv03373,United States,Services,5000.0
+kv03374,Peru,Retail,350.0
+kv03375,Kenya,Services,1150.0
+kv03376,Kenya,Food,225.0
+kv03377,Nigeria,Food,475.0
+kv03378,Nicaragua,Retail,1000.0
+kv03379,Armenia,Education,425.0
+kv03380,Philippines,Food,100.0
+kv03381,El Salvador,Food,1200.0
+kv03382,Vietnam,Agriculture,900.0
+kv03383,Nicaragua,Food,700.0
+kv03384,Kenya,Retail,500.0
+kv03385,Philippines,Food,350.0
+kv03386,Peru,Retail,975.0
+kv03387,Vietnam,Education,675.0
+kv03388,Mozambique,Housing,275.0
+kv03389,Cambodia,Personal Use,100.0
+kv03390,Colombia,Retail,600.0
+kv03391,Philippines,Construction,300.0
+kv03392,Lebanon,Services,2000.0
+kv03393,Kenya,Agriculture,375.0
+kv03394,Philippines,Agriculture,275.0
+kv03395,Kyrgyzstan,Agriculture,1725.0
+kv03396,Philippines,Food,250.0
+kv03397,Cambodia,Food,1725.0
+kv03398,Kenya,Food,125.0
+kv03399,Nicaragua,Food,600.0
+kv03400,Ecuador,Agriculture,6375.0
+kv03401,Philippines,Housing,325.0
+kv03402,Ghana,Services,1425.0
+kv03403,Palestine,Food,1000.0
+kv03404,Cambodia,Agriculture,500.0
+kv03405,Vietnam,Retail,125.0
+kv03406,Kenya,Food,275.0
+kv03407,Tajikistan,Agriculture,900.0
+kv03408,Mongolia,Manufacturing,1525.0
+kv03409,Kenya,Retail,200.0
+kv03410,Tajikistan,Agriculture,1150.0
+kv03411,South Sudan,Food,325.0
+kv03412,Madagascar,Agriculture,275.0
+kv03413,Senegal,Food,2325.0
+kv03414,Ghana,Food,525.0
+kv03415,Pakistan,Services,500.0
+kv03416,Kenya,Agriculture,250.0
+kv03417,Peru,Agriculture,650.0
+kv03418,Philippines,Food,450.0
+kv03419,Benin,Retail,350.0
+kv03420,Philippines,Education,125.0
+kv03421,Ghana,Food,425.0
+kv03422,Palestine,Personal Use,700.0
+kv03423,Samoa,Food,1200.0
+kv03424,Philippines,Food,1025.0
+kv03425,El Salvador,Retail,1000.0
+kv03426,Pakistan,Services,300.0
+kv03427,Uganda,Retail,1200.0
+kv03428,Pakistan,Food,400.0
+kv03429,Philippines,Food,250.0
+kv03430,Tajikistan,Clothing,2200.0
+kv03431,Cambodia,Personal Use,125.0
+kv03432,Peru,Food,550.0
+kv03433,Peru,Health,3200.0
+kv03434,Philippines,Food,825.0
+kv03435,Kenya,Transportation,275.0
+kv03436,Tajikistan,Agriculture,925.0
+kv03437,Cambodia,Agriculture,500.0
+kv03438,Peru,Retail,775.0
+kv03439,Vietnam,Food,1375.0
+kv03440,Philippines,Retail,750.0
+kv03441,Kenya,Food,600.0
+kv03442,Bolivia,Agriculture,525.0
+kv03443,Ghana,Education,1700.0
+kv03444,India,Agriculture,250.0
+kv03445,Azerbaijan,Retail,775.0
+kv03446,Cambodia,Housing,500.0
+kv03447,Tanzania,Retail,475.0
+kv03448,Peru,Agriculture,375.0
+kv03449,Mexico,Food,4025.0
+kv03450,Peru,Food,350.0
+kv03451,Nicaragua,Retail,400.0
+kv03452,Philippines,Food,325.0
+kv03453,Kenya,Agriculture,825.0
+kv03454,El Salvador,Services,1000.0
+kv03455,Kyrgyzstan,Agriculture,2775.0
+kv03456,United States,Agriculture,10000.0
+kv03457,Mozambique,Retail,600.0
+kv03458,Mali,Retail,550.0
+kv03459,Tajikistan,Agriculture,550.0
+kv03460,Ecuador,Agriculture,1050.0
+kv03461,Philippines,Retail,300.0
+kv03462,Pakistan,Transportation,300.0
+kv03463,Kenya,Personal Use,50.0
+kv03464,Kenya,Retail,450.0
+kv03465,Azerbaijan,Manufacturing,1000.0
+kv03466,Ecuador,Agriculture,600.0
+kv03467,Philippines,Food,125.0
+kv03468,Philippines,Agriculture,150.0
+kv03469,Philippines,Services,275.0
+kv03470,Liberia,Food,150.0
+kv03471,Peru,Agriculture,600.0
+kv03472,Ghana,Food,5750.0
+kv03473,Philippines,Housing,275.0
+kv03474,Colombia,Services,1075.0
+kv03475,Uganda,Retail,150.0
+kv03476,Peru,Agriculture,1225.0
+kv03477,Uganda,Housing,300.0
+kv03478,Mexico,Food,4975.0
+kv03479,Indonesia,Food,350.0
+kv03480,El Salvador,Retail,400.0
+kv03481,Ecuador,Food,1075.0
+kv03482,Uganda,Housing,400.0
+kv03483,Kenya,Agriculture,1025.0
+kv03484,Kenya,Agriculture,400.0
+kv03485,Tajikistan,Transportation,3000.0
+kv03486,Togo,Food,175.0
+kv03487,Tajikistan,Services,2050.0
+kv03488,Nicaragua,Retail,475.0
+kv03489,Rwanda,Retail,1175.0
+kv03490,Senegal,Retail,2350.0
+kv03491,Armenia,Health,1675.0
+kv03492,Ecuador,Transportation,900.0
+kv03493,Kenya,Agriculture,625.0
+kv03494,Indonesia,Arts,12000.0
+kv03495,Liberia,Food,200.0
+kv03496,Ghana,Food,725.0
+kv03497,Yemen,Food,475.0
+kv03498,Peru,Construction,575.0
+kv03499,Peru,Retail,1200.0
+kv03500,Tajikistan,Agriculture,325.0
+kv03501,Kenya,Agriculture,300.0
+kv03502,Peru,Agriculture,400.0
+kv03503,Togo,Retail,500.0
+kv03504,Kenya,Agriculture,825.0
+kv03505,Samoa,Food,450.0
+kv03506,Georgia,Agriculture,1825.0
+kv03507,Kyrgyzstan,Agriculture,600.0
+kv03508,Kenya,Agriculture,400.0
+kv03509,Philippines,Agriculture,125.0
+kv03510,Lebanon,Retail,1200.0
+kv03511,Philippines,Manufacturing,600.0
+kv03512,Kenya,Agriculture,400.0
+kv03513,Paraguay,Education,925.0
+kv03514,Pakistan,Clothing,350.0
+kv03515,El Salvador,Agriculture,650.0
+kv03516,Philippines,Food,200.0
+kv03517,Sierra Leone,Food,1425.0
+kv03518,Kenya,Agriculture,400.0
+kv03519,Philippines,Services,275.0
+kv03520,Philippines,Food,175.0
+kv03521,Nicaragua,Services,1075.0
+kv03522,Honduras,Manufacturing,425.0
+kv03523,Kenya,Agriculture,375.0
+kv03524,Brazil,Services,3850.0
+kv03525,Togo,Food,775.0
+kv03526,Tajikistan,Agriculture,1075.0
+kv03527,Pakistan,Transportation,300.0
+kv03528,Timor-Leste,Services,1200.0
+kv03529,Colombia,Services,275.0
+kv03530,Cambodia,Personal Use,225.0
+kv03531,Cambodia,Agriculture,1500.0
+kv03532,Kenya,Clothing,250.0
+kv03533,Zimbabwe,Agriculture,500.0
+kv03534,Bolivia,Services,1600.0
+kv03535,Kenya,Arts,375.0
+kv03536,Paraguay,Food,3950.0
+kv03537,Philippines,Agriculture,250.0
+kv03538,Uganda,Agriculture,850.0
+kv03539,Philippines,Agriculture,350.0
+kv03540,Philippines,Retail,250.0
+kv03541,Peru,Services,450.0
+kv03542,Jordan,Retail,725.0
+kv03543,Tajikistan,Agriculture,800.0
+kv03544,Philippines,Retail,150.0
+kv03545,India,Food,250.0
+kv03546,Liberia,Food,375.0
+kv03547,Tajikistan,Food,925.0
+kv03548,Kenya,Agriculture,250.0
+kv03549,Lebanon,Services,1000.0
+kv03550,Nicaragua,Agriculture,325.0
+kv03551,Philippines,Retail,575.0
+kv03552,Philippines,Services,325.0
+kv03553,Peru,Food,800.0
+kv03554,Philippines,Retail,250.0
+kv03555,Philippines,Retail,350.0
+kv03556,Philippines,Retail,450.0
+kv03557,Indonesia,Education,1075.0
+kv03558,Pakistan,Education,575.0
+kv03559,Peru,Agriculture,550.0
+kv03560,Sierra Leone,Retail,175.0
+kv03561,Rwanda,Agriculture,525.0
+kv03562,India,Retail,325.0
+kv03563,Uganda,Agriculture,850.0
+kv03564,Rwanda,Clothing,5650.0
+kv03565,Togo,Clothing,425.0
+kv03566,Philippines,Food,325.0
+kv03567,Philippines,Agriculture,225.0
+kv03568,Kenya,Agriculture,1200.0
+kv03569,Tanzania,Retail,400.0
+kv03570,El Salvador,Retail,200.0
+kv03571,Cambodia,Agriculture,500.0
+kv03572,Jordan,Food,900.0
+kv03573,Philippines,Retail,525.0
+kv03574,Ghana,Food,350.0
+kv03575,United States,Arts,650.0
+kv03576,Ecuador,Clothing,900.0
+kv03577,The Democratic Republic of the Congo,Food,200.0
+kv03578,Ecuador,Agriculture,1350.0
+kv03579,Kenya,Agriculture,500.0
+kv03580,Kosovo,Food,2175.0
+kv03581,Palestine,Manufacturing,1800.0
+kv03582,Philippines,Transportation,525.0
+kv03583,Peru,Arts,450.0
+kv03584,Nicaragua,Transportation,1000.0
+kv03585,Cambodia,Personal Use,100.0
+kv03586,Paraguay,Clothing,3225.0
+kv03587,Liberia,Food,425.0
+kv03588,Kenya,Food,200.0
+kv03589,El Salvador,Agriculture,200.0
+kv03590,Azerbaijan,Health,325.0
+kv03591,Madagascar,Retail,150.0
+kv03592,El Salvador,Food,1000.0
+kv03593,Bolivia,Food,1025.0
+kv03594,Kenya,Personal Use,75.0
+kv03595,Sierra Leone,Food,750.0
+kv03596,Tajikistan,Services,525.0
+kv03597,Lebanon,Services,1100.0
+kv03598,Philippines,Food,550.0
+kv03599,El Salvador,Food,1000.0
+kv03600,Lebanon,Services,1200.0
+kv03601,El Salvador,Food,300.0
+kv03602,Bolivia,Services,3275.0
+kv03603,The Democratic Republic of the Congo,Retail,10000.0
+kv03604,El Salvador,Food,600.0
+kv03605,Palestine,Manufacturing,2000.0
+kv03606,Nicaragua,Retail,800.0
+kv03607,Philippines,Retail,725.0
+kv03608,Honduras,Agriculture,700.0
+kv03609,Madagascar,Retail,125.0
+kv03610,Kenya,Food,625.0
+kv03611,Uganda,Retail,2675.0
+kv03612,Philippines,Food,125.0
+kv03613,Samoa,Agriculture,800.0
+kv03614,Sierra Leone,Retail,175.0
+kv03615,Cambodia,Housing,625.0
+kv03616,Paraguay,Education,475.0
+kv03617,Pakistan,Retail,300.0
+kv03618,El Salvador,Agriculture,600.0
+kv03619,Madagascar,Clothing,400.0
+kv03620,Togo,Food,125.0
+kv03621,Sierra Leone,Retail,400.0
+kv03622,Philippines,Food,400.0
+kv03623,El Salvador,Food,600.0
+kv03624,Peru,Transportation,325.0
+kv03625,Paraguay,Arts,2975.0
+kv03626,Philippines,Retail,375.0
+kv03627,Azerbaijan,Services,2550.0
+kv03628,Uganda,Clothing,225.0
+kv03629,Madagascar,Retail,575.0
+kv03630,Philippines,Retail,175.0
+kv03631,Tajikistan,Food,475.0
+kv03632,El Salvador,Retail,500.0
+kv03633,Tajikistan,Agriculture,700.0
+kv03634,Pakistan,Education,725.0
+kv03635,Cambodia,Agriculture,1500.0
+kv03636,Azerbaijan,Transportation,1875.0
+kv03637,Mozambique,Housing,775.0
+kv03638,Colombia,Arts,875.0
+kv03639,Philippines,Personal Use,200.0
+kv03640,Pakistan,Retail,1550.0
+kv03641,Jordan,Arts,1200.0
+kv03642,El Salvador,Retail,700.0
+kv03643,Cambodia,Transportation,700.0
+kv03644,Philippines,Food,250.0
+kv03645,Mexico,Services,375.0
+kv03646,Palestine,Personal Use,1875.0
+kv03647,Kenya,Agriculture,700.0
+kv03648,Kenya,Agriculture,1075.0
+kv03649,Rwanda,Agriculture,1175.0
+kv03650,Honduras,Food,450.0
+kv03651,Philippines,Retail,675.0
+kv03652,Philippines,Agriculture,525.0
+kv03653,Azerbaijan,Food,1925.0
+kv03654,Pakistan,Retail,550.0
+kv03655,Kenya,Education,200.0
+kv03656,Uganda,Retail,225.0
+kv03657,Philippines,Food,225.0
+kv03658,Philippines,Retail,350.0
+kv03659,Nigeria,Retail,875.0
+kv03660,Ecuador,Clothing,1000.0
+kv03661,Philippines,Retail,700.0
+kv03662,Armenia,Services,1675.0
+kv03663,Guatemala,Food,525.0
+kv03664,Philippines,Agriculture,275.0
+kv03665,Kenya,Agriculture,500.0
+kv03666,Egypt,Agriculture,575.0
+kv03667,Philippines,Retail,575.0
+kv03668,Egypt,Agriculture,550.0
+kv03669,Ecuador,Agriculture,500.0
+kv03670,Paraguay,Food,2050.0
+kv03671,Sierra Leone,Food,125.0
+kv03672,El Salvador,Manufacturing,500.0
+kv03673,Cameroon,Food,400.0
+kv03674,Philippines,Food,150.0
+kv03675,Paraguay,Food,2575.0
+kv03676,Lebanon,Entertainment,1200.0
+kv03677,Ghana,Food,225.0
+kv03678,Philippines,Food,275.0
+kv03679,Peru,Food,525.0
+kv03680,Cambodia,Agriculture,3750.0
+kv03681,Colombia,Agriculture,1050.0
+kv03682,Nicaragua,Agriculture,950.0
+kv03683,Nicaragua,Agriculture,575.0
+kv03684,Azerbaijan,Food,2000.0
+kv03685,India,Housing,475.0
+kv03686,Uganda,Retail,4875.0
+kv03687,Guatemala,Arts,850.0
+kv03688,Tajikistan,Agriculture,400.0
+kv03689,Nicaragua,Personal Use,950.0
+kv03690,Uganda,Food,875.0
+kv03691,Uganda,Retail,1000.0
+kv03692,Vietnam,Housing,725.0
+kv03693,Uganda,Construction,950.0
+kv03694,Tanzania,Agriculture,475.0
+kv03695,India,Agriculture,2450.0
+kv03696,Lebanon,Education,2000.0
+kv03697,Peru,Clothing,400.0
+kv03698,Philippines,Agriculture,175.0
+kv03699,Tajikistan,Services,1025.0
+kv03700,Philippines,Food,125.0
+kv03701,Nicaragua,Housing,400.0
+kv03702,Cambodia,Personal Use,225.0
+kv03703,El Salvador,Housing,500.0
+kv03704,Philippines,Retail,575.0
+kv03705,Uganda,Food,350.0
+kv03706,Nicaragua,Food,775.0
+kv03707,Mongolia,Transportation,1450.0
+kv03708,Philippines,Retail,125.0
+kv03709,Cambodia,Education,175.0
+kv03710,Nicaragua,Agriculture,575.0
+kv03711,Philippines,Agriculture,375.0
+kv03712,Philippines,Retail,125.0
+kv03713,Nicaragua,Food,575.0
+kv03714,Ecuador,Arts,950.0
+kv03715,Lebanon,Construction,1200.0
+kv03716,Kenya,Retail,275.0
+kv03717,Philippines,Retail,150.0
+kv03718,Tajikistan,Agriculture,500.0
+kv03719,Mozambique,Housing,825.0
+kv03720,Philippines,Retail,600.0
+kv03721,Cambodia,Agriculture,1500.0
+kv03722,Ecuador,Retail,1650.0
+kv03723,Cambodia,Agriculture,1625.0
+kv03724,Pakistan,Clothing,425.0
+kv03725,Philippines,Retail,125.0
+kv03726,Cambodia,Food,800.0
+kv03727,Chile,Services,6725.0
+kv03728,Philippines,Agriculture,575.0
+kv03729,Pakistan,Arts,300.0
+kv03730,Peru,Retail,300.0
+kv03731,Samoa,Arts,750.0
+kv03732,Philippines,Retail,250.0
+kv03733,Tajikistan,Agriculture,475.0
+kv03734,Philippines,Retail,425.0
+kv03735,Vietnam,Food,1000.0
+kv03736,Colombia,Services,650.0
+kv03737,Philippines,Agriculture,350.0
+kv03738,Ghana,Food,775.0
+kv03739,Mali,Agriculture,1925.0
+kv03740,Peru,Retail,2775.0
+kv03741,Tajikistan,Retail,375.0
+kv03742,Philippines,Retail,750.0
+kv03743,Uganda,Food,2800.0
+kv03744,Guatemala,Agriculture,675.0
+kv03745,Mali,Agriculture,2375.0
+kv03746,Kenya,Food,400.0
+kv03747,Vietnam,Retail,75.0
+kv03748,Philippines,Arts,125.0
+kv03749,Armenia,Agriculture,1275.0
+kv03750,Peru,Retail,975.0
+kv03751,El Salvador,Food,550.0
+kv03752,Nigeria,Personal Use,125.0
+kv03753,Cambodia,Agriculture,500.0
+kv03754,Philippines,Retail,150.0
+kv03755,Mongolia,Housing,975.0
+kv03756,Kenya,Agriculture,1525.0
+kv03757,India,Retail,325.0
+kv03758,Malawi,Food,950.0
+kv03759,Peru,Retail,325.0
+kv03760,El Salvador,Retail,300.0
+kv03761,Philippines,Agriculture,350.0
+kv03762,Philippines,Food,175.0
+kv03763,Armenia,Agriculture,1500.0
+kv03764,Kenya,Services,800.0
+kv03765,Kenya,Agriculture,975.0
+kv03766,Kenya,Agriculture,500.0
+kv03767,Peru,Food,675.0
+kv03768,Tanzania,Food,1025.0
+kv03769,Kenya,Services,300.0
+kv03770,Paraguay,Retail,3775.0
+kv03771,Paraguay,Agriculture,3125.0
+kv03772,Kenya,Food,250.0
+kv03773,Peru,Agriculture,1050.0
+kv03774,Philippines,Retail,325.0
+kv03775,India,Agriculture,475.0
+kv03776,Philippines,Construction,275.0
+kv03777,Philippines,Agriculture,500.0
+kv03778,Armenia,Education,725.0
+kv03779,Philippines,Agriculture,325.0
+kv03780,Philippines,Food,250.0
+kv03781,Lebanon,Construction,500.0
+kv03782,Paraguay,Retail,1325.0
+kv03783,Nicaragua,Services,700.0
+kv03784,Lesotho,Personal Use,300.0
+kv03785,Philippines,Agriculture,225.0
+kv03786,Philippines,Clothing,200.0
+kv03787,Cambodia,Personal Use,250.0
+kv03788,Tanzania,Services,300.0
+kv03789,Pakistan,Arts,300.0
+kv03790,Kyrgyzstan,Agriculture,1475.0
+kv03791,Azerbaijan,Agriculture,1200.0
+kv03792,Philippines,Food,125.0
+kv03793,Rwanda,Agriculture,1275.0
+kv03794,Cambodia,Education,1650.0
+kv03795,Sierra Leone,Retail,475.0
+kv03796,Philippines,Food,650.0
+kv03797,Cambodia,Food,1200.0
+kv03798,Nicaragua,Clothing,425.0
+kv03799,Peru,Transportation,575.0
+kv03800,Guatemala,Agriculture,650.0
+kv03801,Peru,Food,1100.0
+kv03802,Sierra Leone,Food,1000.0
+kv03803,El Salvador,Clothing,250.0
+kv03804,Liberia,Food,225.0
+kv03805,Tajikistan,Education,475.0
+kv03806,United States,Services,2400.0
+kv03807,Tanzania,Retail,1925.0
+kv03808,Tajikistan,Food,325.0
+kv03809,Cambodia,Food,700.0
+kv03810,Armenia,Education,1000.0
+kv03811,Philippines,Clothing,100.0
+kv03812,The Democratic Republic of the Congo,Food,5975.0
+kv03813,Ecuador,Food,1075.0
+kv03814,Philippines,Retail,375.0
+kv03815,El Salvador,Housing,700.0
+kv03816,Vietnam,Retail,2700.0
+kv03817,Jordan,Housing,725.0
+kv03818,Tajikistan,Education,575.0
+kv03819,Tajikistan,Education,800.0
+kv03820,Tajikistan,Food,350.0
+kv03821,Kenya,Agriculture,600.0
+kv03822,Jordan,Education,1150.0
+kv03823,Philippines,Construction,475.0
+kv03824,Peru,Transportation,150.0
+kv03825,United States,Services,2000.0
+kv03826,Haiti,Retail,125.0
+kv03827,Kenya,Education,200.0
+kv03828,Uganda,Agriculture,850.0
+kv03829,United States,Retail,5000.0
+kv03830,Kenya,Agriculture,575.0
+kv03831,Philippines,Retail,1100.0
+kv03832,Kenya,Food,200.0
+kv03833,Uganda,Food,425.0
+kv03834,El Salvador,Agriculture,350.0
+kv03835,Ghana,Retail,550.0
+kv03836,Kenya,Food,100.0
+kv03837,Peru,Clothing,1075.0
+kv03838,Uganda,Services,800.0
+kv03839,Honduras,Retail,400.0
+kv03840,Bolivia,Manufacturing,2500.0
+kv03841,Peru,Food,975.0
+kv03842,Philippines,Agriculture,250.0
+kv03843,Philippines,Clothing,350.0
+kv03844,Cambodia,Agriculture,1000.0
+kv03845,Timor-Leste,Retail,1000.0
+kv03846,Philippines,Retail,325.0
+kv03847,Philippines,Food,325.0
+kv03848,Philippines,Retail,275.0
+kv03849,Kenya,Food,550.0
+kv03850,Kyrgyzstan,Agriculture,1025.0
+kv03851,Lebanon,Services,1000.0
+kv03852,Palestine,Personal Use,1275.0
+kv03853,Philippines,Agriculture,325.0
+kv03854,Samoa,Agriculture,600.0
+kv03855,Tajikistan,Clothing,850.0
+kv03856,Mexico,Health,625.0
+kv03857,Cambodia,Retail,250.0
+kv03858,Peru,Retail,725.0
+kv03859,Liberia,Food,375.0
+kv03860,Peru,Retail,725.0
+kv03861,Cambodia,Agriculture,350.0
+kv03862,Philippines,Retail,350.0
+kv03863,El Salvador,Retail,500.0
+kv03864,Mongolia,Education,1300.0
+kv03865,Nepal,Manufacturing,200.0
+kv03866,Kenya,Food,250.0
+kv03867,Colombia,Services,675.0
+kv03868,Mali,Food,400.0
+kv03869,Nigeria,Food,350.0
+kv03870,India,Agriculture,200.0
+kv03871,Ghana,Food,225.0
+kv03872,Jordan,Services,2125.0
+kv03873,Senegal,Food,825.0
+kv03874,Philippines,Entertainment,275.0
+kv03875,Kenya,Retail,225.0
+kv03876,Philippines,Agriculture,250.0
+kv03877,Bolivia,Food,3775.0
+kv03878,Ecuador,Food,2150.0
+kv03879,Kenya,Food,125.0
+kv03880,Mexico,Food,3575.0
+kv03881,Armenia,Education,375.0
+kv03882,Philippines,Retail,175.0
+kv03883,Philippines,Agriculture,300.0
+kv03884,Philippines,Food,225.0
+kv03885,Nicaragua,Food,675.0
+kv03886,Mexico,Arts,5725.0
+kv03887,El Salvador,Housing,300.0
+kv03888,Rwanda,Clothing,600.0
+kv03889,Lebanon,Clothing,2000.0
+kv03890,Philippines,Transportation,1050.0
+kv03891,United States,Retail,6000.0
+kv03892,El Salvador,Food,150.0
+kv03893,Samoa,Services,600.0
+kv03894,Cambodia,Agriculture,350.0
+kv03895,Nicaragua,Agriculture,1200.0
+kv03896,Kenya,Personal Use,125.0
+kv03897,Ecuador,Agriculture,800.0
+kv03898,Madagascar,Food,200.0
+kv03899,Cambodia,Personal Use,100.0
+kv03900,Philippines,Retail,300.0
+kv03901,Philippines,Food,325.0
+kv03902,Colombia,Housing,675.0
+kv03903,Philippines,Retail,400.0
+kv03904,Peru,Wholesale,325.0
+kv03905,Philippines,Agriculture,150.0
+kv03906,Colombia,Retail,1075.0
+kv03907,Cambodia,Food,1500.0
+kv03908,Philippines,Housing,50.0
+kv03909,Mexico,Housing,400.0
+kv03910,Kenya,Food,500.0
+kv03911,Georgia,Agriculture,300.0
+kv03912,Honduras,Services,175.0
+kv03913,El Salvador,Agriculture,600.0
+kv03914,Bolivia,Services,300.0
+kv03915,Pakistan,Food,1675.0
+kv03916,Peru,Agriculture,1075.0
+kv03917,Mexico,Food,750.0
+kv03918,Honduras,Agriculture,1000.0
+kv03919,Kenya,Agriculture,1125.0
+kv03920,Kenya,Education,700.0
+kv03921,Philippines,Food,250.0
+kv03922,Indonesia,Agriculture,1225.0
+kv03923,Peru,Agriculture,525.0
+kv03924,Ecuador,Services,550.0
+kv03925,Jordan,Retail,600.0
+kv03926,Philippines,Agriculture,175.0
+kv03927,Senegal,Retail,575.0
+kv03928,Nicaragua,Food,75.0
+kv03929,Ghana,Retail,425.0
+kv03930,Nicaragua,Housing,250.0
+kv03931,Cambodia,Housing,350.0
+kv03932,Mali,Agriculture,3125.0
+kv03933,Cambodia,Personal Use,175.0
+kv03934,El Salvador,Agriculture,500.0
+kv03935,Philippines,Agriculture,300.0
+kv03936,Peru,Agriculture,450.0
+kv03937,South Africa,Education,500.0
+kv03938,Bolivia,Services,725.0
+kv03939,Peru,Agriculture,1500.0
+kv03940,El Salvador,Agriculture,225.0
+kv03941,Bolivia,Services,500.0
+kv03942,Mali,Retail,525.0
+kv03943,Pakistan,Transportation,400.0
+kv03944,Uganda,Food,400.0
+kv03945,Kenya,Food,350.0
+kv03946,Colombia,Services,1400.0
+kv03947,Palestine,Personal Use,1500.0
+kv03948,Mexico,Housing,250.0
+kv03949,Cameroon,Food,300.0
+kv03950,Palestine,Education,2625.0
+kv03951,Philippines,Food,275.0
+kv03952,Kenya,Services,250.0
+kv03953,Myanmar (Burma),Agriculture,1150.0
+kv03954,Paraguay,Retail,1100.0
+kv03955,Uganda,Transportation,2000.0
+kv03956,Tajikistan,Agriculture,175.0
+kv03957,Samoa,Food,775.0
+kv03958,Uganda,Agriculture,3750.0
+kv03959,Nicaragua,Clothing,325.0
+kv03960,Paraguay,Food,200.0
+kv03961,Philippines,Retail,225.0
+kv03962,Tajikistan,Personal Use,400.0
+kv03963,Kyrgyzstan,Agriculture,1450.0
+kv03964,Nigeria,Personal Use,150.0
+kv03965,Cambodia,Personal Use,1375.0
+kv03966,Pakistan,Food,400.0
+kv03967,Cambodia,Agriculture,2500.0
+kv03968,Lebanon,Services,1200.0
+kv03969,Paraguay,Clothing,950.0
+kv03970,Madagascar,Food,275.0
+kv03971,Philippines,Personal Use,150.0
+kv03972,Burundi,Retail,2475.0
+kv03973,Kenya,Food,500.0
+kv03974,Pakistan,Arts,625.0
+kv03975,The Democratic Republic of the Congo,Food,5000.0
+kv03976,Philippines,Food,125.0
+kv03977,Philippines,Food,250.0
+kv03978,Zimbabwe,Agriculture,1250.0
+kv03979,Armenia,Agriculture,1000.0
+kv03980,Colombia,Retail,575.0
+kv03981,Ghana,Food,225.0
+kv03982,Kenya,Food,250.0
+kv03983,Dominican Republic,Clothing,3150.0
+kv03984,Bolivia,Housing,1175.0
+kv03985,Philippines,Retail,225.0
+kv03986,Philippines,Retail,600.0
+kv03987,El Salvador,Retail,800.0
+kv03988,Lebanon,Arts,1300.0
+kv03989,Tajikistan,Agriculture,425.0
+kv03990,Iraq,Education,3000.0
+kv03991,Lebanon,Education,1200.0
+kv03992,Philippines,Retail,500.0
+kv03993,Mali,Food,750.0
+kv03994,Peru,Transportation,350.0
+kv03995,Peru,Food,550.0
+kv03996,Philippines,Agriculture,125.0
+kv03997,Philippines,Agriculture,725.0
+kv03998,Pakistan,Transportation,200.0
+kv03999,Tanzania,Food,725.0
+kv04000,Paraguay,Retail,500.0
+kv04001,Palestine,Retail,2000.0
+kv04002,India,Retail,375.0
+kv04003,Tajikistan,Education,600.0
+kv04004,Kenya,Retail,600.0
+kv04005,Pakistan,Agriculture,450.0
+kv04006,Peru,Clothing,500.0
+kv04007,Palestine,Education,1300.0
+kv04008,Tajikistan,Services,175.0
+kv04009,Costa Rica,Retail,1000.0
+kv04010,Philippines,Retail,175.0
+kv04011,Azerbaijan,Arts,600.0
+kv04012,Kenya,Food,500.0
+kv04013,Honduras,Clothing,1575.0
+kv04014,Cambodia,Education,1200.0
+kv04015,Pakistan,Transportation,300.0
+kv04016,Philippines,Transportation,350.0
+kv04017,Philippines,Agriculture,525.0
+kv04018,Uganda,Retail,275.0
+kv04019,Peru,Services,1075.0
+kv04020,Philippines,Retail,425.0
+kv04021,Cambodia,Personal Use,400.0
+kv04022,Kenya,Food,250.0
+kv04023,United States,Clothing,10000.0
+kv04024,Nicaragua,Arts,2300.0
+kv04025,Zimbabwe,Retail,3200.0
+kv04026,Cambodia,Food,500.0
+kv04027,Guatemala,Food,950.0
+kv04028,Philippines,Agriculture,225.0
+kv04029,Cambodia,Agriculture,500.0
+kv04030,South Sudan,Retail,575.0
+kv04031,El Salvador,Food,200.0
+kv04032,Philippines,Agriculture,300.0
+kv04033,Nicaragua,Agriculture,700.0
+kv04034,Kenya,Retail,100.0
+kv04035,Philippines,Retail,250.0
+kv04036,Cambodia,Agriculture,1000.0
+kv04037,El Salvador,Agriculture,100.0
+kv04038,Colombia,Services,1125.0
+kv04039,Liberia,Food,500.0
+kv04040,Palestine,Agriculture,1000.0
+kv04041,Kenya,Food,100.0
+kv04042,Philippines,Retail,225.0
+kv04043,Georgia,Services,625.0
+kv04044,Colombia,Agriculture,350.0
+kv04045,Uganda,Food,150.0
+kv04046,Ecuador,Housing,1100.0
+kv04047,Nicaragua,Housing,300.0
+kv04048,Azerbaijan,Agriculture,1275.0
+kv04049,Cambodia,Agriculture,675.0
+kv04050,Philippines,Retail,125.0
+kv04051,Philippines,Food,450.0
+kv04052,Kenya,Retail,250.0
+kv04053,Mexico,Retail,475.0
+kv04054,Philippines,Clothing,275.0
+kv04055,Ghana,Retail,525.0
+kv04056,Vietnam,Retail,1325.0
+kv04057,Kenya,Retail,725.0
+kv04058,Cambodia,Agriculture,600.0
+kv04059,Ecuador,Services,775.0
+kv04060,Georgia,Transportation,2600.0
+kv04061,Benin,Retail,875.0
+kv04062,El Salvador,Agriculture,1000.0
+kv04063,Nicaragua,Retail,475.0
+kv04064,Philippines,Agriculture,275.0
+kv04065,Madagascar,Food,200.0
+kv04066,Uganda,Agriculture,1175.0
+kv04067,Paraguay,Retail,825.0
+kv04068,Philippines,Food,625.0
+kv04069,Colombia,Food,425.0
+kv04070,Kenya,Personal Use,75.0
+kv04071,Bolivia,Services,625.0
+kv04072,Kenya,Clothing,500.0
+kv04073,Uganda,Clothing,900.0
+kv04074,Tajikistan,Agriculture,850.0
+kv04075,Lebanon,Education,3400.0
+kv04076,Ghana,Food,500.0
+kv04077,Lebanon,Services,1000.0
+kv04078,Philippines,Food,250.0
+kv04079,Burkina Faso,Agriculture,1825.0
+kv04080,Kenya,Retail,375.0
+kv04081,Peru,Agriculture,175.0
+kv04082,Philippines,Agriculture,175.0
+kv04083,Haiti,Retail,200.0
+kv04084,Uganda,Housing,475.0
+kv04085,Lao People's Democratic Republic,Personal Use,75.0
+kv04086,Nepal,Food,200.0
+kv04087,Cambodia,Food,725.0
+kv04088,Dominican Republic,Services,300.0
+kv04089,Philippines,Agriculture,225.0
+kv04090,Kenya,Agriculture,575.0
+kv04091,Philippines,Agriculture,400.0
+kv04092,Armenia,Agriculture,3000.0
+kv04093,Kenya,Agriculture,675.0
+kv04094,Philippines,Agriculture,575.0
+kv04095,Kyrgyzstan,Agriculture,1150.0
+kv04096,Tanzania,Retail,150.0
+kv04097,Philippines,Housing,125.0
+kv04098,Kenya,Food,200.0
+kv04099,Philippines,Retail,425.0
+kv04100,Nicaragua,Housing,525.0
+kv04101,Madagascar,Food,200.0
+kv04102,Kenya,Food,650.0
+kv04103,Peru,Retail,925.0
+kv04104,Cambodia,Housing,1000.0
+kv04105,Benin,Retail,1025.0
+kv04106,Guatemala,Agriculture,5675.0
+kv04107,Philippines,Agriculture,300.0
+kv04108,Philippines,Food,175.0
+kv04109,Philippines,Retail,225.0
+kv04110,Mali,Food,750.0
+kv04111,Madagascar,Clothing,275.0
+kv04112,Nigeria,Retail,675.0
+kv04113,Peru,Food,725.0
+kv04114,India,Housing,300.0
+kv04115,Philippines,Transportation,450.0
+kv04116,Ghana,Food,350.0
+kv04117,Peru,Transportation,475.0
+kv04118,Pakistan,Food,400.0
+kv04119,Philippines,Food,175.0
+kv04120,Samoa,Transportation,3300.0
+kv04121,Peru,Food,725.0
+kv04122,Tajikistan,Agriculture,475.0
+kv04123,Ecuador,Food,450.0
+kv04124,Azerbaijan,Food,2400.0
+kv04125,Indonesia,Services,950.0
+kv04126,El Salvador,Food,400.0
+kv04127,Tajikistan,Agriculture,225.0
+kv04128,Philippines,Agriculture,175.0
+kv04129,Nicaragua,Food,400.0
+kv04130,India,Housing,700.0
+kv04131,Colombia,Agriculture,525.0
+kv04132,Jordan,Retail,750.0
+kv04133,Senegal,Food,3675.0
+kv04134,Peru,Food,925.0
+kv04135,Philippines,Food,1025.0
+kv04136,Pakistan,Transportation,250.0
+kv04137,Philippines,Wholesale,1150.0
+kv04138,Kenya,Agriculture,1125.0
+kv04139,South Sudan,Food,375.0
+kv04140,Georgia,Agriculture,1250.0
+kv04141,Philippines,Housing,175.0
+kv04142,Kenya,Services,225.0
+kv04143,Nicaragua,Agriculture,775.0
+kv04144,Philippines,Retail,325.0
+kv04145,Peru,Agriculture,375.0
+kv04146,Nigeria,Personal Use,50.0
+kv04147,Bolivia,Agriculture,1450.0
+kv04148,Tajikistan,Education,525.0
+kv04149,Philippines,Agriculture,350.0
+kv04150,Cambodia,Personal Use,250.0
+kv04151,Philippines,Housing,150.0
+kv04152,Kenya,Agriculture,400.0
+kv04153,Philippines,Retail,900.0
+kv04154,Samoa,Agriculture,425.0
+kv04155,Jordan,Arts,500.0
+kv04156,Kenya,Agriculture,250.0
+kv04157,Philippines,Agriculture,300.0
+kv04158,India,Agriculture,275.0
+kv04159,Mali,Agriculture,2625.0
+kv04160,Colombia,Retail,250.0
+kv04161,Togo,Clothing,625.0
+kv04162,Ecuador,Agriculture,500.0
+kv04163,Mexico,Retail,4425.0
+kv04164,Philippines,Arts,450.0
+kv04165,Philippines,Food,250.0
+kv04166,Philippines,Retail,425.0
+kv04167,Philippines,Agriculture,275.0
+kv04168,Kenya,Agriculture,450.0
+kv04169,El Salvador,Food,800.0
+kv04170,Pakistan,Transportation,350.0
+kv04171,Kenya,Education,925.0
+kv04172,Palestine,Agriculture,2000.0
+kv04173,Kenya,Retail,1000.0
+kv04174,Cambodia,Agriculture,1200.0
+kv04175,Philippines,Food,375.0
+kv04176,Peru,Services,800.0
+kv04177,Philippines,Transportation,250.0
+kv04178,Palestine,Food,2350.0
+kv04179,Philippines,Retail,150.0
+kv04180,Kenya,Agriculture,450.0
+kv04181,Philippines,Agriculture,350.0
+kv04182,Kenya,Retail,200.0
+kv04183,Cambodia,Personal Use,125.0
+kv04184,El Salvador,Food,600.0
+kv04185,Ecuador,Clothing,1550.0
+kv04186,El Salvador,Food,300.0
+kv04187,Philippines,Agriculture,650.0
+kv04188,Philippines,Agriculture,325.0
+kv04189,Cambodia,Arts,725.0
+kv04190,Peru,Retail,550.0
+kv04191,Senegal,Retail,3925.0
+kv04192,Nicaragua,Clothing,675.0
+kv04193,Tanzania,Services,1025.0
+kv04194,Ecuador,Retail,1650.0
+kv04195,Philippines,Agriculture,175.0
+kv04196,Kenya,Retail,375.0
+kv04197,Sierra Leone,Retail,175.0
+kv04198,Kenya,Retail,725.0
+kv04199,Pakistan,Arts,375.0
+kv04200,Philippines,Food,275.0
+kv04201,Philippines,Food,375.0
+kv04202,El Salvador,Services,1100.0
+kv04203,Peru,Food,1450.0
+kv04204,Uganda,Retail,850.0
+kv04205,Senegal,Clothing,600.0
+kv04206,Philippines,Food,600.0
+kv04207,The Democratic Republic of the Congo,Agriculture,6000.0
+kv04208,Kenya,Agriculture,750.0
+kv04209,Philippines,Manufacturing,275.0
+kv04210,Costa Rica,Agriculture,925.0
+kv04211,Egypt,Retail,650.0
+kv04212,Vietnam,Agriculture,1250.0
+kv04213,Dominican Republic,Clothing,2875.0
+kv04214,El Salvador,Housing,300.0
+kv04215,Madagascar,Food,625.0
+kv04216,Benin,Food,500.0
+kv04217,Honduras,Food,275.0
+kv04218,El Salvador,Retail,600.0
+kv04219,Cambodia,Food,300.0
+kv04220,Uganda,Housing,1125.0
+kv04221,Philippines,Retail,450.0
+kv04222,United States,Services,5000.0
+kv04223,Indonesia,Services,175.0
+kv04224,Kenya,Retail,400.0
+kv04225,Philippines,Agriculture,200.0
+kv04226,Pakistan,Services,300.0
+kv04227,Tanzania,Manufacturing,1200.0
+kv04228,Cambodia,Education,500.0
+kv04229,Philippines,Agriculture,400.0
+kv04230,Tajikistan,Agriculture,625.0
+kv04231,Kenya,Construction,850.0
+kv04232,Philippines,Food,475.0
+kv04233,Philippines,Housing,225.0
+kv04234,El Salvador,Agriculture,225.0
+kv04235,Kenya,Services,300.0
+kv04236,Nicaragua,Clothing,475.0
+kv04237,El Salvador,Construction,350.0
+kv04238,Kenya,Agriculture,725.0
+kv04239,Colombia,Agriculture,950.0
+kv04240,Peru,Retail,375.0
+kv04241,Philippines,Food,1025.0
+kv04242,Peru,Retail,75.0
+kv04243,Paraguay,Education,625.0
+kv04244,Philippines,Retail,225.0
+kv04245,El Salvador,Retail,500.0
+kv04246,Philippines,Retail,375.0
+kv04247,Peru,Transportation,375.0
+kv04248,Tajikistan,Housing,625.0
+kv04249,Kenya,Food,850.0
+kv04250,Tajikistan,Agriculture,1725.0
+kv04251,Honduras,Food,900.0
+kv04252,Liberia,Retail,975.0
+kv04253,Honduras,Agriculture,725.0
+kv04254,Bulgaria,Construction,1000.0
+kv04255,India,Construction,250.0
+kv04256,Philippines,Retail,300.0
+kv04257,Rwanda,Agriculture,8475.0
+kv04258,Kenya,Agriculture,300.0
+kv04259,Peru,Food,650.0
+kv04260,Tanzania,Personal Use,475.0
+kv04261,Peru,Arts,625.0
+kv04262,Tajikistan,Services,1500.0
+kv04263,Philippines,Agriculture,175.0
+kv04264,Cambodia,Agriculture,1000.0
+kv04265,Peru,Agriculture,5425.0
+kv04266,Kenya,Clothing,125.0
+kv04267,Nepal,Food,450.0
+kv04268,Ghana,Agriculture,150.0
+kv04269,India,Housing,675.0
+kv04270,Colombia,Food,425.0
+kv04271,Philippines,Retail,475.0
+kv04272,Tajikistan,Housing,1000.0
+kv04273,Cambodia,Personal Use,125.0
+kv04274,Mexico,Food,1000.0
+kv04275,Peru,Food,1550.0
+kv04276,Ghana,Food,275.0
+kv04277,Cambodia,Personal Use,100.0
+kv04278,Uganda,Food,925.0
+kv04279,Philippines,Services,150.0
+kv04280,Kenya,Services,400.0
+kv04281,Kenya,Agriculture,275.0
+kv04282,Peru,Clothing,950.0
+kv04283,Kenya,Food,225.0
+kv04284,Turkey,Arts,325.0
+kv04285,Philippines,Food,125.0
+kv04286,Cambodia,Personal Use,125.0
+kv04287,Philippines,Retail,250.0
+kv04288,Nigeria,Retail,425.0
+kv04289,Peru,Food,1550.0
+kv04290,El Salvador,Food,800.0
+kv04291,Philippines,Food,225.0
+kv04292,Philippines,Agriculture,700.0
+kv04293,Nicaragua,Construction,1400.0
+kv04294,Mozambique,Food,500.0
+kv04295,Nicaragua,Retail,400.0
+kv04296,El Salvador,Agriculture,300.0
+kv04297,Nigeria,Food,650.0
+kv04298,Philippines,Retail,475.0
+kv04299,Bolivia,Retail,3050.0
+kv04300,The Democratic Republic of the Congo,Retail,3950.0
+kv04301,Malawi,Services,1700.0
+kv04302,Peru,Retail,3125.0
+kv04303,Kenya,Retail,5850.0
+kv04304,Philippines,Agriculture,200.0
+kv04305,Peru,Food,600.0
+kv04306,Tanzania,Clothing,475.0
+kv04307,Honduras,Agriculture,500.0
+kv04308,Philippines,Food,125.0
+kv04309,Uganda,Food,450.0
+kv04310,Philippines,Agriculture,600.0
+kv04311,Uganda,Agriculture,1375.0
+kv04312,El Salvador,Retail,300.0
+kv04313,Armenia,Services,3000.0
+kv04314,Cambodia,Agriculture,1250.0
+kv04315,Kenya,Agriculture,875.0
+kv04316,Philippines,Services,925.0
+kv04317,Samoa,Food,675.0
+kv04318,El Salvador,Retail,400.0
+kv04319,Philippines,Food,325.0
+kv04320,Mexico,Construction,300.0
+kv04321,Philippines,Food,75.0
+kv04322,Cambodia,Personal Use,125.0
+kv04323,Pakistan,Manufacturing,400.0
+kv04324,Tajikistan,Education,400.0
+kv04325,India,Housing,475.0
+kv04326,Uganda,Services,3875.0
+kv04327,Peru,Agriculture,400.0
+kv04328,Peru,Retail,650.0
+kv04329,Philippines,Retail,350.0
+kv04330,Ecuador,Retail,550.0
+kv04331,Peru,Food,400.0
+kv04332,Kenya,Agriculture,300.0
+kv04333,Pakistan,Clothing,500.0
+kv04334,Pakistan,Education,775.0
+kv04335,Peru,Services,300.0
+kv04336,South Sudan,Food,475.0
+kv04337,El Salvador,Housing,500.0
+kv04338,Pakistan,Agriculture,1525.0
+kv04339,Kenya,Retail,300.0
+kv04340,Kenya,Agriculture,950.0
+kv04341,Uganda,Manufacturing,1075.0
+kv04342,Bolivia,Services,3000.0
+kv04343,Philippines,Food,225.0
+kv04344,Philippines,Agriculture,225.0
+kv04345,Nicaragua,Construction,1000.0
+kv04346,El Salvador,Clothing,800.0
+kv04347,Kyrgyzstan,Agriculture,1175.0
+kv04348,Uganda,Food,2750.0
+kv04349,Kenya,Housing,250.0
+kv04350,Uganda,Agriculture,2125.0
+kv04351,Senegal,Retail,1225.0
+kv04352,Kenya,Agriculture,175.0
+kv04353,India,Agriculture,175.0
+kv04354,Philippines,Transportation,350.0
+kv04355,Philippines,Food,325.0
+kv04356,Sierra Leone,Food,700.0
+kv04357,Samoa,Agriculture,450.0
+kv04358,Philippines,Retail,225.0
+kv04359,Kenya,Agriculture,625.0
+kv04360,Georgia,Agriculture,1225.0
+kv04361,Kenya,Agriculture,300.0
+kv04362,Tajikistan,Construction,275.0
+kv04363,Peru,Food,350.0
+kv04364,Ghana,Food,725.0
+kv04365,Tajikistan,Agriculture,450.0
+kv04366,Yemen,Transportation,575.0
+kv04367,Nicaragua,Housing,500.0
+kv04368,Kenya,Agriculture,1000.0
+kv04369,Philippines,Agriculture,100.0
+kv04370,Kenya,Arts,400.0
+kv04371,Philippines,Agriculture,125.0
+kv04372,Armenia,Food,1050.0
+kv04373,Cameroon,Services,225.0
+kv04374,Tajikistan,Services,325.0
+kv04375,United States,Food,10000.0
+kv04376,Philippines,Retail,275.0
+kv04377,Philippines,Retail,700.0
+kv04378,Peru,Retail,625.0
+kv04379,Philippines,Food,275.0
+kv04380,Benin,Food,250.0
+kv04381,Vietnam,Retail,725.0
+kv04382,Senegal,Food,625.0
+kv04383,Nicaragua,Arts,1000.0
+kv04384,Palestine,Agriculture,2000.0
+kv04385,Tajikistan,Personal Use,900.0
+kv04386,Liberia,Clothing,575.0
+kv04387,Philippines,Retail,300.0
+kv04388,Philippines,Food,425.0
+kv04389,The Democratic Republic of the Congo,Clothing,6000.0
+kv04390,Ghana,Services,1825.0
+kv04391,El Salvador,Manufacturing,1600.0
+kv04392,Philippines,Food,200.0
+kv04393,Colombia,Agriculture,350.0
+kv04394,Nicaragua,Services,1500.0
+kv04395,Rwanda,Retail,600.0
+kv04396,Ghana,Agriculture,50.0
+kv04397,Pakistan,Services,200.0
+kv04398,Kenya,Agriculture,400.0
+kv04399,Kenya,Clothing,975.0
+kv04400,El Salvador,Personal Use,1500.0
+kv04401,Philippines,Food,275.0
+kv04402,Paraguay,Retail,675.0
+kv04403,Philippines,Retail,975.0
+kv04404,Afghanistan,Retail,1075.0
+kv04405,Tanzania,Clothing,3350.0
+kv04406,Kyrgyzstan,Agriculture,1100.0
+kv04407,Ecuador,Retail,1275.0
+kv04408,Kenya,Personal Use,75.0
+kv04409,Philippines,Food,375.0
+kv04410,Palestine,Housing,3000.0
+kv04411,El Salvador,Agriculture,1100.0
+kv04412,Uganda,Agriculture,50.0
+kv04413,Pakistan,Retail,650.0
+kv04414,Ghana,Food,500.0
+kv04415,Ecuador,Agriculture,800.0
+kv04416,India,Agriculture,1625.0
+kv04417,Nicaragua,Retail,1125.0
+kv04418,Vietnam,Food,125.0
+kv04419,Vietnam,Agriculture,2025.0
+kv04420,Philippines,Transportation,175.0
+kv04421,Paraguay,Services,3875.0
+kv04422,Philippines,Agriculture,125.0
+kv04423,Mali,Agriculture,3150.0
+kv04424,Tanzania,Clothing,2675.0
+kv04425,Philippines,Food,250.0
+kv04426,Philippines,Housing,225.0
+kv04427,Kenya,Retail,125.0
+kv04428,El Salvador,Food,400.0
+kv04429,Ecuador,Agriculture,1500.0
+kv04430,El Salvador,Agriculture,1000.0
+kv04431,India,Agriculture,225.0
+kv04432,Nepal,Food,300.0
+kv04433,Nigeria,Food,550.0
+kv04434,Philippines,Transportation,175.0
+kv04435,Benin,Food,175.0
+kv04436,Cambodia,Agriculture,1000.0
+kv04437,Paraguay,Retail,4400.0
+kv04438,Philippines,Agriculture,325.0
+kv04439,Colombia,Retail,850.0
+kv04440,Bolivia,Agriculture,1175.0
+kv04441,Uganda,Clothing,825.0
+kv04442,Philippines,Food,225.0
+kv04443,Tanzania,Services,2950.0
+kv04444,Cambodia,Food,600.0
+kv04445,Tanzania,Food,4100.0
+kv04446,Kenya,Transportation,200.0
+kv04447,Lebanon,Services,1200.0
+kv04448,Philippines,Agriculture,125.0
+kv04449,Lebanon,Retail,1000.0
+kv04450,El Salvador,Housing,550.0
+kv04451,Tajikistan,Housing,1000.0
+kv04452,United States,Personal Use,5500.0
+kv04453,Burundi,Clothing,5550.0
+kv04454,Rwanda,Food,325.0
+kv04455,Albania,Clothing,2425.0
+kv04456,Vietnam,Retail,950.0
+kv04457,Philippines,Transportation,125.0
+kv04458,Philippines,Retail,300.0
+kv04459,Kenya,Food,600.0
+kv04460,Philippines,Food,275.0
+kv04461,Nicaragua,Construction,350.0
+kv04462,Philippines,Food,650.0
+kv04463,Rwanda,Agriculture,675.0
+kv04464,Peru,Agriculture,375.0
+kv04465,Philippines,Agriculture,350.0
+kv04466,Kenya,Personal Use,150.0
+kv04467,Philippines,Retail,400.0
+kv04468,Lebanon,Housing,1025.0
+kv04469,Mexico,Construction,225.0
+kv04470,Pakistan,Agriculture,1025.0
+kv04471,Ecuador,Housing,1275.0
+kv04472,Peru,Agriculture,625.0
+kv04473,Armenia,Services,2625.0
+kv04474,Kenya,Agriculture,800.0
+kv04475,Philippines,Retail,125.0
+kv04476,Ghana,Food,475.0
+kv04477,Uganda,Housing,1225.0
+kv04478,Philippines,Retail,200.0
+kv04479,Philippines,Retail,225.0
+kv04480,Costa Rica,Personal Use,1000.0
+kv04481,Cambodia,Food,500.0
+kv04482,Philippines,Agriculture,575.0
+kv04483,Ghana,Food,375.0
+kv04484,Nicaragua,Construction,900.0
+kv04485,Philippines,Retail,400.0
+kv04486,El Salvador,Retail,525.0
+kv04487,Costa Rica,Agriculture,1025.0
+kv04488,El Salvador,Food,500.0
+kv04489,Ghana,Food,625.0
+kv04490,Cambodia,Personal Use,200.0
+kv04491,Philippines,Agriculture,350.0
+kv04492,Sierra Leone,Retail,1175.0
+kv04493,Philippines,Retail,325.0
+kv04494,India,Agriculture,575.0
+kv04495,Tanzania,Services,1025.0
+kv04496,Albania,Housing,700.0
+kv04497,Vietnam,Housing,475.0
+kv04498,Jordan,Food,1075.0
+kv04499,Kenya,Agriculture,500.0
+kv04500,Ecuador,Retail,625.0
+kv04501,El Salvador,Food,400.0
+kv04502,Uganda,Retail,3650.0
+kv04503,Philippines,Transportation,350.0
+kv04504,Tajikistan,Clothing,2625.0
+kv04505,Cambodia,Personal Use,125.0
+kv04506,Indonesia,Retail,225.0
+kv04507,Togo,Retail,650.0
+kv04508,Madagascar,Retail,325.0
+kv04509,Indonesia,Housing,450.0
+kv04510,Colombia,Food,400.0
+kv04511,Peru,Clothing,875.0
+kv04512,Indonesia,Personal Use,550.0
+kv04513,Indonesia,Agriculture,1500.0
+kv04514,Sierra Leone,Services,1150.0
+kv04515,India,Education,225.0
+kv04516,Philippines,Agriculture,1250.0
+kv04517,Philippines,Housing,150.0
+kv04518,Uganda,Wholesale,975.0
+kv04519,Kenya,Agriculture,300.0
+kv04520,Philippines,Housing,225.0
+kv04521,Philippines,Food,275.0
+kv04522,Pakistan,Arts,500.0
+kv04523,Ecuador,Agriculture,1500.0
+kv04524,Mali,Food,500.0
+kv04525,El Salvador,Clothing,400.0
+kv04526,Palestine,Services,1500.0
+kv04527,Cambodia,Manufacturing,1000.0
+kv04528,Philippines,Retail,350.0
+kv04529,Peru,Food,575.0
+kv04530,Cambodia,Personal Use,1500.0
+kv04531,Peru,Food,200.0
+kv04532,Kenya,Food,200.0
+kv04533,Philippines,Food,500.0
+kv04534,Mali,Agriculture,175.0
+kv04535,Peru,Transportation,5875.0
+kv04536,Tajikistan,Services,125.0
+kv04537,Peru,Food,1000.0
+kv04538,Kenya,Agriculture,350.0
+kv04539,Pakistan,Clothing,500.0
+kv04540,Georgia,Transportation,5000.0
+kv04541,Philippines,Agriculture,125.0
+kv04542,Rwanda,Retail,500.0
+kv04543,Philippines,Food,275.0
+kv04544,Nigeria,Education,75.0
+kv04545,Indonesia,Services,525.0
+kv04546,Guatemala,Retail,1050.0
+kv04547,Philippines,Retail,150.0
+kv04548,Pakistan,Arts,400.0
+kv04549,Mozambique,Housing,200.0
+kv04550,Tajikistan,Housing,1275.0
+kv04551,Peru,Food,300.0
+kv04552,Philippines,Housing,125.0
+kv04553,El Salvador,Agriculture,1600.0
+kv04554,Peru,Retail,575.0
+kv04555,Peru,Transportation,725.0
+kv04556,Nicaragua,Housing,850.0
+kv04557,Bosnia and Herzegovina,Agriculture,975.0
+kv04558,Kenya,Transportation,975.0
+kv04559,Ghana,Retail,300.0
+kv04560,The Democratic Republic of the Congo,Construction,5275.0
+kv04561,Ukraine,Agriculture,1500.0
+kv04562,Cambodia,Education,750.0
+kv04563,Peru,Education,375.0
+kv04564,Nicaragua,Transportation,275.0
+kv04565,Philippines,Food,150.0
+kv04566,Liberia,Clothing,325.0
+kv04567,Philippines,Food,550.0
+kv04568,Zimbabwe,Clothing,500.0
+kv04569,Zimbabwe,Agriculture,1050.0
+kv04570,Tajikistan,Agriculture,950.0
+kv04571,Pakistan,Transportation,200.0
+kv04572,Kenya,Agriculture,200.0
+kv04573,El Salvador,Agriculture,600.0
+kv04574,Philippines,Agriculture,175.0
+kv04575,Peru,Transportation,950.0
+kv04576,Armenia,Agriculture,1475.0
+kv04577,Kyrgyzstan,Agriculture,375.0
+kv04578,Kenya,Services,275.0
+kv04579,Philippines,Retail,275.0
+kv04580,Ecuador,Agriculture,5375.0
+kv04581,Uganda,Food,125.0
+kv04582,Haiti,Food,375.0
+kv04583,Armenia,Services,3000.0
+kv04584,Bolivia,Food,3500.0
+kv04585,Philippines,Retail,500.0
+kv04586,Benin,Clothing,250.0
+kv04587,Philippines,Retail,1000.0
+kv04588,Nicaragua,Food,825.0
+kv04589,Peru,Food,550.0
+kv04590,Tajikistan,Agriculture,475.0
+kv04591,Ghana,Agriculture,275.0
+kv04592,Philippines,Retail,325.0
+kv04593,Nigeria,Services,350.0
+kv04594,Rwanda,Agriculture,1275.0
+kv04595,Bolivia,Services,2050.0
+kv04596,El Salvador,Arts,500.0
+kv04597,Cambodia,Housing,500.0
+kv04598,Kenya,Agriculture,800.0
+kv04599,Kenya,Retail,325.0
+kv04600,Tajikistan,Education,350.0
+kv04601,Colombia,Agriculture,125.0
+kv04602,Vietnam,Retail,1325.0
+kv04603,Vietnam,Food,450.0
+kv04604,Haiti,Food,1600.0
+kv04605,Colombia,Education,75.0
+kv04606,Azerbaijan,Agriculture,1000.0
+kv04607,Ecuador,Retail,700.0
+kv04608,Armenia,Agriculture,1475.0
+kv04609,Myanmar (Burma),Agriculture,4100.0
+kv04610,Colombia,Retail,625.0
+kv04611,Palestine,Services,3000.0
+kv04612,Honduras,Personal Use,650.0
+kv04613,Philippines,Transportation,250.0
+kv04614,Honduras,Agriculture,475.0
+kv04615,Kenya,Food,200.0
+kv04616,Nicaragua,Retail,525.0
+kv04617,Mozambique,Housing,675.0
+kv04618,Peru,Agriculture,1250.0
+kv04619,Vietnam,Food,425.0
+kv04620,Cambodia,Food,600.0
+kv04621,Lebanon,Education,2500.0
+kv04622,Uganda,Health,200.0
+kv04623,Tanzania,Food,1700.0
+kv04624,Cambodia,Personal Use,125.0
+kv04625,Georgia,Food,1575.0
+kv04626,Philippines,Retail,125.0
+kv04627,Honduras,Food,800.0
+kv04628,Kenya,Services,700.0
+kv04629,Tajikistan,Agriculture,650.0
+kv04630,Rwanda,Food,850.0
+kv04631,Dominican Republic,Clothing,3125.0
+kv04632,India,Food,1875.0
+kv04633,Mongolia,Personal Use,1450.0
+kv04634,Rwanda,Agriculture,1850.0
+kv04635,Kenya,Retail,125.0
+kv04636,Tanzania,Retail,275.0
+kv04637,Tajikistan,Housing,425.0
+kv04638,Philippines,Services,275.0
+kv04639,Philippines,Food,350.0
+kv04640,Ecuador,Arts,550.0
+kv04641,Paraguay,Food,200.0
+kv04642,Palestine,Housing,3500.0
+kv04643,Kenya,Food,250.0
+kv04644,Peru,Transportation,375.0
+kv04645,Philippines,Education,150.0
+kv04646,Georgia,Education,500.0
+kv04647,Nicaragua,Food,350.0
+kv04648,Nigeria,Agriculture,75.0
+kv04649,Tajikistan,Food,600.0
+kv04650,El Salvador,Services,300.0
+kv04651,Mexico,Clothing,1575.0
+kv04652,Cambodia,Agriculture,875.0
+kv04653,Kyrgyzstan,Agriculture,2200.0
+kv04654,Guatemala,Clothing,4825.0
+kv04655,Mali,Retail,800.0
+kv04656,Tajikistan,Food,400.0
+kv04657,Colombia,Food,250.0
+kv04658,Cameroon,Agriculture,225.0
+kv04659,Peru,Retail,575.0
+kv04660,Cambodia,Housing,775.0
+kv04661,Kenya,Food,200.0
+kv04662,Peru,Services,600.0
+kv04663,Philippines,Agriculture,450.0
+kv04664,Madagascar,Retail,350.0
+kv04665,Bolivia,Agriculture,1000.0
+kv04666,Kenya,Food,350.0
+kv04667,Peru,Food,375.0
+kv04668,El Salvador,Services,1500.0
+kv04669,Kenya,Food,250.0
+kv04670,Philippines,Retail,350.0
+kv04671,Philippines,Food,125.0
+kv04672,El Salvador,Housing,500.0
+kv04673,El Salvador,Retail,1400.0
+kv04674,Ghana,Food,150.0
+kv04675,Paraguay,Education,625.0
+kv04676,Peru,Transportation,775.0
+kv04677,Ecuador,Retail,4475.0
+kv04678,Zimbabwe,Agriculture,500.0
+kv04679,El Salvador,Clothing,800.0
+kv04680,Philippines,Agriculture,375.0
+kv04681,Jordan,Services,875.0
+kv04682,Nicaragua,Personal Use,250.0
+kv04683,Ukraine,Retail,1500.0
+kv04684,Colombia,Services,650.0
+kv04685,Tanzania,Agriculture,1200.0
+kv04686,Afghanistan,Agriculture,850.0
+kv04687,Ecuador,Agriculture,600.0
+kv04688,Rwanda,Retail,8725.0
+kv04689,Togo,Food,225.0
+kv04690,Guatemala,Agriculture,1825.0
+kv04691,Philippines,Retail,375.0
+kv04692,Jordan,Education,1175.0
+kv04693,Uganda,Agriculture,275.0
+kv04694,Philippines,Retail,350.0
+kv04695,Bolivia,Housing,1000.0
+kv04696,Paraguay,Food,2100.0
+kv04697,Kenya,Services,550.0
+kv04698,Samoa,Food,675.0
+kv04699,Philippines,Retail,200.0
+kv04700,Pakistan,Transportation,300.0
+kv04701,Kenya,Agriculture,625.0
+kv04702,Tajikistan,Agriculture,1075.0
+kv04703,Philippines,Retail,125.0
+kv04704,Tanzania,Food,450.0
+kv04705,Philippines,Arts,275.0
+kv04706,Nicaragua,Agriculture,1125.0
+kv04707,Philippines,Food,325.0
+kv04708,Cambodia,Agriculture,2100.0
+kv04709,Philippines,Food,325.0
+kv04710,Philippines,Housing,225.0
+kv04711,Philippines,Retail,350.0
+kv04712,Ghana,Food,1325.0
+kv04713,El Salvador,Agriculture,400.0
+kv04714,Kenya,Retail,600.0
+kv04715,Lebanon,Services,1400.0
+kv04716,The Democratic Republic of the Congo,Food,3500.0
+kv04717,El Salvador,Food,400.0
+kv04718,Cambodia,Agriculture,1500.0
+kv04719,Mali,Agriculture,1475.0
+kv04720,Timor-Leste,Retail,1000.0
+kv04721,Tajikistan,Health,350.0
+kv04722,Uganda,Agriculture,450.0
+kv04723,United States,Retail,4000.0
+kv04724,Philippines,Agriculture,300.0
+kv04725,Cambodia,Agriculture,375.0
+kv04726,Costa Rica,Retail,525.0
+kv04727,Ghana,Retail,700.0
+kv04728,Philippines,Agriculture,175.0
+kv04729,Bolivia,Agriculture,1450.0
+kv04730,Philippines,Personal Use,100.0
+kv04731,Liberia,Food,275.0
+kv04732,Philippines,Food,325.0
+kv04733,Cambodia,Agriculture,475.0
+kv04734,El Salvador,Housing,600.0
+kv04735,El Salvador,Retail,950.0
+kv04736,Kenya,Retail,250.0
+kv04737,Philippines,Retail,900.0
+kv04738,The Democratic Republic of the Congo,Retail,2000.0
+kv04739,Cambodia,Personal Use,1000.0
+kv04740,Senegal,Food,1950.0
+kv04741,Guatemala,Agriculture,775.0
+kv04742,Azerbaijan,Clothing,900.0
+kv04743,Philippines,Retail,1150.0
+kv04744,Mexico,Retail,850.0
+kv04745,Peru,Arts,175.0
+kv04746,Peru,Agriculture,550.0
+kv04747,Tajikistan,Health,1375.0
+kv04748,Nicaragua,Food,1250.0
+kv04749,Peru,Arts,675.0
+kv04750,Kenya,Health,1000.0
+kv04751,Cambodia,Agriculture,700.0
+kv04752,Cameroon,Services,425.0
+kv04753,Cambodia,Agriculture,500.0
+kv04754,Pakistan,Agriculture,200.0
+kv04755,Zambia,Services,525.0
+kv04756,El Salvador,Clothing,700.0
+kv04757,Vietnam,Housing,900.0
+kv04758,Philippines,Food,325.0
+kv04759,Uganda,Clothing,450.0
+kv04760,Nicaragua,Arts,1425.0
+kv04761,Philippines,Retail,375.0
+kv04762,El Salvador,Food,600.0
+kv04763,Peru,Retail,725.0
+kv04764,Kenya,Retail,500.0
+kv04765,Philippines,Retail,250.0
+kv04766,Armenia,Personal Use,1125.0
+kv04767,Ghana,Food,350.0
+kv04768,Bolivia,Clothing,5025.0
+kv04769,Tanzania,Food,725.0
+kv04770,Madagascar,Agriculture,350.0
+kv04771,Burkina Faso,Retail,875.0
+kv04772,El Salvador,Food,500.0
+kv04773,Peru,Clothing,725.0
+kv04774,Pakistan,Transportation,500.0
+kv04775,Kenya,Food,500.0
+kv04776,Peru,Agriculture,375.0
+kv04777,Pakistan,Services,350.0
+kv04778,India,Agriculture,250.0
+kv04779,Samoa,Agriculture,400.0
+kv04780,Philippines,Retail,800.0
+kv04781,Nicaragua,Housing,950.0
+kv04782,Kenya,Manufacturing,300.0
+kv04783,Bolivia,Retail,2950.0
+kv04784,Honduras,Manufacturing,1075.0
+kv04785,Samoa,Arts,1125.0
+kv04786,Kenya,Agriculture,200.0
+kv04787,Philippines,Retail,250.0
+kv04788,Kenya,Agriculture,500.0
+kv04789,Tanzania,Food,4225.0
+kv04790,Peru,Retail,3600.0
+kv04791,Kenya,Food,350.0
+kv04792,El Salvador,Agriculture,400.0
+kv04793,Philippines,Agriculture,150.0
+kv04794,Tajikistan,Education,400.0
+kv04795,Philippines,Retail,350.0
+kv04796,Pakistan,Clothing,500.0
+kv04797,Pakistan,Arts,575.0
+kv04798,Malawi,Agriculture,50.0
+kv04799,Peru,Education,775.0
+kv04800,Kenya,Food,150.0
+kv04801,Philippines,Agriculture,225.0
+kv04802,Peru,Retail,1025.0
+kv04803,Philippines,Transportation,400.0
+kv04804,Tajikistan,Construction,400.0
+kv04805,Kenya,Food,1000.0
+kv04806,Liberia,Food,150.0
+kv04807,Cambodia,Personal Use,125.0
+kv04808,Tajikistan,Agriculture,3000.0
+kv04809,Philippines,Retail,500.0
+kv04810,Lebanon,Education,500.0
+kv04811,Rwanda,Agriculture,1650.0
+kv04812,Rwanda,Food,850.0
+kv04813,Philippines,Food,200.0
+kv04814,Vietnam,Housing,900.0
+kv04815,Colombia,Services,800.0
+kv04816,Peru,Food,225.0
+kv04817,Nicaragua,Housing,1150.0
+kv04818,Cameroon,Food,200.0
+kv04819,Guatemala,Agriculture,4475.0
+kv04820,Kenya,Clothing,250.0
+kv04821,Cambodia,Personal Use,175.0
+kv04822,Togo,Retail,700.0
+kv04823,Kenya,Clothing,500.0
+kv04824,Uganda,Food,1800.0
+kv04825,Togo,Food,1200.0
+kv04826,Philippines,Services,350.0
+kv04827,Kyrgyzstan,Education,1100.0
+kv04828,Philippines,Agriculture,300.0
+kv04829,Philippines,Food,300.0
+kv04830,Philippines,Transportation,425.0
+kv04831,Peru,Agriculture,725.0
+kv04832,Ecuador,Agriculture,600.0
+kv04833,Philippines,Services,350.0
+kv04834,Philippines,Agriculture,225.0
+kv04835,Togo,Food,400.0
+kv04836,India,Clothing,1550.0
+kv04837,Ghana,Food,1275.0
+kv04838,Kenya,Retail,1000.0
+kv04839,Paraguay,Education,550.0
+kv04840,Philippines,Food,125.0
+kv04841,Nicaragua,Health,1025.0
+kv04842,Peru,Construction,400.0
+kv04843,Ecuador,Agriculture,1000.0
+kv04844,Peru,Food,125.0
+kv04845,Kyrgyzstan,Agriculture,875.0
+kv04846,Jordan,Arts,1150.0
+kv04847,Cambodia,Retail,250.0
+kv04848,Paraguay,Food,4700.0
+kv04849,El Salvador,Manufacturing,500.0
+kv04850,Sierra Leone,Retail,500.0
+kv04851,Honduras,Services,375.0
+kv04852,Philippines,Manufacturing,475.0
+kv04853,Pakistan,Retail,425.0
+kv04854,Kenya,Personal Use,75.0
+kv04855,Cambodia,Agriculture,500.0
+kv04856,Philippines,Transportation,350.0
+kv04857,Kenya,Retail,875.0
+kv04858,Kenya,Agriculture,300.0
+kv04859,Kenya,Agriculture,1050.0
+kv04860,Kenya,Manufacturing,250.0
+kv04861,Cambodia,Agriculture,500.0
+kv04862,Philippines,Services,225.0
+kv04863,El Salvador,Agriculture,300.0
+kv04864,Nicaragua,Retail,1625.0
+kv04865,Bolivia,Food,3600.0
+kv04866,Samoa,Food,450.0
+kv04867,Peru,Retail,975.0
+kv04868,Philippines,Food,325.0
+kv04869,Cambodia,Personal Use,500.0
+kv04870,Philippines,Food,1000.0
+kv04871,Philippines,Food,625.0
+kv04872,Philippines,Services,250.0
+kv04873,Uganda,Clothing,175.0
+kv04874,Philippines,Retail,575.0
+kv04875,Uganda,Agriculture,975.0
+kv04876,Uganda,Food,700.0
+kv04877,Colombia,Services,875.0
+kv04878,Philippines,Agriculture,400.0
+kv04879,Ecuador,Agriculture,800.0
+kv04880,Togo,Clothing,850.0
+kv04881,Vietnam,Agriculture,550.0
+kv04882,Kenya,Food,500.0
+kv04883,Tajikistan,Retail,625.0
+kv04884,Kenya,Retail,500.0
+kv04885,Philippines,Agriculture,375.0
+kv04886,Philippines,Retail,325.0
+kv04887,Togo,Retail,225.0
+kv04888,Ecuador,Agriculture,1075.0
+kv04889,Philippines,Services,350.0
+kv04890,Senegal,Food,4375.0
+kv04891,Mexico,Services,750.0
+kv04892,Samoa,Arts,725.0
+kv04893,Mozambique,Food,675.0
+kv04894,South Sudan,Food,175.0
+kv04895,India,Agriculture,250.0
+kv04896,Philippines,Food,250.0
+kv04897,Philippines,Food,225.0
+kv04898,Indonesia,Housing,75.0
+kv04899,Bolivia,Arts,250.0
+kv04900,Philippines,Food,275.0
+kv04901,Kenya,Food,200.0
+kv04902,Lebanon,Education,575.0
+kv04903,Albania,Agriculture,900.0
+kv04904,Vietnam,Food,525.0
+kv04905,Uganda,Retail,775.0
+kv04906,Philippines,Agriculture,150.0
+kv04907,Philippines,Food,100.0
+kv04908,Ukraine,Transportation,1200.0
+kv04909,Philippines,Retail,475.0
+kv04910,Philippines,Services,300.0
+kv04911,Ecuador,Retail,1375.0
+kv04912,Tajikistan,Services,650.0
+kv04913,United States,Services,5000.0
+kv04914,Peru,Retail,700.0
+kv04915,Peru,Services,100.0
+kv04916,Colombia,Transportation,675.0
+kv04917,Philippines,Food,375.0
+kv04918,Philippines,Retail,100.0
+kv04919,Cambodia,Food,1375.0
+kv04920,Philippines,Food,225.0
+kv04921,Peru,Transportation,425.0
+kv04922,Mexico,Housing,1175.0
+kv04923,Kenya,Agriculture,500.0
+kv04924,Indonesia,Retail,625.0
+kv04925,Tanzania,Food,425.0
+kv04926,Pakistan,Food,450.0
+kv04927,Paraguay,Food,1000.0
+kv04928,Peru,Food,975.0
+kv04929,Ecuador,Food,10000.0
+kv04930,Kyrgyzstan,Agriculture,1500.0
+kv04931,Nicaragua,Construction,400.0
+kv04932,Kyrgyzstan,Agriculture,1175.0
+kv04933,Peru,Transportation,2800.0
+kv04934,Togo,Transportation,1200.0
+kv04935,Philippines,Retail,250.0
+kv04936,Peru,Retail,1075.0
+kv04937,Peru,Retail,725.0
+kv04938,Philippines,Housing,250.0
+kv04939,Bolivia,Manufacturing,1000.0
+kv04940,Philippines,Retail,325.0
+kv04941,Peru,Clothing,1100.0
+kv04942,Philippines,Retail,125.0
+kv04943,Samoa,Agriculture,600.0
+kv04944,Cambodia,Agriculture,275.0
+kv04945,Tajikistan,Education,400.0
+kv04946,El Salvador,Agriculture,450.0
+kv04947,Ecuador,Retail,4200.0
+kv04948,El Salvador,Arts,1000.0
+kv04949,Kenya,Agriculture,3600.0
+kv04950,Kenya,Agriculture,650.0
+kv04951,Azerbaijan,Agriculture,1000.0
+kv04952,Philippines,Clothing,200.0
+kv04953,Nicaragua,Food,850.0
+kv04954,Vietnam,Agriculture,2025.0
+kv04955,Ecuador,Food,800.0
+kv04956,Kenya,Food,600.0
+kv04957,Philippines,Transportation,350.0
+kv04958,Peru,Manufacturing,550.0
+kv04959,Philippines,Agriculture,700.0
+kv04960,Honduras,Food,200.0
+kv04961,Costa Rica,Construction,1200.0
+kv04962,Philippines,Services,150.0
+kv04963,Solomon Islands,Retail,1425.0
+kv04964,Mexico,Agriculture,875.0
+kv04965,Philippines,Agriculture,325.0
+kv04966,Philippines,Food,225.0
+kv04967,Cambodia,Personal Use,175.0
+kv04968,Ghana,Retail,300.0
+kv04969,Peru,Food,900.0
+kv04970,Togo,Food,175.0
+kv04971,Honduras,Clothing,575.0
+kv04972,Armenia,Agriculture,1275.0
+kv04973,Peru,Retail,725.0
+kv04974,Azerbaijan,Agriculture,2500.0
+kv04975,Kenya,Agriculture,275.0
+kv04976,Kyrgyzstan,Retail,2250.0
+kv04977,Kenya,Transportation,1025.0
+kv04978,Philippines,Food,175.0
+kv04979,Pakistan,Agriculture,200.0
+kv04980,Turkey,Clothing,575.0
+kv04981,Armenia,Agriculture,1500.0
+kv04982,Timor-Leste,Education,800.0
+kv04983,Kenya,Clothing,350.0
+kv04984,Lebanon,Services,1200.0
+kv04985,Philippines,Food,175.0
+kv04986,Mexico,Agriculture,675.0
+kv04987,Ghana,Agriculture,50.0
+kv04988,Lebanon,Services,3000.0
+kv04989,Kenya,Services,1200.0
+kv04990,Ecuador,Retail,1000.0
+kv04991,Uganda,Food,675.0
+kv04992,Kenya,Agriculture,425.0
+kv04993,Cambodia,Education,3175.0
+kv04994,Georgia,Food,1500.0
+kv04995,Peru,Transportation,550.0
+kv04996,Peru,Agriculture,375.0
+kv04997,El Salvador,Food,1200.0
+kv04998,Uganda,Food,425.0
+kv04999,Kenya,Clothing,500.0

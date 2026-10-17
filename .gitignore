@@ -1,8 +1,6 @@
 __pycache__/
 *.pyc
 .DS_Store
-.ipynb_checkpoints/
 .venv/
 venv/
-*.egg-info/
 .pytest_cache/
