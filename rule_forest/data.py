@@ -128,6 +128,13 @@ def kiva_facts(ids):
     return np.array(out, dtype=np.int8)
 
 
+def padded_rows(scores):
+    """Rows whose reply had 13 scores and was padded with their mean: the last score equals the
+    mean of the first 13, strictly between 0 and 1."""
+    return np.array([i for i, v in enumerate(scores) if v[13] == v[:13].sum() / 13 and 0 < v[:13].mean() < 1],
+                    dtype=int)
+
+
 def realign_short_replies(scores, facts):
     """Put back in place the answers of replies the scoring script padded.
 
@@ -140,18 +147,15 @@ def realign_short_replies(scores, facts):
     is the skipped question itself. Returns the re-aligned scores (NaN = blank) and the indices of
     the re-aligned rows. Uses no labels."""
     out = scores.astype(float).copy()
-    fixed = []
-    for i, v in enumerate(scores):
-        m = v[:13].mean()
-        if not (v[13] == v[:13].sum() / 13 and 0 < m < 1):
-            continue
+    fixed = padded_rows(scores)
+    for i in fixed:
+        v = scores[i]
         yes = (v[:13] >= KIVA_YES).astype(int)
         agree = np.array([(np.delete(facts[:, i], j) == yes).sum() for j in range(14)])
         cands = np.array([np.insert(v[:13], j, np.nan) for j in np.flatnonzero(agree == agree.max())])
         same = (cands == cands[0]).all(0)                      # False wherever a candidate has NaN
         out[i] = np.where(same, cands[0], np.nan)
-        fixed.append(i)
-    return out, np.array(fixed, dtype=int)
+    return out, fixed
 
 
 def load_kiva(drop_generation_loans: bool = True, realign: bool = True) -> Answers:
