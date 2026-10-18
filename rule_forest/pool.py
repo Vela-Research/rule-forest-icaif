@@ -56,6 +56,8 @@ def candidate_pool(X, y, founders, similarity="hamming", threshold=0.15, floor=P
     ever_yes = A.sum(1) > 0
     keep = [q for q in range(len(X)) if prec[q] >= floor and ever_yes[q]]
     if cap_expert:
+        # The expert questions replace the last LLM questions in file order, as in the original
+        # run, so the count stays the same; dropping the lowest-ranked ones would also be reasonable.
         llm = [q for q in keep if source[q] == "llm"]
         exp = [q for q in keep if source[q] == "expert"]
         keep = llm[: max(len(llm) - len(exp), 0)] + exp
