@@ -1,7 +1,8 @@
 # Rule Forest
 
 Code and data for *Rule Forest: Interpretable Ensembles of LLM-Generated Questions for
-Rare-Outcome Prediction* (ACM ICAIF 2026).
+Rare-Outcome Prediction* (ACM ICAIF 2026,
+[doi:10.1145/3858063.3858855](https://doi.org/10.1145/3858063.3858855)).
 
 Rule Forest asks an LLM to write YES/NO questions about a profile, answers them with an LLM, and
 predicts success when at least T of the N best questions are answered YES. Every number and
@@ -88,23 +89,17 @@ founders' 1.93% base rate and should be set near the base rate of your data.
 
 ## Versions
 
-The version linked from the submitted paper is the git tag `icaif26-submission`. The camera-ready
+The git tag `icaif26-submission` is the version linked from the submitted paper. The camera-ready
 version differs in five ways, each of which changes some reported numbers.
 
 1. The candidate pool is rebuilt inside each training fold. Before, its precision floor and its
    choice between near-duplicates used the labels of all evaluation founders.
 2. The elastic net, GPTree and RRM rows use the same pooled scoring as Rule Forest, and the
-   elastic net reads each question once (it had read every GPT-4o-mini question twice).
-3. The Jaccard and cosine settings of Table 3 now compute what their names say. Jaccard compared
-   whole answer vectors, which made it a stricter Hamming rule, and the cosine clustering was given
-   a square distance matrix where scipy expects a condensed one.
+   elastic net reads each question once.
+3. The Jaccard and cosine settings of Table 3 now compute what their names say.
 4. Figure 4 uses evaluation founders only.
-5. Figure 5 leaves out the 40 loans the LLM saw when writing the Kiva questions, and puts back in
-   place the answers of 1,433 Kiva replies that skipped a question (see `data/README.md`).
-
-Two smaller changes move a few numbers by at most 0.001. Ties in the question ranking are now
-broken in row order, the same on every machine. Equal-length shortlists now hold exactly K
-founders; before, rounding each fold's share gave 400 instead of 402.
+5. Figure 5 leaves out the 40 loans used to write the Kiva questions and re-aligns the Kiva replies
+   that skipped a question (see `data/README.md`).
 
 ## License
 

@@ -12,11 +12,8 @@ part of this release).
    scores all 14 questions from 0 to 1. A score of 0.5 or more counts as YES. The scores are in
    `data/kiva/answers.jsonl` and the questions in `data/kiva/questions.json`.
 
-**Short replies.** When the LLM returned one or two scores too many or too few, `score_one`
-below cut the reply to 14 or padded it with its own mean instead of retrying. A reply that skipped
-a question therefore has every later answer one slot early. At least 1,433 of the 5,000 loans have
-a padded 13-score reply. `rule_forest.data.load_kiva` puts those answers back in place and leaves
-the skipped question blank (NO); see `data/README.md`.
+When a reply held too few or too many scores, `score_one` below padded or cut it instead of
+retrying; `data/README.md` describes how the padded replies are re-aligned.
 
 ```python
 GEN_SYSTEM = (
